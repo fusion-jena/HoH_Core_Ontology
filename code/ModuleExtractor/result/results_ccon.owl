@@ -1,0 +1,3607 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://cerrado.linkeddata.es/ecology/ccon#module1#"
+     xml:base="http://cerrado.linkeddata.es/ecology/ccon#module1"
+     xmlns:ccon="http://cerrado.linkeddata.es/ecology/ccon#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:dc="http://purl.org/dc/elements/1.1/">
+    <owl:Ontology rdf:about="http://cerrado.linkeddata.es/ecology/ccon#module1"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://cerrado.linkeddata.es/ecology/ccon#hasAcceptedName -->
+
+    <owl:AnnotationProperty rdf:about="http://cerrado.linkeddata.es/ecology/ccon#hasAcceptedName"/>
+    
+
+
+    <!-- http://cerrado.linkeddata.es/ecology/ccon#hasSynonym -->
+
+    <owl:AnnotationProperty rdf:about="http://cerrado.linkeddata.es/ecology/ccon#hasSynonym"/>
+    
+
+
+    <!-- http://purl.org/dc/elements/1.1/date -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/date"/>
+    
+
+
+    <!-- http://purl.org/dc/elements/1.1/identifier -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/identifier"/>
+    
+
+
+    <!-- http://purl.org/dc/elements/1.1/source -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/source"/>
+    
+
+
+    <!-- http://www.geneontology.org/formats/oboInOwl#created_by -->
+
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#created_by"/>
+    
+
+
+    <!-- http://www.geneontology.org/formats/oboInOwl#creation_date -->
+
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#creation_date"/>
+    
+
+
+    <!-- http://www.geneontology.org/formats/oboInOwl#hasDbXref -->
+
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
+    
+
+
+    <!-- http://www.geneontology.org/formats/oboInOwl#hasOBONamespace -->
+
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasOBONamespace"/>
+    
+
+
+    <!-- http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym -->
+
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
+    
+
+
+    <!-- http://www.geneontology.org/formats/oboInOwl#id -->
+
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#id"/>
+    
+
+
+    <!-- http://www.w3.org/2004/02/skos/core#definition -->
+
+    <owl:AnnotationProperty rdf:about="http://www.w3.org/2004/02/skos/core#definition"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://cerrado.linkeddata.es/ecology/ccon#affects -->
+
+    <owl:ObjectProperty rdf:about="http://cerrado.linkeddata.es/ecology/ccon#affects">
+        <rdfs:label>affects</rdfs:label>
+        <rdfs:range rdf:resource="http://cerrado.linkeddata.es/ecology/ccon#Environment"/>
+        <owl:inverseOf rdf:resource="http://cerrado.linkeddata.es/ecology/ccon#isAffectedBy"/>
+        <rdfs:domain rdf:resource="http://www.fao.org/aims/aos/cwr.owl#EcologicalPhenomena"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://cerrado.linkeddata.es/ecology/ccon#decreases -->
+
+    <owl:ObjectProperty rdf:about="http://cerrado.linkeddata.es/ecology/ccon#decreases">
+        <rdfs:label>decreases</rdfs:label>
+        <rdfs:range rdf:resource="http://cerrado.linkeddata.es/ecology/ccon#GroundLayer"/>
+        <rdfs:domain rdf:resource="http://cerrado.linkeddata.es/ecology/ccon#Precipitation"/>
+        <rdfs:subPropertyOf rdf:resource="http://cerrado.linkeddata.es/ecology/ccon#affects"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://cerrado.linkeddata.es/ecology/ccon#hasComponent -->
+
+    <owl:ObjectProperty rdf:about="http://cerrado.linkeddata.es/ecology/ccon#hasComponent">
+        <rdfs:label>has component</rdfs:label>
+        <rdfs:range rdf:resource="http://cerrado.linkeddata.es/ecology/ccon#Species"/>
+        <owl:inverseOf rdf:resource="http://cerrado.linkeddata.es/ecology/ccon#isPartOf"/>
+        <rdfs:domain rdf:resource="http://www.fao.org/aims/aos/cwr.owl#Community"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://cerrado.linkeddata.es/ecology/ccon#hasDistribution -->
+
+    <owl:ObjectProperty rdf:about="http://cerrado.linkeddata.es/ecology/ccon#hasDistribution">
+        <rdfs:label>has distribution</rdfs:label>
+        <rdfs:domain rdf:resource="http://cerrado.linkeddata.es/ecology/ccon#Species"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://cerrado.linkeddata.es/ecology/ccon#hasGrowth -->
+
+    <owl:ObjectProperty rdf:about="http://cerrado.linkeddata.es/ecology/ccon#hasGrowth">
+        <rdfs:label xml:lang="en">has Growth</rdfs:label>
+        <rdfs:range rdf:resource="http://cerrado.linkeddata.es/ecology/ccon#GrowthRate"/>
+        <rdfs:domain>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.fao.org/aims/aos/cwr.owl#Community"/>
+                    <rdf:Description rdf:about="http://www.fao.org/aims/aos/cwr.owl#Population"/>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:domain>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://cerrado.linkeddata.es/ecology/ccon#hasMortality -->
+
+    <owl:ObjectProperty rdf:about="http://cerrado.linkeddata.es/ecology/ccon#hasMortality">
+        <rdfs:label>has mortality</rdfs:label>
+        <rdfs:range rdf:resource="http://cerrado.linkeddata.es/ecology/ccon#Mortality"/>
+        <owl:inverseOf rdf:resource="http://cerrado.linkeddata.es/ecology/ccon#isMortalityOf"/>
+        <rdfs:domain rdf:resource="http://www.fao.org/aims/aos/cwr.owl#Community"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://cerrado.linkeddata.es/ecology/ccon#hasNatality -->
+
+    <owl:ObjectProperty rdf:about="http://cerrado.linkeddata.es/ecology/ccon#hasNatality">
+        <rdfs:label>has natality</rdfs:label>
+        <rdfs:range rdf:resource="http://cerrado.linkeddata.es/ecology/ccon#Natality"/>
+        <owl:inverseOf rdf:resource="http://cerrado.linkeddata.es/ecology/ccon#isNatalityOf"/>
+        <rdfs:domain rdf:resource="http://www.fao.org/aims/aos/cwr.owl#Population"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://cerrado.linkeddata.es/ecology/ccon#hasNumberOfIndividuals -->
+
+    <owl:ObjectProperty rdf:about="http://cerrado.linkeddata.es/ecology/ccon#hasNumberOfIndividuals">
+        <rdfs:range rdf:resource="http://cerrado.linkeddata.es/ecology/ccon#NumberOfIndividuos"/>
+        <rdfs:domain rdf:resource="http://cerrado.linkeddata.es/ecology/ccon#Species"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://cerrado.linkeddata.es/ecology/ccon#hasRecruitment -->
+
+    <owl:ObjectProperty rdf:about="http://cerrado.linkeddata.es/ecology/ccon#hasRecruitment">
+        <rdfs:label>has recruitment</rdfs:label>
+        <rdfs:range rdf:resource="http://cerrado.linkeddata.es/ecology/ccon#Recruitment"/>
+        <owl:inverseOf rdf:resource="http://cerrado.linkeddata.es/ecology/ccon#isRecruitmentOf"/>
+        <rdfs:domain rdf:resource="http://www.fao.org/aims/aos/cwr.owl#Community"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://cerrado.linkeddata.es/ecology/ccon#hasSpecificName -->
+
+    <owl:ObjectProperty rdf:about="http://cerrado.linkeddata.es/ecology/ccon#hasSpecificName">
+        <rdfs:label xml:lang="en">has specific name</rdfs:label>
+        <rdfs:domain rdf:resource="http://cerrado.linkeddata.es/ecology/ccon#Species"/>
+        <owl:inverseOf rdf:resource="http://cerrado.linkeddata.es/ecology/ccon#isSpecificNameOf"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://cerrado.linkeddata.es/ecology/ccon#hasStatus -->
+
+    <owl:ObjectProperty rdf:about="http://cerrado.linkeddata.es/ecology/ccon#hasStatus">
+        <rdfs:label>has status</rdfs:label>
+        <rdfs:domain rdf:resource="http://cerrado.linkeddata.es/ecology/ccon#Species"/>
+        <owl:inverseOf rdf:resource="http://cerrado.linkeddata.es/ecology/ccon#isStatusOf"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://cerrado.linkeddata.es/ecology/ccon#increases -->
+
+    <owl:ObjectProperty rdf:about="http://cerrado.linkeddata.es/ecology/ccon#increases">
+        <rdfs:label>increases</rdfs:label>
+        <rdfs:domain rdf:resource="http://cerrado.linkeddata.es/ecology/ccon#Precipitation"/>
+        <rdfs:range rdf:resource="http://cerrado.linkeddata.es/ecology/ccon#WoodLayer"/>
+        <rdfs:subPropertyOf rdf:resource="http://cerrado.linkeddata.es/ecology/ccon#affects"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://cerrado.linkeddata.es/ecology/ccon#isAffectedBy -->
+
+    <owl:ObjectProperty rdf:about="http://cerrado.linkeddata.es/ecology/ccon#isAffectedBy">
+        <rdfs:label>is affected by</rdfs:label>
+        <rdfs:domain rdf:resource="http://cerrado.linkeddata.es/ecology/ccon#Environment"/>
+        <rdfs:range rdf:resource="http://www.fao.org/aims/aos/cwr.owl#EcologicalPhenomena"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://cerrado.linkeddata.es/ecology/ccon#isCharacteristicOf -->
+
+    <owl:ObjectProperty rdf:about="http://cerrado.linkeddata.es/ecology/ccon#isCharacteristicOf">
+        <rdfs:label>is characteristic of</rdfs:label>
+        <owl:inverseOf rdf:resource="http://cerrado.linkeddata.es/ecology/ccon#isCharacterizedBy"/>
+        <rdfs:range rdf:resource="http://www.fao.org/aims/aos/cwr.owl#Community"/>
+        <rdfs:domain rdf:resource="http://www.fao.org/aims/aos/cwr.owl#EcologicalPhenomena"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://cerrado.linkeddata.es/ecology/ccon#isCharacterizedBy -->
+
+    <owl:ObjectProperty rdf:about="http://cerrado.linkeddata.es/ecology/ccon#isCharacterizedBy">
+        <rdfs:label>is characterized by</rdfs:label>
+        <rdfs:domain rdf:resource="http://www.fao.org/aims/aos/cwr.owl#Community"/>
+        <rdfs:range rdf:resource="http://www.fao.org/aims/aos/cwr.owl#EcologicalPhenomena"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://cerrado.linkeddata.es/ecology/ccon#isDecreasedBy -->
+
+    <owl:ObjectProperty rdf:about="http://cerrado.linkeddata.es/ecology/ccon#isDecreasedBy">
+        <rdfs:label>is decreased by</rdfs:label>
+        <rdfs:domain rdf:resource="http://cerrado.linkeddata.es/ecology/ccon#GroundLayer"/>
+        <rdfs:range rdf:resource="http://cerrado.linkeddata.es/ecology/ccon#Precipitation"/>
+        <owl:inverseOf rdf:resource="http://cerrado.linkeddata.es/ecology/ccon#decreases"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://cerrado.linkeddata.es/ecology/ccon#isGrowthOf -->
+
+    <owl:ObjectProperty rdf:about="http://cerrado.linkeddata.es/ecology/ccon#isGrowthOf">
+        <rdfs:label xml:lang="en">is growth of</rdfs:label>
+        <rdfs:domain rdf:resource="http://cerrado.linkeddata.es/ecology/ccon#GrowthRate"/>
+        <owl:inverseOf rdf:resource="http://cerrado.linkeddata.es/ecology/ccon#hasGrowth"/>
+        <rdfs:range>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.fao.org/aims/aos/cwr.owl#Community"/>
+                    <rdf:Description rdf:about="http://www.fao.org/aims/aos/cwr.owl#Population"/>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:range>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://cerrado.linkeddata.es/ecology/ccon#isHabitatOf -->
+
+    <owl:ObjectProperty rdf:about="http://cerrado.linkeddata.es/ecology/ccon#isHabitatOf">
+        <rdfs:label>is habitat of</rdfs:label>
+        <rdfs:range rdf:resource="http://cerrado.linkeddata.es/ecology/ccon#Species"/>
+        <owl:inverseOf rdf:resource="http://cerrado.linkeddata.es/ecology/ccon#hasDistribution"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://cerrado.linkeddata.es/ecology/ccon#isIncreasedBy -->
+
+    <owl:ObjectProperty rdf:about="http://cerrado.linkeddata.es/ecology/ccon#isIncreasedBy">
+        <rdfs:label>is increased by</rdfs:label>
+        <rdfs:range rdf:resource="http://cerrado.linkeddata.es/ecology/ccon#Precipitation"/>
+        <rdfs:domain rdf:resource="http://cerrado.linkeddata.es/ecology/ccon#WoodLayer"/>
+        <owl:inverseOf rdf:resource="http://cerrado.linkeddata.es/ecology/ccon#increases"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://cerrado.linkeddata.es/ecology/ccon#isMortalityOf -->
+
+    <owl:ObjectProperty rdf:about="http://cerrado.linkeddata.es/ecology/ccon#isMortalityOf">
+        <rdfs:label>is mortality of</rdfs:label>
+        <rdfs:domain rdf:resource="http://cerrado.linkeddata.es/ecology/ccon#Mortality"/>
+        <rdfs:range rdf:resource="http://www.fao.org/aims/aos/cwr.owl#Community"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://cerrado.linkeddata.es/ecology/ccon#isNatalityOf -->
+
+    <owl:ObjectProperty rdf:about="http://cerrado.linkeddata.es/ecology/ccon#isNatalityOf">
+        <rdfs:label>is natality of</rdfs:label>
+        <rdfs:domain rdf:resource="http://cerrado.linkeddata.es/ecology/ccon#Natality"/>
+        <rdfs:range rdf:resource="http://www.fao.org/aims/aos/cwr.owl#Population"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://cerrado.linkeddata.es/ecology/ccon#isPartOf -->
+
+    <owl:ObjectProperty rdf:about="http://cerrado.linkeddata.es/ecology/ccon#isPartOf">
+        <rdfs:label>is part of</rdfs:label>
+        <rdfs:domain rdf:resource="http://cerrado.linkeddata.es/ecology/ccon#Species"/>
+        <rdfs:range rdf:resource="http://www.fao.org/aims/aos/cwr.owl#Community"/>
+        <owl:equivalentProperty rdf:resource="http://www.fao.org/aims/aos/cwr.owl#isPartOf"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://cerrado.linkeddata.es/ecology/ccon#isRecruitmentOf -->
+
+    <owl:ObjectProperty rdf:about="http://cerrado.linkeddata.es/ecology/ccon#isRecruitmentOf">
+        <rdfs:label>is recruitment of</rdfs:label>
+        <rdfs:domain rdf:resource="http://cerrado.linkeddata.es/ecology/ccon#Recruitment"/>
+        <rdfs:range rdf:resource="http://www.fao.org/aims/aos/cwr.owl#Community"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://cerrado.linkeddata.es/ecology/ccon#isSpecificNameOf -->
+
+    <owl:ObjectProperty rdf:about="http://cerrado.linkeddata.es/ecology/ccon#isSpecificNameOf">
+        <rdfs:label xml:lang="en">is specific name of</rdfs:label>
+        <rdfs:range rdf:resource="http://cerrado.linkeddata.es/ecology/ccon#Species"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://cerrado.linkeddata.es/ecology/ccon#isStatusOf -->
+
+    <owl:ObjectProperty rdf:about="http://cerrado.linkeddata.es/ecology/ccon#isStatusOf">
+        <rdfs:label>is status of</rdfs:label>
+        <rdfs:range rdf:resource="http://cerrado.linkeddata.es/ecology/ccon#Species"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.fao.org/aims/aos/cwr.owl#isPartOf -->
+
+    <owl:ObjectProperty rdf:about="http://www.fao.org/aims/aos/cwr.owl#isPartOf">
+        <rdfs:label>is part of</rdfs:label>
+        <rdfs:domain rdf:resource="http://cerrado.linkeddata.es/ecology/ccon#Species"/>
+        <owl:inverseOf rdf:resource="http://cerrado.linkeddata.es/ecology/ccon#hasComponent"/>
+        <rdfs:range rdf:resource="http://www.fao.org/aims/aos/cwr.owl#Community"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.w3.org/2004/02/skos/core#exactMatch -->
+
+    <owl:ObjectProperty rdf:about="http://www.w3.org/2004/02/skos/core#exactMatch">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#SymmetricProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#TransitiveProperty"/>
+        <rdfs:label xml:lang="en">has exact match</rdfs:label>
+        <rdfs:comment xml:lang="en">skos:exactMatch is disjoint with each of the properties skos:broadMatch and skos:relatedMatch.</rdfs:comment>
+        <skos:definition xml:lang="en">skos:exactMatch is used to link two concepts, indicating a high degree of confidence that the concepts can be used interchangeably across a wide range of information retrieval applications. skos:exactMatch is a transitive property, and is a sub-property of skos:closeMatch.</skos:definition>
+        <rdfs:range rdf:resource="http://cerrado.linkeddata.es/ecology/ccon#Species"/>
+        <rdfs:domain rdf:resource="http://cerrado.linkeddata.es/ecology/ccon#Species"/>
+        <rdfs:isDefinedBy rdf:resource="http://www.w3.org/2004/02/skos/core"/>
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2004/02/skos/core#mappingRelation"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.w3.org/2004/02/skos/core#mappingRelation -->
+
+    <owl:ObjectProperty rdf:about="http://www.w3.org/2004/02/skos/core#mappingRelation">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#SymmetricProperty"/>
+        <rdfs:label>mapping relation</rdfs:label>
+        <rdfs:range rdf:resource="http://cerrado.linkeddata.es/ecology/ccon#Species"/>
+        <rdfs:domain rdf:resource="http://cerrado.linkeddata.es/ecology/ccon#Species"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://cerrado.linkeddata.es/ecology/ccon#BasalArea -->
+
+    <owl:Class rdf:about="http://cerrado.linkeddata.es/ecology/ccon#BasalArea">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">basal area</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.fao.org/aims/aos/cwr.owl#CommunityStructure"/>
+        <rdfs:comment xml:lang="en">It&apos;s the area of a breast-high cross section of a tree or of all the trees in a stand.
+
+Source: Merriam-Webster dictionary (www.merriam-webster.com)</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://cerrado.linkeddata.es/ecology/ccon#Biodiversity -->
+
+    <owl:Class rdf:about="http://cerrado.linkeddata.es/ecology/ccon#Biodiversity">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">biodiversity</rdfs:label>
+        <rdfs:label>biological diversity</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.fao.org/aims/aos/cwr.owl#Diversity"/>
+        <rdfs:comment xml:lang="en">It&apos;s the degree of veriation of life forms within a given species, ecosystem, biome, or planet.
+Source: wikipedia.org</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://cerrado.linkeddata.es/ecology/ccon#BiologicalOrganizationLevel -->
+
+    <owl:Class rdf:about="http://cerrado.linkeddata.es/ecology/ccon#BiologicalOrganizationLevel">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">biological organization level</rdfs:label>
+        <rdfs:comment xml:lang="en">The hierarchy of complex biological structures and systems that define life using a reductionistic approach</rdfs:comment>
+        <rdfs:comment xml:lang="pt">Hierarquia de estruturas e sistemas biológicos complexos que definem a vida usando uma abordagem reducionista.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://cerrado.linkeddata.es/ecology/ccon#CampoCerrado -->
+
+    <owl:Class rdf:about="http://cerrado.linkeddata.es/ecology/ccon#CampoCerrado">
+        <rdfs:label xml:lang="en">&quot;closed field&quot;</rdfs:label>
+        <rdfs:label xml:lang="pt">campo cerrado</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://cerrado.linkeddata.es/ecology/ccon#Savanna"/>
+        <owl:disjointWith rdf:resource="http://cerrado.linkeddata.es/ecology/ccon#CampoSujo"/>
+        <owl:disjointWith rdf:resource="http://cerrado.linkeddata.es/ecology/ccon#CerradoSensuStricto"/>
+        <rdfs:comment xml:lang="en">Scattered trees and shrubs and a large proportion of grassland</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://cerrado.linkeddata.es/ecology/ccon#CampoLimpo -->
+
+    <owl:Class rdf:about="http://cerrado.linkeddata.es/ecology/ccon#CampoLimpo">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">campo limpo</rdfs:label>
+        <rdfs:label xml:lang="en">&quot;clean field&quot;</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://cerrado.linkeddata.es/ecology/ccon#TropicalGrassland"/>
+        <rdfs:comment xml:lang="en">Dry grassland without shrubs or trees</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://cerrado.linkeddata.es/ecology/ccon#CampoSujo -->
+
+    <owl:Class rdf:about="http://cerrado.linkeddata.es/ecology/ccon#CampoSujo">
+        <rdfs:label xml:lang="en">&quot;dirty field&quot;</rdfs:label>
+        <rdfs:label xml:lang="pt">campo sujo</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://cerrado.linkeddata.es/ecology/ccon#Savanna"/>
+        <owl:disjointWith rdf:resource="http://cerrado.linkeddata.es/ecology/ccon#CerradoSensuStricto"/>
+        <rdfs:comment xml:lang="en">Grassland with a scattering of shrubs and small trees</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://cerrado.linkeddata.es/ecology/ccon#Cerradao -->
+
+    <owl:Class rdf:about="http://cerrado.linkeddata.es/ecology/ccon#Cerradao">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cerradão</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://cerrado.linkeddata.es/ecology/ccon#TropicalSeasonalForest"/>
+        <rdfs:comment xml:lang="en">Portuguese augmentative of cerrado, is an almost closed woodland with crown cover of 50% to 90%, made up of trees, often 8-12m or even taller, casting a considerable shade so that the ground layer is much reduced</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://cerrado.linkeddata.es/ecology/ccon#Cerrado -->
+
+    <owl:Class rdf:about="http://cerrado.linkeddata.es/ecology/ccon#Cerrado">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cerrado</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://cerrado.linkeddata.es/ecology/ccon#Ecoregion"/>
+        <rdfs:comment xml:lang="en">It&apos;s a vast tropical savanna ecoregion of Brazil</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://cerrado.linkeddata.es/ecology/ccon#CerradoDeterminingFactors -->
+
+    <owl:Class rdf:about="http://cerrado.linkeddata.es/ecology/ccon#CerradoDeterminingFactors">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cerrado determining factors</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://cerrado.linkeddata.es/ecology/ccon#Environment"/>
+        <rdfs:comment xml:lang="en">Environmental factos that affect the current occurrence and geographical distribution of the cerrado ecoregion.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://cerrado.linkeddata.es/ecology/ccon#CerradoSensuLato -->
+
+    <owl:Class rdf:about="http://cerrado.linkeddata.es/ecology/ccon#CerradoSensuLato">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cerrado sensu lato</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://cerrado.linkeddata.es/ecology/ccon#Cerrado"/>
+        <rdfs:comment xml:lang="en">It&apos;s a regional large scale vegetation which consists of a floristic and vegetational province</rdfs:comment>
+        <rdfs:comment xml:lang="pt">É uma vegetação de larga escala regional que forma tanto uma província vegetacional quanto florística</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://cerrado.linkeddata.es/ecology/ccon#CerradoSensuStricto -->
+
+    <owl:Class rdf:about="http://cerrado.linkeddata.es/ecology/ccon#CerradoSensuStricto">
+        <rdfs:label xml:lang="en">cerrado sensu stricto</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://cerrado.linkeddata.es/ecology/ccon#Savanna"/>
+        <rdfs:comment xml:lang="en">The vegetation is dominated by trees and shrubs with over 30% of canopy cover, but with stiil a fair amount of herbaceous vegetation between them</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://cerrado.linkeddata.es/ecology/ccon#Climate -->
+
+    <owl:Class rdf:about="http://cerrado.linkeddata.es/ecology/ccon#Climate">
+        <rdfs:label>climate</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://cerrado.linkeddata.es/ecology/ccon#CerradoDeterminingFactors"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://cerrado.linkeddata.es/ecology/ccon#hasComponent"/>
+                <owl:someValuesFrom rdf:resource="http://cerrado.linkeddata.es/ecology/ccon#Precipitation"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://cerrado.linkeddata.es/ecology/ccon#hasComponent"/>
+                <owl:someValuesFrom rdf:resource="http://cerrado.linkeddata.es/ecology/ccon#RelativeHumidity"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:comment xml:lang="en">The type of average weather, the state, including statistical description, of the climate system.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://cerrado.linkeddata.es/ecology/ccon#ComunityDynamics -->
+
+    <owl:Class rdf:about="http://cerrado.linkeddata.es/ecology/ccon#ComunityDynamics">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">community dynamics</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.fao.org/aims/aos/cwr.owl#EcologicalPhenomena"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://cerrado.linkeddata.es/ecology/ccon#isCharacteristicOf"/>
+                <owl:someValuesFrom rdf:resource="http://www.fao.org/aims/aos/cwr.owl#PlantCommunity"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:comment xml:lang="en">The community dynamics is the study of changes over time of the structure of biological communities.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://cerrado.linkeddata.es/ecology/ccon#Density -->
+
+    <owl:Class rdf:about="http://cerrado.linkeddata.es/ecology/ccon#Density">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">density</rdfs:label>
+        <owl:equivalentClass rdf:resource="http://www.fao.org/aims/aos/cwr.owl#PopulationDensity"/>
+        <rdfs:subClassOf rdf:resource="http://www.fao.org/aims/aos/cwr.owl#CommunityStructure"/>
+        <rdfs:comment xml:lang="en">The number of individuals of a population or cummunity occupying an area. </rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://cerrado.linkeddata.es/ecology/ccon#DiameterClassDistribution -->
+
+    <owl:Class rdf:about="http://cerrado.linkeddata.es/ecology/ccon#DiameterClassDistribution">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">diameter class distribution</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.fao.org/aims/aos/cwr.owl#CommunityStructure"/>
+        <rdfs:comment xml:lang="en">Consists of the distribution of the number of individuals in diameter classes. </rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://cerrado.linkeddata.es/ecology/ccon#Difference -->
+
+    <owl:Class rdf:about="http://cerrado.linkeddata.es/ecology/ccon#Difference">
+        <rdfs:label xml:lang="en">difference</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://cerrado.linkeddata.es/ecology/ccon#ComunityDynamics"/>
+        <rdfs:comment xml:lang="en">It&apos;s the difference of any parameter (size, number of deads, number of recruits etc.) between two dates. </rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://cerrado.linkeddata.es/ecology/ccon#DiversityIndex -->
+
+    <owl:Class rdf:about="http://cerrado.linkeddata.es/ecology/ccon#DiversityIndex">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">diversity index</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.fao.org/aims/aos/cwr.owl#Diversity"/>
+        <rdfs:comment xml:lang="en">It&apos;s a quantitative measure that reflects how many different types (such as species) there are in a dataset, and can simultaneously takes into account how evenly the basic units (such as individuals) are distributed among those types.
+Source: wikipedia.org</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://cerrado.linkeddata.es/ecology/ccon#DrySeason -->
+
+    <owl:Class rdf:about="http://cerrado.linkeddata.es/ecology/ccon#DrySeason">
+        <rdfs:label>dry season</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://cerrado.linkeddata.es/ecology/ccon#TropicalSeason"/>
+        <owl:disjointWith rdf:resource="http://cerrado.linkeddata.es/ecology/ccon#WetSeason"/>
+        <rdfs:comment xml:lang="en">Consists of the period of the year in some tropical climate areas with average rainfall less than 60mm by month.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://cerrado.linkeddata.es/ecology/ccon#Ecoregion -->
+
+    <owl:Class rdf:about="http://cerrado.linkeddata.es/ecology/ccon#Ecoregion">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ecoregion</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://cerrado.linkeddata.es/ecology/ccon#BiologicalOrganizationLevel"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://cerrado.linkeddata.es/ecology/ccon#isPartOf"/>
+                <owl:someValuesFrom rdf:resource="http://www.fao.org/aims/aos/cwr.owl#Biosphere"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:comment xml:lang="en">An ecologically defined large unit of land or water containing a geographically distinct assemblage of species, natural communities, and environmental conditions</rdfs:comment>
+        <rdfs:comment xml:lang="pt">Uma grande unidade terrestre ou aquática ecologicamente definida contendo uma assembleia geograficamente distinta de espécies, comunidades naturais e condiçoes ambientais. </rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://cerrado.linkeddata.es/ecology/ccon#Environment -->
+
+    <owl:Class rdf:about="http://cerrado.linkeddata.es/ecology/ccon#Environment">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">environment</rdfs:label>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://cerrado.linkeddata.es/ecology/ccon#affects"/>
+                <owl:someValuesFrom rdf:resource="http://cerrado.linkeddata.es/ecology/ccon#BiologicalOrganizationLevel"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://cerrado.linkeddata.es/ecology/ccon#affects"/>
+                <owl:someValuesFrom rdf:resource="http://cerrado.linkeddata.es/ecology/ccon#Species"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://cerrado.linkeddata.es/ecology/ccon#affects"/>
+                <owl:someValuesFrom rdf:resource="http://www.fao.org/aims/aos/cwr.owl#EcologicalPhenomena"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:comment xml:lang="en">The environment of an organism consists of all those factors and phenomena outside the organism that influence it, whether these
+are physical and chemical (abiotic) or other organisms (biotic) (Begon et al., 2006)</rdfs:comment>
+        <rdfs:comment xml:lang="pt">O ambiente de um organismo consiste de todos os fatores e fenômenos exteriores ao organismo que o influencia, tanto físicos e químicos (abióticos), quanto outros organismos (bióticos) (Begon et al., 2006).</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://cerrado.linkeddata.es/ecology/ccon#FireIncidence -->
+
+    <owl:Class rdf:about="http://cerrado.linkeddata.es/ecology/ccon#FireIncidence">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">fire incidence</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_01000203"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://cerrado.linkeddata.es/ecology/ccon#decreases"/>
+                <owl:allValuesFrom rdf:resource="http://cerrado.linkeddata.es/ecology/ccon#WoodLayer"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://cerrado.linkeddata.es/ecology/ccon#increases"/>
+                <owl:allValuesFrom rdf:resource="http://cerrado.linkeddata.es/ecology/ccon#GroundLayer"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:comment xml:lang="en">The occurrence of burning in ecosystems.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://cerrado.linkeddata.es/ecology/ccon#FireRegime -->
+
+    <owl:Class rdf:about="http://cerrado.linkeddata.es/ecology/ccon#FireRegime">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">fire regime</rdfs:label>
+        <rdfs:label xml:lang="en">Fire</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://cerrado.linkeddata.es/ecology/ccon#CerradoDeterminingFactors"/>
+        <rdfs:comment xml:lang="en">It&apos;s the pattern of veriation in fire occurence, frequency and severity.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://cerrado.linkeddata.es/ecology/ccon#Grass -->
+
+    <owl:Class rdf:about="http://cerrado.linkeddata.es/ecology/ccon#Grass">
+        <rdfs:label>grass</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.fao.org/aims/aos/cwr.owl#Angiosperm"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://cerrado.linkeddata.es/ecology/ccon#isPartOf"/>
+                <owl:allValuesFrom rdf:resource="http://cerrado.linkeddata.es/ecology/ccon#GroundLayer"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <owl:disjointWith rdf:resource="http://cerrado.linkeddata.es/ecology/ccon#HerbaceousPlant"/>
+        <owl:disjointWith rdf:resource="http://cerrado.linkeddata.es/ecology/ccon#Shrub"/>
+        <owl:disjointWith rdf:resource="http://cerrado.linkeddata.es/ecology/ccon#Tree"/>
+        <rdfs:comment xml:lang="en">Grasses or graminoids are monocotyledonous from Poales Order, usually herbaceos plants with narrow leaves growing from the base. They include some of the most versatile plant life-forms and became widespread toward the end of the Cretaceous period. 
+Source: wikipedia.org; eol.org</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://cerrado.linkeddata.es/ecology/ccon#GroundLayer -->
+
+    <owl:Class rdf:about="http://cerrado.linkeddata.es/ecology/ccon#GroundLayer">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ground layer</rdfs:label>
+        <rdfs:label>understory vegetation</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.fao.org/aims/aos/cwr.owl#VegetationCover"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://cerrado.linkeddata.es/ecology/ccon#hasComponent"/>
+                <owl:someValuesFrom rdf:resource="http://cerrado.linkeddata.es/ecology/ccon#Grass"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://cerrado.linkeddata.es/ecology/ccon#hasComponent"/>
+                <owl:someValuesFrom rdf:resource="http://cerrado.linkeddata.es/ecology/ccon#HerbaceousPlant"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://cerrado.linkeddata.es/ecology/ccon#isPartOf"/>
+                <owl:allValuesFrom rdf:resource="http://cerrado.linkeddata.es/ecology/ccon#Savanna"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://cerrado.linkeddata.es/ecology/ccon#isPartOf"/>
+                <owl:allValuesFrom rdf:resource="http://cerrado.linkeddata.es/ecology/ccon#TropicalGrassland"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <owl:disjointWith rdf:resource="http://cerrado.linkeddata.es/ecology/ccon#WoodLayer"/>
+        <rdfs:comment xml:lang="en">It is the understory vegegtation which consistis of mainly grass and herbaceous plants</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://cerrado.linkeddata.es/ecology/ccon#GrowthRate -->
+
+    <owl:Class rdf:about="http://cerrado.linkeddata.es/ecology/ccon#GrowthRate">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">growth</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">growth rate</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://cerrado.linkeddata.es/ecology/ccon#ComunityDynamics"/>
+        <rdfs:subClassOf rdf:resource="http://cerrado.linkeddata.es/ecology/ccon#PopulationDynamics"/>
+        <rdfs:comment xml:lang="en">It&apos;s a measure of the changes in population or community size over time.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://cerrado.linkeddata.es/ecology/ccon#HerbaceousPlant -->
+
+    <owl:Class rdf:about="http://cerrado.linkeddata.es/ecology/ccon#HerbaceousPlant">
+        <rdfs:label>herb</rdfs:label>
+        <rdfs:label>herbaceous plant</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.fao.org/aims/aos/cwr.owl#Angiosperm"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://cerrado.linkeddata.es/ecology/ccon#isPartOf"/>
+                <owl:allValuesFrom rdf:resource="http://cerrado.linkeddata.es/ecology/ccon#GroundLayer"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <owl:disjointWith rdf:resource="http://cerrado.linkeddata.es/ecology/ccon#Shrub"/>
+        <owl:disjointWith rdf:resource="http://cerrado.linkeddata.es/ecology/ccon#Tree"/>
+        <rdfs:comment xml:lang="en">A herbaceous plant is a plant that has leaves and stems that die down at the end of the growing season to the soil level. They have no persistent woody stem above ground. Herbaceous plants may be annuals, biennials or perennials.
+Source: wikipedia.org</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://cerrado.linkeddata.es/ecology/ccon#Metapopulation -->
+
+    <owl:Class rdf:about="http://cerrado.linkeddata.es/ecology/ccon#Metapopulation">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">metapopulation</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://cerrado.linkeddata.es/ecology/ccon#BiologicalOrganizationLevel"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://cerrado.linkeddata.es/ecology/ccon#isPartOf"/>
+                <owl:someValuesFrom rdf:resource="http://cerrado.linkeddata.es/ecology/ccon#Species"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://cerrado.linkeddata.es/ecology/ccon#isPartOf"/>
+                <owl:someValuesFrom rdf:resource="http://www.fao.org/aims/aos/cwr.owl#Community"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:comment xml:lang="en">Consists of a group of spatially separated populations of the same species which interact at some level.
+Source: wikipedia.org</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://cerrado.linkeddata.es/ecology/ccon#Mortality -->
+
+    <owl:Class rdf:about="http://cerrado.linkeddata.es/ecology/ccon#Mortality">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">death rate</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">mortality</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">mortality rate</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://cerrado.linkeddata.es/ecology/ccon#ComunityDynamics"/>
+        <rdfs:subClassOf rdf:resource="http://cerrado.linkeddata.es/ecology/ccon#PopulationDynamics"/>
+        <rdfs:comment xml:lang="en">It&apos;s the number of individuals dead over time.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://cerrado.linkeddata.es/ecology/ccon#Natality -->
+
+    <owl:Class rdf:about="http://cerrado.linkeddata.es/ecology/ccon#Natality">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">birth rate</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">natality</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">natality rate</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://cerrado.linkeddata.es/ecology/ccon#PopulationDynamics"/>
+        <rdfs:comment xml:lang="en">The rate in which new borns are added to a population, or in other words, the number of new borns over time.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://cerrado.linkeddata.es/ecology/ccon#NumberOfIndividuos -->
+
+    <owl:Class rdf:about="http://cerrado.linkeddata.es/ecology/ccon#NumberOfIndividuos">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">number of individuos</rdfs:label>
+        <owl:equivalentClass rdf:resource="http://www.fao.org/aims/aos/cwr.owl#PopulationSize"/>
+        <rdfs:subClassOf rdf:resource="http://www.fao.org/aims/aos/cwr.owl#CommunityStructure"/>
+        <rdfs:comment xml:lang="en">It&apos;s the amount of individuals of a population or community.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://cerrado.linkeddata.es/ecology/ccon#PielousEvenness -->
+
+    <owl:Class rdf:about="http://cerrado.linkeddata.es/ecology/ccon#PielousEvenness">
+        <rdfs:label>pielou&apos;s evenness</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://cerrado.linkeddata.es/ecology/ccon#SpeciesEvenness"/>
+        <rdfs:comment xml:lang="en">It&apos;s a representation of the evenness and quantifies how equal the community is numerically.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://cerrado.linkeddata.es/ecology/ccon#PopulationDynamics -->
+
+    <owl:Class rdf:about="http://cerrado.linkeddata.es/ecology/ccon#PopulationDynamics">
+        <rdfs:label> population dynamics</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.fao.org/aims/aos/cwr.owl#EcologicalPhenomena"/>
+        <rdfs:comment xml:lang="en">It&apos;s the study of the changes of the size of a population over time.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://cerrado.linkeddata.es/ecology/ccon#Precipitation -->
+
+    <owl:Class rdf:about="http://cerrado.linkeddata.es/ecology/ccon#Precipitation">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">precipitation</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">rainfall</rdfs:label>
+        <rdfs:label>average annual precipitation</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_01000203"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://cerrado.linkeddata.es/ecology/ccon#decreases"/>
+                <owl:allValuesFrom rdf:resource="http://cerrado.linkeddata.es/ecology/ccon#GroundLayer"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://cerrado.linkeddata.es/ecology/ccon#increases"/>
+                <owl:allValuesFrom rdf:resource="http://cerrado.linkeddata.es/ecology/ccon#WoodLayer"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:comment xml:lang="en">Any product of the condensation of atmospheric water vapour that falls under gravity (http://en.wikipedia.org/wiki/Precipitation)</rdfs:comment>
+        <rdfs:comment xml:lang="pt">Qualquer produto da condensação do vapor de água atmosférico que cai sob efeito da gravidade.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://cerrado.linkeddata.es/ecology/ccon#Recruitment -->
+
+    <owl:Class rdf:about="http://cerrado.linkeddata.es/ecology/ccon#Recruitment">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">recruitment rate</rdfs:label>
+        <rdfs:label xml:lang="en">recruitment</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://cerrado.linkeddata.es/ecology/ccon#ComunityDynamics"/>
+        <rdfs:comment xml:lang="en">It&apos;s the rate on which new individuals establishes in a certain community either by new born individuals or immigration.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://cerrado.linkeddata.es/ecology/ccon#RelativeHumidity -->
+
+    <owl:Class rdf:about="http://cerrado.linkeddata.es/ecology/ccon#RelativeHumidity">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">relative humidity</rdfs:label>
+        <rdfs:label>Mean annual relative humidity</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_01000203"/>
+        <rdfs:comment xml:lang="en">The relative amount of whater vapour in the atmosphere</rdfs:comment>
+        <rdfs:comment xml:lang="pt">Quantidade relativa de vapor de água na atmosfera</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://cerrado.linkeddata.es/ecology/ccon#Savanna -->
+
+    <owl:Class rdf:about="http://cerrado.linkeddata.es/ecology/ccon#Savanna">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">savanna</rdfs:label>
+        <owl:equivalentClass rdf:resource="http://www.fao.org/aims/aos/cwr.owl#SavannaHabitat"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_00000446"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://cerrado.linkeddata.es/ecology/ccon#isPartOf"/>
+                <owl:allValuesFrom rdf:resource="http://cerrado.linkeddata.es/ecology/ccon#CerradoSensuLato"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:comment xml:lang="en">grasslands with scattered trees</rdfs:comment>
+        <rdfs:comment xml:lang="pt">campos com árvores esparsas</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://cerrado.linkeddata.es/ecology/ccon#Season -->
+
+    <owl:Class rdf:about="http://cerrado.linkeddata.es/ecology/ccon#Season">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">season</rdfs:label>
+        <owl:equivalentClass rdf:resource="http://www.fao.org/aims/aos/cwr.owl#SeasonalVariation"/>
+        <rdfs:subClassOf rdf:resource="http://cerrado.linkeddata.es/ecology/ccon#Environment"/>
+        <rdfs:subClassOf rdf:resource="http://www.fao.org/aims/aos/cwr.owl#Periodicity"/>
+        <rdfs:comment xml:lang="en">A subdivision of the year, marked by changes in weather, ecology, and hours of day light</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://cerrado.linkeddata.es/ecology/ccon#Shrub -->
+
+    <owl:Class rdf:about="http://cerrado.linkeddata.es/ecology/ccon#Shrub">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">shrub</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.fao.org/aims/aos/cwr.owl#Angiosperm"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://cerrado.linkeddata.es/ecology/ccon#isPartOf"/>
+                <owl:allValuesFrom rdf:resource="http://cerrado.linkeddata.es/ecology/ccon#WoodLayer"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <owl:disjointWith rdf:resource="http://cerrado.linkeddata.es/ecology/ccon#Tree"/>
+        <rdfs:comment xml:lang="en">A shrub is distinguished from a tree by its multiple stems and shorter height, usually under 6 m tall. Plants of many species may grow either into shrubs or trees, depending on their growing conditions.
+Source: wikipedia.org </rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://cerrado.linkeddata.es/ecology/ccon#SimpsonsIndex -->
+
+    <owl:Class rdf:about="http://cerrado.linkeddata.es/ecology/ccon#SimpsonsIndex">
+        <rdfs:label>simpson&apos;s index</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://cerrado.linkeddata.es/ecology/ccon#SpeciesDiversity"/>
+        <rdfs:comment xml:lang="en">The simplest measure of the character of a community that takes into account both the abundance (or biomass) patterns and the species richness (Begon et al., 2006).</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://cerrado.linkeddata.es/ecology/ccon#Soil -->
+
+    <owl:Class rdf:about="http://cerrado.linkeddata.es/ecology/ccon#Soil">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">soil</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://cerrado.linkeddata.es/ecology/ccon#CerradoDeterminingFactors"/>
+        <rdfs:comment xml:lang="en">It&apos;s a natural body consisting of layers (soil horizons) that are primarily composed of minerals, mixed with at least some organic matter, which differ from their parent materials in their texture, structure, consistency, color, chemical, biological and other characteristics. It is the loose covering of fine rock particles that covers the surface of the earth.
+Source: wikipedia.org</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://cerrado.linkeddata.es/ecology/ccon#SorensensSimilarityIndex -->
+
+    <owl:Class rdf:about="http://cerrado.linkeddata.es/ecology/ccon#SorensensSimilarityIndex">
+        <rdfs:label>Sørensen–Dice index</rdfs:label>
+        <rdfs:label>Sørensen’s similarity coefficient</rdfs:label>
+        <rdfs:label>sorensen&apos;s similarity index</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://cerrado.linkeddata.es/ecology/ccon#SpeciesCompositionSimilarity"/>
+    </owl:Class>
+    
+
+
+    <!-- http://cerrado.linkeddata.es/ecology/ccon#Species -->
+
+    <owl:Class rdf:about="http://cerrado.linkeddata.es/ecology/ccon#Species">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">species</rdfs:label>
+        <rdfs:comment xml:lang="en">A group of organinsms capable of interbreeding and producing fertile offspring.</rdfs:comment>
+        <rdfs:comment xml:lang="pt">Um grupo de organismos semelhantes capazes de reproduzirem entre si originando descendentes férteis e vivem na mesma região geográfica.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://cerrado.linkeddata.es/ecology/ccon#SpeciesCompositionSimilarity -->
+
+    <owl:Class rdf:about="http://cerrado.linkeddata.es/ecology/ccon#SpeciesCompositionSimilarity">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">species composition</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://cerrado.linkeddata.es/ecology/ccon#DiversityIndex"/>
+        <rdfs:comment xml:lang="en">It&apos;s how many different species occurs in a community or ecosystem.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://cerrado.linkeddata.es/ecology/ccon#SpeciesDiversity -->
+
+    <owl:Class rdf:about="http://cerrado.linkeddata.es/ecology/ccon#SpeciesDiversity">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">species diversity</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://cerrado.linkeddata.es/ecology/ccon#DiversityIndex"/>
+        <rdfs:comment xml:lang="en">the effective number of different species that are represented in a collection of individuals, it consists of two components: species richness and species evenness</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://cerrado.linkeddata.es/ecology/ccon#SpeciesEvenness -->
+
+    <owl:Class rdf:about="http://cerrado.linkeddata.es/ecology/ccon#SpeciesEvenness">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">species evenness</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://cerrado.linkeddata.es/ecology/ccon#DiversityIndex"/>
+        <rdfs:comment xml:lang="en">Evenness is simply a measure of how similar specie are in their abundances.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://cerrado.linkeddata.es/ecology/ccon#SpeciesRichness -->
+
+    <owl:Class rdf:about="http://cerrado.linkeddata.es/ecology/ccon#SpeciesRichness">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">species richness</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://cerrado.linkeddata.es/ecology/ccon#DiversityIndex"/>
+        <rdfs:comment xml:lang="en">the number of differnet species represented in an ecological community, landscape or region</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://cerrado.linkeddata.es/ecology/ccon#Temperature -->
+
+    <owl:Class rdf:about="http://cerrado.linkeddata.es/ecology/ccon#Temperature">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">temperature</rdfs:label>
+        <rdfs:label>Mean annual temperature</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_01000203"/>
+        <rdfs:comment xml:lang="en">It is a measure of the thermal energy per particle of matter or radiation; it is measured by a thermometer, which may be calibrated in any of various temperature scales, Celsius, Fahrenheit, Kelvin, etc (http://en.wikipedia.org/wiki/Temperature).</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://cerrado.linkeddata.es/ecology/ccon#Tree -->
+
+    <owl:Class rdf:about="http://cerrado.linkeddata.es/ecology/ccon#Tree">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">tree</rdfs:label>
+        <rdfs:label>wood plant</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.fao.org/aims/aos/cwr.owl#Angiosperm"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://cerrado.linkeddata.es/ecology/ccon#isPartOf"/>
+                <owl:allValuesFrom rdf:resource="http://cerrado.linkeddata.es/ecology/ccon#WoodLayer"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:comment xml:lang="en">A tree can be defined as a large woody perennial plant.
+Source: wikipedia.org</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://cerrado.linkeddata.es/ecology/ccon#TropicalGrassland -->
+
+    <owl:Class rdf:about="http://cerrado.linkeddata.es/ecology/ccon#TropicalGrassland">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">tropical grassland</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_00000446"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://cerrado.linkeddata.es/ecology/ccon#isPartOf"/>
+                <owl:someValuesFrom rdf:resource="http://cerrado.linkeddata.es/ecology/ccon#CerradoSensuLato"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:comment xml:lang="en">Dry grassland without shrubs or trees</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://cerrado.linkeddata.es/ecology/ccon#TropicalSeason -->
+
+    <owl:Class rdf:about="http://cerrado.linkeddata.es/ecology/ccon#TropicalSeason">
+        <rdfs:label>tropical season</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://cerrado.linkeddata.es/ecology/ccon#Season"/>
+        <rdfs:comment xml:lang="en">Most of tropical areas has only two distinct seasons during the year, which are called tropical seasons and they can be distinguish as wet season and dry season.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://cerrado.linkeddata.es/ecology/ccon#TropicalSeasonalForest -->
+
+    <owl:Class rdf:about="http://cerrado.linkeddata.es/ecology/ccon#TropicalSeasonalForest">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">tropical seasonal forest</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_00000446"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://cerrado.linkeddata.es/ecology/ccon#isPartOf"/>
+                <owl:allValuesFrom rdf:resource="http://cerrado.linkeddata.es/ecology/ccon#CerradoSensuLato"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:comment xml:lang="en">A tropical forest grows in regions with a marked dry season. There is some defoliation during the dry season, the degree depending on the severity of the moisture deficit. The structure of the forest is also simpler than of the rain forest, with fewer tree strata, and less luxuriant growths of climbing and herbaceous plants. 
+
+www.oxfordreference.com</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://cerrado.linkeddata.es/ecology/ccon#WetSeason -->
+
+    <owl:Class rdf:about="http://cerrado.linkeddata.es/ecology/ccon#WetSeason">
+        <rdfs:label>wet season</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://cerrado.linkeddata.es/ecology/ccon#TropicalSeason"/>
+        <rdfs:comment xml:lang="en">Consists of the period of the year in some tropical climate areas with average rainfall greater than 60mm by month.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://cerrado.linkeddata.es/ecology/ccon#WoodLayer -->
+
+    <owl:Class rdf:about="http://cerrado.linkeddata.es/ecology/ccon#WoodLayer">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">wood layer</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.fao.org/aims/aos/cwr.owl#VegetationCover"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://cerrado.linkeddata.es/ecology/ccon#hasComponent"/>
+                <owl:someValuesFrom rdf:resource="http://cerrado.linkeddata.es/ecology/ccon#Shrub"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://cerrado.linkeddata.es/ecology/ccon#hasComponent"/>
+                <owl:someValuesFrom rdf:resource="http://cerrado.linkeddata.es/ecology/ccon#Tree"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://cerrado.linkeddata.es/ecology/ccon#isPartOf"/>
+                <owl:allValuesFrom rdf:resource="http://cerrado.linkeddata.es/ecology/ccon#Savanna"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://cerrado.linkeddata.es/ecology/ccon#isPartOf"/>
+                <owl:allValuesFrom rdf:resource="http://cerrado.linkeddata.es/ecology/ccon#TropicalSeasonalForest"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:comment xml:lang="en">It consists of mainly wood plants and many researchers include monocots like palm trees becouse of their woody like trunks, but they are not considered trees. </rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://cerrado.linkeddata.es/ecology/ccon#shannonsDiversityIndex -->
+
+    <owl:Class rdf:about="http://cerrado.linkeddata.es/ecology/ccon#shannonsDiversityIndex">
+        <rdfs:label>shannon&apos;s diversity index</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://cerrado.linkeddata.es/ecology/ccon#SpeciesDiversity"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_00000428 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_00000428">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">biome</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://cerrado.linkeddata.es/ecology/ccon#BiologicalOrganizationLevel"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://cerrado.linkeddata.es/ecology/ccon#isPartOf"/>
+                <owl:someValuesFrom rdf:resource="http://www.fao.org/aims/aos/cwr.owl#Biosphere"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ENVO</oboInOwl:hasOBONamespace>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ENVO:00000428</oboInOwl:id>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EcosytemType</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Wikipedia:Biome</oboInOwl:hasDbXref>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ecosystem</oboInOwl:hasRelatedSynonym>
+        <rdfs:comment xml:lang="en">A major class of ecologically similar communities of plants, animals, and other organisms. Biomes are defined based on factors such as plant structures (such as trees, shrubs, and grasses), leaf types (such as broadleaf and needleleaf), plant spacing (forest, woodland, savanna), and other factors like climate. Unlike ecozones, biomes are not defined by genetic, taxonomic, or historical similarities. Biomes are often identified with particular patterns of ecological succession and climax vegetation.</rdfs:comment>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EcosytemType</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NASA:earthrealm</oboInOwl:hasDbXref>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/ENVO_00000428"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
+    </owl:Axiom>
+    <owl:Axiom>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Wikipedia:Biome</oboInOwl:hasDbXref>
+        <owl:annotatedTarget xml:lang="en">A major class of ecologically similar communities of plants, animals, and other organisms. Biomes are defined based on factors such as plant structures (such as trees, shrubs, and grasses), leaf types (such as broadleaf and needleleaf), plant spacing (forest, woodland, savanna), and other factors like climate. Unlike ecozones, biomes are not defined by genetic, taxonomic, or historical similarities. Biomes are often identified with particular patterns of ecological succession and climax vegetation.</owl:annotatedTarget>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/ENVO_00000428"/>
+        <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#comment"/>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_00000446 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_00000446">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">terrestrial biome</rdfs:label>
+        <owl:equivalentClass rdf:resource="http://www.fao.org/aims/aos/cwr.owl#TerrestrialHabitat"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_00000428"/>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A biome that applies to the terrestrial realm.</rdfs:comment>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ENVO</oboInOwl:hasOBONamespace>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ENVO:00000446</oboInOwl:id>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">terrestrial realm</oboInOwl:hasRelatedSynonym>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A biome that applies to the terrestrial realm.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Wikipedia:Biome#Terrestrial_biomes</oboInOwl:hasDbXref>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/ENVO_00000446"/>
+        <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#comment"/>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_01000203 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ENVO_01000203">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">environmental condition</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://cerrado.linkeddata.es/ecology/ccon#Environment"/>
+        <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2013-04-07T14:35:18Z</oboInOwl:creation_date>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ENVO</oboInOwl:hasOBONamespace>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ENVO:01000203</oboInOwl:id>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Experimental class created in EnvO. A condition defines a restricted range of a given quality or combination of qualities. If an environment class, E, has_condition C, then all qualities listed in C are restricted to the ranges defined in C in E. This is not intended as a logical conditional.</rdfs:comment>
+        <oboInOwl:created_by rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pbuttigi</oboInOwl:created_by>
+        <rdfs:comment xml:lang="en">An abiotic environmental factor that influences the functioning of living organisms (Begon et al., 2006).</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.fao.org/aims/aos/cwr.owl#Angiosperm -->
+
+    <owl:Class rdf:about="http://www.fao.org/aims/aos/cwr.owl#Angiosperm">
+        <rdfs:label xml:lang="en">angiosperm</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.fao.org/aims/aos/cwr.owl#VascularPlant"/>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2005-03-13</dc:date>
+        <dc:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://www.fao.org/aims/ag_intro.htm?termid=413&amp;myLangTerms=EN</dc:identifier>
+        <dc:source rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://www.mobot.org/MOBOT/Research/APweb/top/glossarya_h.html</dc:source>
+        <rdfs:comment xml:lang="en">A seed-bearing plant with the ovules borne enclosed by a sporophyll whose margins are fused, i.e., the ovules are borne in an ovary.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.fao.org/aims/aos/cwr.owl#Biosphere -->
+
+    <owl:Class rdf:about="http://www.fao.org/aims/aos/cwr.owl#Biosphere">
+        <rdfs:label xml:lang="en">biosphere</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://cerrado.linkeddata.es/ecology/ccon#BiologicalOrganizationLevel"/>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2005-03-13</dc:date>
+        <dc:source rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://highered.mcgraw-hill.com/sites/dl/free/0072909498/57896/glossary.pdf</dc:source>
+        <rdfs:comment xml:lang="en">The entire world of living organisms.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.fao.org/aims/aos/cwr.owl#Community -->
+
+    <owl:Class rdf:about="http://www.fao.org/aims/aos/cwr.owl#Community">
+        <rdfs:label xml:lang="en">community</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://cerrado.linkeddata.es/ecology/ccon#BiologicalOrganizationLevel"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://cerrado.linkeddata.es/ecology/ccon#isCharacterizedBy"/>
+                <owl:someValuesFrom rdf:resource="http://cerrado.linkeddata.es/ecology/ccon#ComunityDynamics"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://cerrado.linkeddata.es/ecology/ccon#isCharacterizedBy"/>
+                <owl:someValuesFrom rdf:resource="http://www.fao.org/aims/aos/cwr.owl#CommunityStructure"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://cerrado.linkeddata.es/ecology/ccon#isCharacterizedBy"/>
+                <owl:someValuesFrom rdf:resource="http://www.fao.org/aims/aos/cwr.owl#Diversity"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://cerrado.linkeddata.es/ecology/ccon#isPartOf"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/ENVO_00000428"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://cerrado.linkeddata.es/ecology/ccon#isPartOf"/>
+                <owl:someValuesFrom rdf:resource="http://www.fao.org/aims/aos/cwr.owl#Ecosystem"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <owl:versionInfo rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://www.lasgrwc.org/LandscapeEthic/GlossaryNov17.doc</owl:versionInfo>
+        <rdfs:comment xml:lang="en">Any group of organisms belonging to a number of different species that co-occur in the same habitat or area and interact through trophic and spatial relationships.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.fao.org/aims/aos/cwr.owl#CommunityStructure -->
+
+    <owl:Class rdf:about="http://www.fao.org/aims/aos/cwr.owl#CommunityStructure">
+        <rdfs:label xml:lang="en">community structure</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.fao.org/aims/aos/cwr.owl#EcologicalPhenomena"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://cerrado.linkeddata.es/ecology/ccon#isCharacteristicOf"/>
+                <owl:someValuesFrom rdf:resource="http://www.fao.org/aims/aos/cwr.owl#PlantCommunity"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:comment xml:lang="en">Community structure is a set of parameters that we can use to describe a ecological community.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.fao.org/aims/aos/cwr.owl#Diversity -->
+
+    <owl:Class rdf:about="http://www.fao.org/aims/aos/cwr.owl#Diversity">
+        <rdfs:label xml:lang="en">diversity</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.fao.org/aims/aos/cwr.owl#EcologicalPhenomena"/>
+        <dc:source rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://soilslab.cfr.washington.edu</dc:source>
+        <rdfs:comment xml:lang="en">1) The variety of plant and animal taxa, including genes, amino acids, flowers, species, or populations. 2) The variety of plant and animal communities, forest types, stand conditions, age classes, and landscape components.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.fao.org/aims/aos/cwr.owl#EcologicalPhenomena -->
+
+    <owl:Class rdf:about="http://www.fao.org/aims/aos/cwr.owl#EcologicalPhenomena">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ecological phenomena</rdfs:label>
+        <rdfs:comment xml:lang="en">Ecological phenomenon is any event - regarding interactions among organisms and their environment - that is observable, however common it might be, even if it requires the use of instrumentation to observe, record, or compile data concerning it.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.fao.org/aims/aos/cwr.owl#Ecosystem -->
+
+    <owl:Class rdf:about="http://www.fao.org/aims/aos/cwr.owl#Ecosystem">
+        <rdfs:label xml:lang="en">ecosystem</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://cerrado.linkeddata.es/ecology/ccon#BiologicalOrganizationLevel"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://cerrado.linkeddata.es/ecology/ccon#isPartOf"/>
+                <owl:someValuesFrom rdf:resource="http://cerrado.linkeddata.es/ecology/ccon#Ecoregion"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://cerrado.linkeddata.es/ecology/ccon#isPartOf"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/ENVO_00000428"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <owl:versionInfo rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></owl:versionInfo>
+        <dc:source rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://www.fao.org/aims/ag_intro.htm?termid=2482&amp;myLangTerms=EN</dc:source>
+        <dc:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://www.fao.org/aims/ag_intro.htm?termid=2482&amp;myLangTerms=EN</dc:identifier>
+        <rdfs:comment xml:lang="en">A complex of organisms and their environment forming a functioning whole.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.fao.org/aims/aos/cwr.owl#Eukaryote -->
+
+    <owl:Class rdf:about="http://www.fao.org/aims/aos/cwr.owl#Eukaryote">
+        <rdfs:label xml:lang="en">eukaryote</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.fao.org/aims/aos/cwr.owl#Organism"/>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2005-03-13</dc:date>
+        <dc:source rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://helios.bto.ed.ac.uk/bto/glossary/ef.htm</dc:source>
+        <rdfs:comment xml:lang="en">An organism having eukaryotic cells with true nuclei.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.fao.org/aims/aos/cwr.owl#Habitat -->
+
+    <owl:Class rdf:about="http://www.fao.org/aims/aos/cwr.owl#Habitat">
+        <rdfs:label xml:lang="en">habitat</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.fao.org/aims/aos/cwr.owl#Ecosystem"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.fao.org/aims/aos/cwr.owl#isPartOf"/>
+                <owl:allValuesFrom rdf:resource="http://www.fao.org/aims/aos/cwr.owl#Ecosystem"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <dc:source rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://www.fao.org/aims/ag_intro.htm?termid=3456&amp;myLangTerms=EN</dc:source>
+        <dc:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://www.fao.org/aims/ag_intro.htm?termid=3456&amp;myLangTerms=EN</dc:identifier>
+        <rdfs:comment xml:lang="en">Environment in a given area occupied by an organism or a group of organisms.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.fao.org/aims/aos/cwr.owl#Organism -->
+
+    <owl:Class rdf:about="http://www.fao.org/aims/aos/cwr.owl#Organism">
+        <rdfs:label xml:lang="en">organism</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://cerrado.linkeddata.es/ecology/ccon#BiologicalOrganizationLevel"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://cerrado.linkeddata.es/ecology/ccon#isPartOf"/>
+                <owl:someValuesFrom rdf:resource="http://www.fao.org/aims/aos/cwr.owl#Population"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:isDefinedBy rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The basic living system, a functional grouping of the lower-level components, including at least one cell.</rdfs:isDefinedBy>
+        <dc:source rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://tolweb.org</dc:source>
+        <rdfs:comment xml:lang="en">Any living creature. A plant, animal, or micro-organism.</rdfs:comment>
+        <rdfs:comment xml:lang="pt">Um sistema vivo básico, um grupo funcional de componentes básicos, incluindo pelo menos uma célula.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.fao.org/aims/aos/cwr.owl#Periodicity -->
+
+    <owl:Class rdf:about="http://www.fao.org/aims/aos/cwr.owl#Periodicity">
+        <rdfs:label xml:lang="en">periodicity</rdfs:label>
+        <rdfs:label xml:lang="es">Periodicidad</rdfs:label>
+        <rdfs:label xml:lang="fr">Périodicité</rdfs:label>
+        <rdfs:label xml:lang="ru">периодичность</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://cerrado.linkeddata.es/ecology/ccon#Environment"/>
+        <dc:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://www.fao.org/aims/ag_intro.htm?termid=5708&amp;myLangTerms=EN</dc:identifier>
+        <rdfs:comment xml:lang="en">Periodicity is used to define events that are recurrent or the repetition of similar events.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.fao.org/aims/aos/cwr.owl#Plant -->
+
+    <owl:Class rdf:about="http://www.fao.org/aims/aos/cwr.owl#Plant">
+        <rdfs:label xml:lang="en">plant</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.fao.org/aims/aos/cwr.owl#Eukaryote"/>
+        <dc:source rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://aquat1.ifas.ufl.edu</dc:source>
+        <dc:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://www.fao.org/aims/ag_intro.htm?termid=5993&amp;myLangTerms=EN</dc:identifier>
+        <rdfs:comment xml:lang="en">Any of a kingdom (Plantae) of living beings typically lacking locomotive movement or obvious sensory organs, generally making its own food, possessing cell walls, and unlimited growth.</rdfs:comment>
+        <rdfs:comment xml:lang="en">Conventionally the term plant implies a taxon with characteristics of multicellularity, cell structure with walls containing cellulose, and organisms capable of photosynthesis. 
+
+Source: Ecyclopedia of life (www.eol.org/info/449)</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.fao.org/aims/aos/cwr.owl#PlantCommunity -->
+
+    <owl:Class rdf:about="http://www.fao.org/aims/aos/cwr.owl#PlantCommunity">
+        <rdfs:label xml:lang="en">plant community</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.fao.org/aims/aos/cwr.owl#Community"/>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2005-03-13</dc:date>
+        <dc:source rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://www.kcl.ac.uk/kis/schools/hums/geog/desertlinks/downloads/Glossary.doc</dc:source>
+        <rdfs:comment xml:lang="en">An assemblage of individuals of one or more species that influence one another and modify their environment (after Mueller-Dombois and Ellenberg, 1974).</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.fao.org/aims/aos/cwr.owl#Population -->
+
+    <owl:Class rdf:about="http://www.fao.org/aims/aos/cwr.owl#Population">
+        <rdfs:label xml:lang="en">population</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://cerrado.linkeddata.es/ecology/ccon#BiologicalOrganizationLevel"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://cerrado.linkeddata.es/ecology/ccon#isPartOf"/>
+                <owl:someValuesFrom rdf:resource="http://cerrado.linkeddata.es/ecology/ccon#Metapopulation"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://cerrado.linkeddata.es/ecology/ccon#isPartOf"/>
+                <owl:someValuesFrom rdf:resource="http://cerrado.linkeddata.es/ecology/ccon#Species"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://cerrado.linkeddata.es/ecology/ccon#isPartOf"/>
+                <owl:someValuesFrom rdf:resource="http://www.fao.org/aims/aos/cwr.owl#Community"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <dc:source rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://www.lasgrwc.org</dc:source>
+        <rdfs:comment xml:lang="en">A group of interbreeding organisms not separated by geographic barriers which would inhibit breeding between all individuals.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.fao.org/aims/aos/cwr.owl#PopulationDensity -->
+
+    <owl:Class rdf:about="http://www.fao.org/aims/aos/cwr.owl#PopulationDensity">
+        <rdfs:label xml:lang="en">population density</rdfs:label>
+        <rdfs:label xml:lang="es">densidad de población</rdfs:label>
+        <rdfs:label xml:lang="fr">densité de population</rdfs:label>
+        <rdfs:label xml:lang="ru">густота популяции</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://cerrado.linkeddata.es/ecology/ccon#PopulationDynamics"/>
+        <owl:versionInfo rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Blackwell’s concise encyclopedia of ecology, 1999</owl:versionInfo>
+        <rdfs:comment xml:lang="en">The number of individuals per unit area.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.fao.org/aims/aos/cwr.owl#PopulationSize -->
+
+    <owl:Class rdf:about="http://www.fao.org/aims/aos/cwr.owl#PopulationSize">
+        <rdfs:label xml:lang="en">population size</rdfs:label>
+        <rdfs:label xml:lang="es">tamaño de la población</rdfs:label>
+        <rdfs:label xml:lang="fr">taille d&apos;une population</rdfs:label>
+        <rdfs:label xml:lang="ru">размер популяции</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://cerrado.linkeddata.es/ecology/ccon#PopulationDynamics"/>
+        <rdfs:comment xml:lang="en">It&apos;s the amount of individuals in a population</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.fao.org/aims/aos/cwr.owl#Sample -->
+
+    <owl:Class rdf:about="http://www.fao.org/aims/aos/cwr.owl#Sample">
+        <rdfs:label xml:lang="en">sample</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.fao.org/aims/aos/cwr.owl#Population"/>
+        <owl:versionInfo rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://www.bugwood.org/glossary/html/glossary-s.html</owl:versionInfo>
+        <rdfs:comment xml:lang="en">A part of a population, consisting of one or more units selected and examined as representative of the whole</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.fao.org/aims/aos/cwr.owl#SavannaHabitat -->
+
+    <owl:Class rdf:about="http://www.fao.org/aims/aos/cwr.owl#SavannaHabitat">
+        <rdfs:label xml:lang="en">savanna habitat</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.fao.org/aims/aos/cwr.owl#TerrestrialHabitat"/>
+        <owl:disjointWith rdf:resource="http://www.fao.org/aims/aos/cwr.owl#Woodland"/>
+        <rdfs:comment xml:lang="en">It&apos;s a terrestrial habitat consisting of grasslands with scattered trees.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.fao.org/aims/aos/cwr.owl#SeasonalVariation -->
+
+    <owl:Class rdf:about="http://www.fao.org/aims/aos/cwr.owl#SeasonalVariation">
+        <rdfs:label xml:lang="en">seasonal variation</rdfs:label>
+        <rdfs:label xml:lang="es">Variación estacional</rdfs:label>
+        <rdfs:label xml:lang="fr">Variation saisonnière</rdfs:label>
+        <rdfs:label xml:lang="ru">сезонные изменения</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.fao.org/aims/aos/cwr.owl#Periodicity"/>
+        <dc:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://www.fao.org/aims/ag_intro.htm?termid=24894&amp;myLangTerms=EN</dc:identifier>
+        <rdfs:comment xml:lang="en">It&apos;s the change of climate seasons  during a one year period.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.fao.org/aims/aos/cwr.owl#Specimen -->
+
+    <owl:Class rdf:about="http://www.fao.org/aims/aos/cwr.owl#Specimen">
+        <rdfs:label xml:lang="en">specimen</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.fao.org/aims/aos/cwr.owl#Sample"/>
+        <owl:versionInfo rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://www.fishbase.org/Glossary/Glossary.cfm?TermEnglish=specimen</owl:versionInfo>
+        <rdfs:comment xml:lang="en">An individual from a scientific sample; sometimes an individual regarded as typical of the group.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.fao.org/aims/aos/cwr.owl#TerrestrialHabitat -->
+
+    <owl:Class rdf:about="http://www.fao.org/aims/aos/cwr.owl#TerrestrialHabitat">
+        <rdfs:label xml:lang="en">terrestrial habitat</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.fao.org/aims/aos/cwr.owl#Habitat"/>
+        <rdfs:comment xml:lang="en">It&apos;s the terrestrial environment occupied by an organism, population or community.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.fao.org/aims/aos/cwr.owl#VascularPlant -->
+
+    <owl:Class rdf:about="http://www.fao.org/aims/aos/cwr.owl#VascularPlant">
+        <rdfs:label xml:lang="en">vascular plant</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.fao.org/aims/aos/cwr.owl#Plant"/>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2005-03-13</dc:date>
+        <dc:source rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://highered.mcgraw-hill.com/sites/dl/free/0072909498/57896/glossary.pdf</dc:source>
+        <rdfs:comment xml:lang="en">A general name for any plant that has xylem and phloem.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.fao.org/aims/aos/cwr.owl#Vegetation -->
+
+    <owl:Class rdf:about="http://www.fao.org/aims/aos/cwr.owl#Vegetation">
+        <rdfs:label xml:lang="en">vegetation</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.fao.org/aims/aos/cwr.owl#PlantCommunity"/>
+        <dc:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://www.fao.org/aims/ag_intro.htm?termid=8176&amp;myLangTerms=EN</dc:identifier>
+        <dc:source rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://www.lasgrwc.org</dc:source>
+        <rdfs:comment xml:lang="en">The assemblage of plant species in a given area; also used as a general term for plant life.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.fao.org/aims/aos/cwr.owl#VegetationCover -->
+
+    <owl:Class rdf:about="http://www.fao.org/aims/aos/cwr.owl#VegetationCover">
+        <rdfs:label xml:lang="en">vegetation cover</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.fao.org/aims/aos/cwr.owl#Vegetation"/>
+        <rdfs:comment xml:lang="en">It&apos;s the type of the dominant vegetation or the dominant plant-life form in a certain location.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.fao.org/aims/aos/cwr.owl#Woodland -->
+
+    <owl:Class rdf:about="http://www.fao.org/aims/aos/cwr.owl#Woodland">
+        <rdfs:label xml:lang="en">woodland</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.fao.org/aims/aos/cwr.owl#TerrestrialHabitat"/>
+        <dc:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://www.fao.org/aims/ag_intro.htm?termid=8433&amp;myLangTerms=EN</dc:identifier>
+        <rdfs:comment xml:lang="en">Woodland is a low-density forest forming open habitats with plenty of sunlight and limited shade.
+Source: Wikipedia.org</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://cerrado.linkeddata.es/ecology/ccon#Acosmium_dasycarpum -->
+
+    <owl:NamedIndividual rdf:about="http://cerrado.linkeddata.es/ecology/ccon#Acosmium_dasycarpum">
+        <rdf:type rdf:resource="http://cerrado.linkeddata.es/ecology/ccon#Species"/>
+        <rdf:type rdf:resource="http://cerrado.linkeddata.es/ecology/ccon#WoodLayer"/>
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://cerrado.linkeddata.es/ecology/ccon#isPartOf"/>
+                <owl:allValuesFrom rdf:resource="http://cerrado.linkeddata.es/ecology/ccon#Cerradao"/>
+            </owl:Restriction>
+        </rdf:type>
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://cerrado.linkeddata.es/ecology/ccon#isPartOf"/>
+                <owl:allValuesFrom rdf:resource="http://cerrado.linkeddata.es/ecology/ccon#Savanna"/>
+            </owl:Restriction>
+        </rdf:type>
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://cerrado.linkeddata.es/ecology/ccon#isPartOf"/>
+                <owl:allValuesFrom rdf:resource="http://cerrado.linkeddata.es/ecology/ccon#WoodLayer"/>
+            </owl:Restriction>
+        </rdf:type>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Acosmium dasycarpum</rdfs:label>
+        <owl:sameAs rdf:resource="http://dbpedia.org/resource/Acosmium_dasycarpum"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://cerrado.linkeddata.es/ecology/ccon#Aegiphila_lhotzkiana -->
+
+    <owl:NamedIndividual rdf:about="http://cerrado.linkeddata.es/ecology/ccon#Aegiphila_lhotzkiana">
+        <rdf:type rdf:resource="http://cerrado.linkeddata.es/ecology/ccon#Species"/>
+        <rdf:type rdf:resource="http://cerrado.linkeddata.es/ecology/ccon#WoodLayer"/>
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://cerrado.linkeddata.es/ecology/ccon#isPartOf"/>
+                <owl:allValuesFrom rdf:resource="http://cerrado.linkeddata.es/ecology/ccon#CerradoSensuLato"/>
+            </owl:Restriction>
+        </rdf:type>
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://cerrado.linkeddata.es/ecology/ccon#isPartOf"/>
+                <owl:allValuesFrom rdf:resource="http://cerrado.linkeddata.es/ecology/ccon#WoodLayer"/>
+            </owl:Restriction>
+        </rdf:type>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Aegiphila lhotzkiana</rdfs:label>
+        <owl:sameAs rdf:resource="http://dbpedia.org/resource/Aegiphila_lhotzkiana"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://cerrado.linkeddata.es/ecology/ccon#Anacardium_humile -->
+
+    <owl:NamedIndividual rdf:about="http://cerrado.linkeddata.es/ecology/ccon#Anacardium_humile">
+        <rdf:type rdf:resource="http://cerrado.linkeddata.es/ecology/ccon#Species"/>
+        <rdf:type rdf:resource="http://cerrado.linkeddata.es/ecology/ccon#WoodLayer"/>
+        <rdfs:label>Anacardium humile
+</rdfs:label>
+        <owl:sameAs rdf:resource="http://dbpedia.org/resource/Anacardium_humile"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://cerrado.linkeddata.es/ecology/ccon#Annona_crassiflora -->
+
+    <owl:NamedIndividual rdf:about="http://cerrado.linkeddata.es/ecology/ccon#Annona_crassiflora">
+        <rdf:type rdf:resource="http://cerrado.linkeddata.es/ecology/ccon#Species"/>
+        <rdf:type rdf:resource="http://cerrado.linkeddata.es/ecology/ccon#WoodLayer"/>
+        <rdf:type rdf:resource="http://www.fao.org/aims/aos/cwr.owl#Angiosperm"/>
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://cerrado.linkeddata.es/ecology/ccon#isPartOf"/>
+                <owl:someValuesFrom rdf:resource="http://cerrado.linkeddata.es/ecology/ccon#Savanna"/>
+            </owl:Restriction>
+        </rdf:type>
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://cerrado.linkeddata.es/ecology/ccon#isPartOf"/>
+                <owl:allValuesFrom rdf:resource="http://cerrado.linkeddata.es/ecology/ccon#WoodLayer"/>
+            </owl:Restriction>
+        </rdf:type>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Annona crassiflora</rdfs:label>
+        <owl:sameAs rdf:resource="http://dbpedia.org/resource/Annona_crassiflora"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://cerrado.linkeddata.es/ecology/ccon#Annona_tomentosa -->
+
+    <owl:NamedIndividual rdf:about="http://cerrado.linkeddata.es/ecology/ccon#Annona_tomentosa">
+        <rdf:type rdf:resource="http://cerrado.linkeddata.es/ecology/ccon#Species"/>
+        <rdf:type rdf:resource="http://cerrado.linkeddata.es/ecology/ccon#WoodLayer"/>
+        <rdfs:label>Annona tomentosa</rdfs:label>
+        <owl:sameAs rdf:resource="http://dbpedia.org/resource/Annona_tomentosa"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://cerrado.linkeddata.es/ecology/ccon#Aspidosperma_macrocarpon -->
+
+    <owl:NamedIndividual rdf:about="http://cerrado.linkeddata.es/ecology/ccon#Aspidosperma_macrocarpon">
+        <rdf:type rdf:resource="http://cerrado.linkeddata.es/ecology/ccon#Species"/>
+        <rdf:type rdf:resource="http://cerrado.linkeddata.es/ecology/ccon#WoodLayer"/>
+        <rdf:type rdf:resource="http://www.fao.org/aims/aos/cwr.owl#Angiosperm"/>
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://cerrado.linkeddata.es/ecology/ccon#isPartOf"/>
+                <owl:someValuesFrom rdf:resource="http://cerrado.linkeddata.es/ecology/ccon#Savanna"/>
+            </owl:Restriction>
+        </rdf:type>
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://cerrado.linkeddata.es/ecology/ccon#isPartOf"/>
+                <owl:allValuesFrom rdf:resource="http://cerrado.linkeddata.es/ecology/ccon#WoodLayer"/>
+            </owl:Restriction>
+        </rdf:type>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Aspidosperma macrocarpon</rdfs:label>
+        <owl:sameAs rdf:resource="http://dbpedia.org/resource/Aspidosperma_macrocarpon"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://cerrado.linkeddata.es/ecology/ccon#Aspidosperma_tomentosum -->
+
+    <owl:NamedIndividual rdf:about="http://cerrado.linkeddata.es/ecology/ccon#Aspidosperma_tomentosum">
+        <rdf:type rdf:resource="http://cerrado.linkeddata.es/ecology/ccon#Species"/>
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://cerrado.linkeddata.es/ecology/ccon#isPartOf"/>
+                <owl:allValuesFrom rdf:resource="http://cerrado.linkeddata.es/ecology/ccon#CerradoSensuStricto"/>
+            </owl:Restriction>
+        </rdf:type>
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://cerrado.linkeddata.es/ecology/ccon#isPartOf"/>
+                <owl:allValuesFrom rdf:resource="http://cerrado.linkeddata.es/ecology/ccon#TropicalSeasonalForest"/>
+            </owl:Restriction>
+        </rdf:type>
+        <rdfs:label>Aspidosperma tomentosum</rdfs:label>
+        <owl:sameAs rdf:resource="http://dbpedia.org/resource/Aspidosperma_tomentosum"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://cerrado.linkeddata.es/ecology/ccon#Blepharocalyx_suaveolens -->
+
+    <owl:NamedIndividual rdf:about="http://cerrado.linkeddata.es/ecology/ccon#Blepharocalyx_suaveolens">
+        <rdf:type rdf:resource="http://cerrado.linkeddata.es/ecology/ccon#Species"/>
+        <rdf:type rdf:resource="http://cerrado.linkeddata.es/ecology/ccon#WoodLayer"/>
+        <rdfs:label>Blepharocalyx suaveolens</rdfs:label>
+        <owl:sameAs rdf:resource="http://dbpedia.org/resource/Blepharocalyx_suaveolens"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://cerrado.linkeddata.es/ecology/ccon#Byrsonima_coccolobifolia -->
+
+    <owl:NamedIndividual rdf:about="http://cerrado.linkeddata.es/ecology/ccon#Byrsonima_coccolobifolia">
+        <rdf:type rdf:resource="http://cerrado.linkeddata.es/ecology/ccon#Species"/>
+        <rdf:type rdf:resource="http://cerrado.linkeddata.es/ecology/ccon#WoodLayer"/>
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://cerrado.linkeddata.es/ecology/ccon#isPartOf"/>
+                <owl:allValuesFrom rdf:resource="http://cerrado.linkeddata.es/ecology/ccon#Savanna"/>
+            </owl:Restriction>
+        </rdf:type>
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://cerrado.linkeddata.es/ecology/ccon#isPartOf"/>
+                <owl:allValuesFrom rdf:resource="http://cerrado.linkeddata.es/ecology/ccon#WoodLayer"/>
+            </owl:Restriction>
+        </rdf:type>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Byrsonima coccolobifolia</rdfs:label>
+        <owl:sameAs rdf:resource="http://dbpedia.org/resource/Byrsonima_coccolobifolia"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://cerrado.linkeddata.es/ecology/ccon#Byrsonima_crassa -->
+
+    <owl:NamedIndividual rdf:about="http://cerrado.linkeddata.es/ecology/ccon#Byrsonima_crassa">
+        <rdf:type rdf:resource="http://cerrado.linkeddata.es/ecology/ccon#Species"/>
+        <rdf:type rdf:resource="http://cerrado.linkeddata.es/ecology/ccon#WoodLayer"/>
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://cerrado.linkeddata.es/ecology/ccon#isPartOf"/>
+                <owl:allValuesFrom rdf:resource="http://cerrado.linkeddata.es/ecology/ccon#CerradoSensuStricto"/>
+            </owl:Restriction>
+        </rdf:type>
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://cerrado.linkeddata.es/ecology/ccon#isPartOf"/>
+                <owl:allValuesFrom rdf:resource="http://cerrado.linkeddata.es/ecology/ccon#WoodLayer"/>
+            </owl:Restriction>
+        </rdf:type>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Byrsonima crassa</rdfs:label>
+        <owl:sameAs rdf:resource="http://dbpedia.org/resource/Byrsonima_crassa"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://cerrado.linkeddata.es/ecology/ccon#Byrsonima_verbascifolia -->
+
+    <owl:NamedIndividual rdf:about="http://cerrado.linkeddata.es/ecology/ccon#Byrsonima_verbascifolia">
+        <rdf:type rdf:resource="http://cerrado.linkeddata.es/ecology/ccon#Species"/>
+        <rdf:type rdf:resource="http://cerrado.linkeddata.es/ecology/ccon#WoodLayer"/>
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://cerrado.linkeddata.es/ecology/ccon#isPartOf"/>
+                <owl:allValuesFrom rdf:resource="http://cerrado.linkeddata.es/ecology/ccon#CerradoSensuStricto"/>
+            </owl:Restriction>
+        </rdf:type>
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://cerrado.linkeddata.es/ecology/ccon#isPartOf"/>
+                <owl:allValuesFrom rdf:resource="http://cerrado.linkeddata.es/ecology/ccon#WoodLayer"/>
+            </owl:Restriction>
+        </rdf:type>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Byrsonima verbascifolia</rdfs:label>
+        <owl:sameAs rdf:resource="http://dbpedia.org/resource/Byrsonima_verbascifolia"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://cerrado.linkeddata.es/ecology/ccon#Cardiopetalum_calophyllum -->
+
+    <owl:NamedIndividual rdf:about="http://cerrado.linkeddata.es/ecology/ccon#Cardiopetalum_calophyllum">
+        <rdf:type rdf:resource="http://cerrado.linkeddata.es/ecology/ccon#Species"/>
+        <rdf:type rdf:resource="http://cerrado.linkeddata.es/ecology/ccon#WoodLayer"/>
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://cerrado.linkeddata.es/ecology/ccon#isPartOf"/>
+                <owl:allValuesFrom rdf:resource="http://cerrado.linkeddata.es/ecology/ccon#CampoSujo"/>
+            </owl:Restriction>
+        </rdf:type>
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://cerrado.linkeddata.es/ecology/ccon#isPartOf"/>
+                <owl:allValuesFrom rdf:resource="http://cerrado.linkeddata.es/ecology/ccon#Cerradao"/>
+            </owl:Restriction>
+        </rdf:type>
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://cerrado.linkeddata.es/ecology/ccon#isPartOf"/>
+                <owl:allValuesFrom rdf:resource="http://cerrado.linkeddata.es/ecology/ccon#WoodLayer"/>
+            </owl:Restriction>
+        </rdf:type>
+        <rdfs:label>Cardiopetalum calophyllum</rdfs:label>
+        <owl:sameAs rdf:resource="http://dbpedia.org/resource/Cardiopetalum_calophyllum"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://cerrado.linkeddata.es/ecology/ccon#Caryocar_brasiliense -->
+
+    <owl:NamedIndividual rdf:about="http://cerrado.linkeddata.es/ecology/ccon#Caryocar_brasiliense">
+        <rdf:type rdf:resource="http://cerrado.linkeddata.es/ecology/ccon#Species"/>
+        <rdf:type rdf:resource="http://cerrado.linkeddata.es/ecology/ccon#WoodLayer"/>
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://cerrado.linkeddata.es/ecology/ccon#isPartOf"/>
+                <owl:allValuesFrom rdf:resource="http://cerrado.linkeddata.es/ecology/ccon#Cerradao"/>
+            </owl:Restriction>
+        </rdf:type>
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://cerrado.linkeddata.es/ecology/ccon#isPartOf"/>
+                <owl:allValuesFrom rdf:resource="http://cerrado.linkeddata.es/ecology/ccon#CerradoSensuStricto"/>
+            </owl:Restriction>
+        </rdf:type>
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://cerrado.linkeddata.es/ecology/ccon#isPartOf"/>
+                <owl:allValuesFrom rdf:resource="http://cerrado.linkeddata.es/ecology/ccon#WoodLayer"/>
+            </owl:Restriction>
+        </rdf:type>
+        <rdfs:label>Caryocar brasiliense</rdfs:label>
+        <owl:sameAs rdf:resource="http://dbpedia.org/page/Caryocar_brasiliense"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://cerrado.linkeddata.es/ecology/ccon#Casearia_sylvestris -->
+
+    <owl:NamedIndividual rdf:about="http://cerrado.linkeddata.es/ecology/ccon#Casearia_sylvestris">
+        <rdf:type rdf:resource="http://cerrado.linkeddata.es/ecology/ccon#Species"/>
+        <rdf:type rdf:resource="http://cerrado.linkeddata.es/ecology/ccon#WoodLayer"/>
+        <rdfs:label>Casearia sylvestris</rdfs:label>
+        <owl:sameAs rdf:resource="http://dbpedia.org/resource/Casearia_sylvestris"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://cerrado.linkeddata.es/ecology/ccon#Connarus_suberosus -->
+
+    <owl:NamedIndividual rdf:about="http://cerrado.linkeddata.es/ecology/ccon#Connarus_suberosus">
+        <rdf:type rdf:resource="http://cerrado.linkeddata.es/ecology/ccon#Species"/>
+        <rdf:type rdf:resource="http://cerrado.linkeddata.es/ecology/ccon#WoodLayer"/>
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://cerrado.linkeddata.es/ecology/ccon#isPartOf"/>
+                <owl:allValuesFrom rdf:resource="http://cerrado.linkeddata.es/ecology/ccon#Savanna"/>
+            </owl:Restriction>
+        </rdf:type>
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://cerrado.linkeddata.es/ecology/ccon#isPartOf"/>
+                <owl:allValuesFrom rdf:resource="http://cerrado.linkeddata.es/ecology/ccon#WoodLayer"/>
+            </owl:Restriction>
+        </rdf:type>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Connarus suberosus</rdfs:label>
+        <owl:sameAs rdf:resource="http://dbpedia.org/resource/Connarus_suberosus"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://cerrado.linkeddata.es/ecology/ccon#Couepia_grandiflora -->
+
+    <owl:NamedIndividual rdf:about="http://cerrado.linkeddata.es/ecology/ccon#Couepia_grandiflora">
+        <rdf:type rdf:resource="http://cerrado.linkeddata.es/ecology/ccon#Species"/>
+        <rdf:type rdf:resource="http://cerrado.linkeddata.es/ecology/ccon#WoodLayer"/>
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://cerrado.linkeddata.es/ecology/ccon#isPartOf"/>
+                <owl:allValuesFrom rdf:resource="http://cerrado.linkeddata.es/ecology/ccon#Savanna"/>
+            </owl:Restriction>
+        </rdf:type>
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://cerrado.linkeddata.es/ecology/ccon#isPartOf"/>
+                <owl:allValuesFrom rdf:resource="http://cerrado.linkeddata.es/ecology/ccon#WoodLayer"/>
+            </owl:Restriction>
+        </rdf:type>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Couepia grandiflora</rdfs:label>
+        <owl:sameAs rdf:resource="http://dbpedia.org/resource/Couepia_grandiflora"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://cerrado.linkeddata.es/ecology/ccon#Cybianthus_detergens -->
+
+    <owl:NamedIndividual rdf:about="http://cerrado.linkeddata.es/ecology/ccon#Cybianthus_detergens">
+        <rdf:type rdf:resource="http://cerrado.linkeddata.es/ecology/ccon#Species"/>
+        <rdf:type rdf:resource="http://cerrado.linkeddata.es/ecology/ccon#WoodLayer"/>
+        <rdfs:label>Cybianthus detergens</rdfs:label>
+        <owl:sameAs rdf:resource="http://dbpedia.org/resource/Cybianthus_detergens"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://cerrado.linkeddata.es/ecology/ccon#Cybistax_antisyphilitica -->
+
+    <owl:NamedIndividual rdf:about="http://cerrado.linkeddata.es/ecology/ccon#Cybistax_antisyphilitica">
+        <rdf:type rdf:resource="http://cerrado.linkeddata.es/ecology/ccon#Species"/>
+        <rdf:type rdf:resource="http://cerrado.linkeddata.es/ecology/ccon#WoodLayer"/>
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://cerrado.linkeddata.es/ecology/ccon#isPartOf"/>
+                <owl:allValuesFrom rdf:resource="http://cerrado.linkeddata.es/ecology/ccon#Savanna"/>
+            </owl:Restriction>
+        </rdf:type>
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://cerrado.linkeddata.es/ecology/ccon#isPartOf"/>
+                <owl:allValuesFrom rdf:resource="http://cerrado.linkeddata.es/ecology/ccon#WoodLayer"/>
+            </owl:Restriction>
+        </rdf:type>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cybistax antisyphilitica</rdfs:label>
+        <owl:sameAs rdf:resource="http://dbpedia.org/resource/Cybistax_antisyphilitica"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://cerrado.linkeddata.es/ecology/ccon#Dalbergia_miscolobium -->
+
+    <owl:NamedIndividual rdf:about="http://cerrado.linkeddata.es/ecology/ccon#Dalbergia_miscolobium">
+        <rdf:type rdf:resource="http://cerrado.linkeddata.es/ecology/ccon#Species"/>
+        <rdf:type rdf:resource="http://cerrado.linkeddata.es/ecology/ccon#WoodLayer"/>
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://cerrado.linkeddata.es/ecology/ccon#isPartOf"/>
+                <owl:someValuesFrom rdf:resource="http://cerrado.linkeddata.es/ecology/ccon#Savanna"/>
+            </owl:Restriction>
+        </rdf:type>
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://cerrado.linkeddata.es/ecology/ccon#isPartOf"/>
+                <owl:someValuesFrom rdf:resource="http://cerrado.linkeddata.es/ecology/ccon#TropicalSeasonalForest"/>
+            </owl:Restriction>
+        </rdf:type>
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://cerrado.linkeddata.es/ecology/ccon#isPartOf"/>
+                <owl:allValuesFrom rdf:resource="http://cerrado.linkeddata.es/ecology/ccon#WoodLayer"/>
+            </owl:Restriction>
+        </rdf:type>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Dalbergia miscolobium</rdfs:label>
+        <owl:sameAs rdf:resource="http://dbpedia.org/resource/Dalbergia_miscolobium"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://cerrado.linkeddata.es/ecology/ccon#Davilla_elliptica -->
+
+    <owl:NamedIndividual rdf:about="http://cerrado.linkeddata.es/ecology/ccon#Davilla_elliptica">
+        <rdf:type rdf:resource="http://cerrado.linkeddata.es/ecology/ccon#Species"/>
+        <rdf:type rdf:resource="http://cerrado.linkeddata.es/ecology/ccon#WoodLayer"/>
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://cerrado.linkeddata.es/ecology/ccon#isPartOf"/>
+                <owl:someValuesFrom rdf:resource="http://cerrado.linkeddata.es/ecology/ccon#Savanna"/>
+            </owl:Restriction>
+        </rdf:type>
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://cerrado.linkeddata.es/ecology/ccon#isPartOf"/>
+                <owl:allValuesFrom rdf:resource="http://cerrado.linkeddata.es/ecology/ccon#WoodLayer"/>
+            </owl:Restriction>
+        </rdf:type>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Davilla elliptica</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://cerrado.linkeddata.es/ecology/ccon#Dendropanax_cuneatus -->
+
+    <owl:NamedIndividual rdf:about="http://cerrado.linkeddata.es/ecology/ccon#Dendropanax_cuneatus">
+        <rdf:type rdf:resource="http://cerrado.linkeddata.es/ecology/ccon#Species"/>
+        <rdf:type rdf:resource="http://cerrado.linkeddata.es/ecology/ccon#WoodLayer"/>
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://cerrado.linkeddata.es/ecology/ccon#isPartOf"/>
+                <owl:someValuesFrom rdf:resource="http://cerrado.linkeddata.es/ecology/ccon#Cerrado"/>
+            </owl:Restriction>
+        </rdf:type>
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://cerrado.linkeddata.es/ecology/ccon#isPartOf"/>
+                <owl:someValuesFrom rdf:resource="http://cerrado.linkeddata.es/ecology/ccon#WoodLayer"/>
+            </owl:Restriction>
+        </rdf:type>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Dendropanax cuneatus</rdfs:label>
+        <owl:sameAs rdf:resource="http://dbpedia.org/resource/Dendropanax_cuneatus"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://cerrado.linkeddata.es/ecology/ccon#Dimorphandra_mollis -->
+
+    <owl:NamedIndividual rdf:about="http://cerrado.linkeddata.es/ecology/ccon#Dimorphandra_mollis">
+        <rdf:type rdf:resource="http://cerrado.linkeddata.es/ecology/ccon#Species"/>
+        <rdf:type rdf:resource="http://cerrado.linkeddata.es/ecology/ccon#WoodLayer"/>
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://cerrado.linkeddata.es/ecology/ccon#isPartOf"/>
+                <owl:allValuesFrom rdf:resource="http://cerrado.linkeddata.es/ecology/ccon#Savanna"/>
+            </owl:Restriction>
+        </rdf:type>
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://cerrado.linkeddata.es/ecology/ccon#isPartOf"/>
+                <owl:allValuesFrom rdf:resource="http://cerrado.linkeddata.es/ecology/ccon#WoodLayer"/>
+            </owl:Restriction>
+        </rdf:type>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Dimorphandra mollis</rdfs:label>
+        <owl:sameAs rdf:resource="http://dbpedia.org/resource/Dimorphandra_molli"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://cerrado.linkeddata.es/ecology/ccon#Diospyros_burchellii -->
+
+    <owl:NamedIndividual rdf:about="http://cerrado.linkeddata.es/ecology/ccon#Diospyros_burchellii">
+        <rdf:type rdf:resource="http://cerrado.linkeddata.es/ecology/ccon#Species"/>
+        <rdf:type rdf:resource="http://cerrado.linkeddata.es/ecology/ccon#WoodLayer"/>
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://cerrado.linkeddata.es/ecology/ccon#isPartOf"/>
+                <owl:allValuesFrom rdf:resource="http://cerrado.linkeddata.es/ecology/ccon#CerradoSensuStricto"/>
+            </owl:Restriction>
+        </rdf:type>
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://cerrado.linkeddata.es/ecology/ccon#isPartOf"/>
+                <owl:allValuesFrom rdf:resource="http://cerrado.linkeddata.es/ecology/ccon#WoodLayer"/>
+            </owl:Restriction>
+        </rdf:type>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Diospyros burchellii</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://cerrado.linkeddata.es/ecology/ccon#Enterolobium_gummiferum -->
+
+    <owl:NamedIndividual rdf:about="http://cerrado.linkeddata.es/ecology/ccon#Enterolobium_gummiferum">
+        <rdf:type rdf:resource="http://cerrado.linkeddata.es/ecology/ccon#Species"/>
+        <rdf:type rdf:resource="http://cerrado.linkeddata.es/ecology/ccon#WoodLayer"/>
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://cerrado.linkeddata.es/ecology/ccon#isPartOf"/>
+                <owl:allValuesFrom rdf:resource="http://cerrado.linkeddata.es/ecology/ccon#CerradoSensuStricto"/>
+            </owl:Restriction>
+        </rdf:type>
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://cerrado.linkeddata.es/ecology/ccon#isPartOf"/>
+                <owl:allValuesFrom rdf:resource="http://cerrado.linkeddata.es/ecology/ccon#WoodLayer"/>
+            </owl:Restriction>
+        </rdf:type>
+        <rdfs:label>Enterolobium gummiferum</rdfs:label>
+        <owl:sameAs rdf:resource="http://dbpedia.org/resource/Enterolobium_gummiferum"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://cerrado.linkeddata.es/ecology/ccon#Eremanthus_glomerulatus -->
+
+    <owl:NamedIndividual rdf:about="http://cerrado.linkeddata.es/ecology/ccon#Eremanthus_glomerulatus">
+        <rdf:type rdf:resource="http://cerrado.linkeddata.es/ecology/ccon#Species"/>
+        <rdf:type rdf:resource="http://cerrado.linkeddata.es/ecology/ccon#WoodLayer"/>
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://cerrado.linkeddata.es/ecology/ccon#isPartOf"/>
+                <owl:allValuesFrom rdf:resource="http://cerrado.linkeddata.es/ecology/ccon#CerradoSensuStricto"/>
+            </owl:Restriction>
+        </rdf:type>
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://cerrado.linkeddata.es/ecology/ccon#isPartOf"/>
+                <owl:allValuesFrom rdf:resource="http://cerrado.linkeddata.es/ecology/ccon#WoodLayer"/>
+            </owl:Restriction>
+        </rdf:type>
+        <rdfs:label>Eremanthus glomerulatus</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://cerrado.linkeddata.es/ecology/ccon#Eremanthus_goyazensis -->
+
+    <owl:NamedIndividual rdf:about="http://cerrado.linkeddata.es/ecology/ccon#Eremanthus_goyazensis">
+        <rdf:type rdf:resource="http://cerrado.linkeddata.es/ecology/ccon#Species"/>
+        <rdf:type rdf:resource="http://cerrado.linkeddata.es/ecology/ccon#WoodLayer"/>
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://cerrado.linkeddata.es/ecology/ccon#isPartOf"/>
+                <owl:allValuesFrom rdf:resource="http://cerrado.linkeddata.es/ecology/ccon#CerradoSensuStricto"/>
+            </owl:Restriction>
+        </rdf:type>
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://cerrado.linkeddata.es/ecology/ccon#isPartOf"/>
+                <owl:allValuesFrom rdf:resource="http://cerrado.linkeddata.es/ecology/ccon#WoodLayer"/>
+            </owl:Restriction>
+        </rdf:type>
+        <rdfs:label>Eremanthus goyazensis</rdfs:label>
+        <owl:sameAs rdf:resource="http://dbpedia.org/resource/Eremanthus_goyazensi"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://cerrado.linkeddata.es/ecology/ccon#Eriotheca_pubescens -->
+
+    <owl:NamedIndividual rdf:about="http://cerrado.linkeddata.es/ecology/ccon#Eriotheca_pubescens">
+        <rdf:type rdf:resource="http://cerrado.linkeddata.es/ecology/ccon#Species"/>
+        <rdf:type rdf:resource="http://cerrado.linkeddata.es/ecology/ccon#WoodLayer"/>
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://cerrado.linkeddata.es/ecology/ccon#isPartOf"/>
+                <owl:allValuesFrom rdf:resource="http://cerrado.linkeddata.es/ecology/ccon#CerradoSensuStricto"/>
+            </owl:Restriction>
+        </rdf:type>
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://cerrado.linkeddata.es/ecology/ccon#isPartOf"/>
+                <owl:allValuesFrom rdf:resource="http://cerrado.linkeddata.es/ecology/ccon#WoodLayer"/>
+            </owl:Restriction>
+        </rdf:type>
+        <rdfs:label>Eriotheca pubescens</rdfs:label>
+        <owl:sameAs rdf:resource="http://dbpedia.org/resource/Eriotheca_pubescens"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://cerrado.linkeddata.es/ecology/ccon#Erythroxylum_deciduum -->
+
+    <owl:NamedIndividual rdf:about="http://cerrado.linkeddata.es/ecology/ccon#Erythroxylum_deciduum">
+        <rdf:type rdf:resource="http://cerrado.linkeddata.es/ecology/ccon#Species"/>
+        <rdf:type rdf:resource="http://cerrado.linkeddata.es/ecology/ccon#WoodLayer"/>
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://cerrado.linkeddata.es/ecology/ccon#isPartOf"/>
+                <owl:allValuesFrom rdf:resource="http://cerrado.linkeddata.es/ecology/ccon#CerradoSensuStricto"/>
+            </owl:Restriction>
+        </rdf:type>
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://cerrado.linkeddata.es/ecology/ccon#isPartOf"/>
+                <owl:allValuesFrom rdf:resource="http://cerrado.linkeddata.es/ecology/ccon#WoodLayer"/>
+            </owl:Restriction>
+        </rdf:type>
+        <rdfs:label>Erythroxylum deciduum</rdfs:label>
+        <owl:sameAs rdf:resource="http://dbpedia.org/resource/Erythroxylum_deciduum"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://cerrado.linkeddata.es/ecology/ccon#Erythroxylum_suberosum -->
+
+    <owl:NamedIndividual rdf:about="http://cerrado.linkeddata.es/ecology/ccon#Erythroxylum_suberosum">
+        <rdf:type rdf:resource="http://cerrado.linkeddata.es/ecology/ccon#Species"/>
+        <rdf:type rdf:resource="http://cerrado.linkeddata.es/ecology/ccon#WoodLayer"/>
+        <rdf:type rdf:resource="http://www.fao.org/aims/aos/cwr.owl#Angiosperm"/>
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://cerrado.linkeddata.es/ecology/ccon#isPartOf"/>
+                <owl:allValuesFrom rdf:resource="http://cerrado.linkeddata.es/ecology/ccon#CerradoSensuStricto"/>
+            </owl:Restriction>
+        </rdf:type>
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://cerrado.linkeddata.es/ecology/ccon#isPartOf"/>
+                <owl:allValuesFrom rdf:resource="http://cerrado.linkeddata.es/ecology/ccon#WoodLayer"/>
+            </owl:Restriction>
+        </rdf:type>
+        <rdfs:label>Erythroxylum suberosum</rdfs:label>
+        <owl:sameAs rdf:resource="http://dbpedia.org/resource/Erythroxylum_suberosum"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://cerrado.linkeddata.es/ecology/ccon#Erythroxylum_tortuosum -->
+
+    <owl:NamedIndividual rdf:about="http://cerrado.linkeddata.es/ecology/ccon#Erythroxylum_tortuosum">
+        <rdf:type rdf:resource="http://cerrado.linkeddata.es/ecology/ccon#Species"/>
+        <rdf:type rdf:resource="http://cerrado.linkeddata.es/ecology/ccon#WoodLayer"/>
+        <rdf:type rdf:resource="http://www.fao.org/aims/aos/cwr.owl#Angiosperm"/>
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://cerrado.linkeddata.es/ecology/ccon#isPartOf"/>
+                <owl:allValuesFrom rdf:resource="http://cerrado.linkeddata.es/ecology/ccon#CerradoSensuStricto"/>
+            </owl:Restriction>
+        </rdf:type>
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://cerrado.linkeddata.es/ecology/ccon#isPartOf"/>
+                <owl:allValuesFrom rdf:resource="http://cerrado.linkeddata.es/ecology/ccon#WoodLayer"/>
+            </owl:Restriction>
+        </rdf:type>
+        <rdfs:label>Erythroxylum tortuosum</rdfs:label>
+        <owl:sameAs rdf:resource="http://dbpedia.org/resource/Erythroxylum_tortuosum"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://cerrado.linkeddata.es/ecology/ccon#Guapira_noxia -->
+
+    <owl:NamedIndividual rdf:about="http://cerrado.linkeddata.es/ecology/ccon#Guapira_noxia">
+        <rdf:type rdf:resource="http://cerrado.linkeddata.es/ecology/ccon#Species"/>
+        <rdf:type rdf:resource="http://cerrado.linkeddata.es/ecology/ccon#WoodLayer"/>
+        <rdf:type rdf:resource="http://www.fao.org/aims/aos/cwr.owl#Angiosperm"/>
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://cerrado.linkeddata.es/ecology/ccon#isPartOf"/>
+                <owl:allValuesFrom rdf:resource="http://cerrado.linkeddata.es/ecology/ccon#CerradoSensuStricto"/>
+            </owl:Restriction>
+        </rdf:type>
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://cerrado.linkeddata.es/ecology/ccon#isPartOf"/>
+                <owl:allValuesFrom rdf:resource="http://cerrado.linkeddata.es/ecology/ccon#WoodLayer"/>
+            </owl:Restriction>
+        </rdf:type>
+        <rdfs:label>Guapira noxia</rdfs:label>
+        <ccon:hasAcceptedName>Guapira noxia</ccon:hasAcceptedName>
+        <ccon:hasSynonym>Pisonia noxia</ccon:hasSynonym>
+        <skos:exactMatch rdf:resource="http://cerrado.linkeddata.es/ecology/ccon#Pisonia_noxia"/>
+        <owl:sameAs rdf:resource="http://cerrado.linkeddata.es/ecology/ccon#Pisonia_noxia"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://cerrado.linkeddata.es/ecology/ccon#Guapira_salicifolia -->
+
+    <owl:NamedIndividual rdf:about="http://cerrado.linkeddata.es/ecology/ccon#Guapira_salicifolia">
+        <rdf:type rdf:resource="http://cerrado.linkeddata.es/ecology/ccon#Species"/>
+        <rdf:type rdf:resource="http://cerrado.linkeddata.es/ecology/ccon#WoodLayer"/>
+        <rdf:type rdf:resource="http://www.fao.org/aims/aos/cwr.owl#Angiosperm"/>
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://cerrado.linkeddata.es/ecology/ccon#isPartOf"/>
+                <owl:allValuesFrom rdf:resource="http://cerrado.linkeddata.es/ecology/ccon#CerradoSensuStricto"/>
+            </owl:Restriction>
+        </rdf:type>
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://cerrado.linkeddata.es/ecology/ccon#isPartOf"/>
+                <owl:allValuesFrom rdf:resource="http://cerrado.linkeddata.es/ecology/ccon#WoodLayer"/>
+            </owl:Restriction>
+        </rdf:type>
+        <rdfs:label>Guapira salicifolia</rdfs:label>
+        <ccon:hasAcceptedName>Guapira salicifolia</ccon:hasAcceptedName>
+        <ccon:hasSynonym>Pisonia graciliflora</ccon:hasSynonym>
+        <owl:sameAs rdf:resource="http://cerrado.linkeddata.es/ecology/ccon#Pisonia_graciliflora"/>
+        <skos:exactMatch rdf:resource="http://cerrado.linkeddata.es/ecology/ccon#Pisonia_graciliflora"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://cerrado.linkeddata.es/ecology/ccon#Hancornia_pubescens -->
+
+    <owl:NamedIndividual rdf:about="http://cerrado.linkeddata.es/ecology/ccon#Hancornia_pubescens">
+        <rdf:type rdf:resource="http://cerrado.linkeddata.es/ecology/ccon#Species"/>
+        <rdf:type rdf:resource="http://cerrado.linkeddata.es/ecology/ccon#WoodLayer"/>
+        <rdf:type rdf:resource="http://www.fao.org/aims/aos/cwr.owl#Angiosperm"/>
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://cerrado.linkeddata.es/ecology/ccon#isPartOf"/>
+                <owl:someValuesFrom rdf:resource="http://cerrado.linkeddata.es/ecology/ccon#Species"/>
+            </owl:Restriction>
+        </rdf:type>
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://cerrado.linkeddata.es/ecology/ccon#isPartOf"/>
+                <owl:allValuesFrom rdf:resource="http://cerrado.linkeddata.es/ecology/ccon#Cerradao"/>
+            </owl:Restriction>
+        </rdf:type>
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://cerrado.linkeddata.es/ecology/ccon#isPartOf"/>
+                <owl:allValuesFrom rdf:resource="http://cerrado.linkeddata.es/ecology/ccon#CerradoSensuStricto"/>
+            </owl:Restriction>
+        </rdf:type>
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://cerrado.linkeddata.es/ecology/ccon#isPartOf"/>
+                <owl:allValuesFrom rdf:resource="http://cerrado.linkeddata.es/ecology/ccon#WoodLayer"/>
+            </owl:Restriction>
+        </rdf:type>
+        <rdfs:label>Hancornia pubescens</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://cerrado.linkeddata.es/ecology/ccon#Hancornia_speciosa -->
+
+    <owl:NamedIndividual rdf:about="http://cerrado.linkeddata.es/ecology/ccon#Hancornia_speciosa">
+        <rdf:type rdf:resource="http://cerrado.linkeddata.es/ecology/ccon#Species"/>
+        <rdf:type rdf:resource="http://cerrado.linkeddata.es/ecology/ccon#WoodLayer"/>
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://cerrado.linkeddata.es/ecology/ccon#isPartOf"/>
+                <owl:allValuesFrom rdf:resource="http://cerrado.linkeddata.es/ecology/ccon#Cerradao"/>
+            </owl:Restriction>
+        </rdf:type>
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://cerrado.linkeddata.es/ecology/ccon#isPartOf"/>
+                <owl:allValuesFrom rdf:resource="http://cerrado.linkeddata.es/ecology/ccon#CerradoSensuStricto"/>
+            </owl:Restriction>
+        </rdf:type>
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://cerrado.linkeddata.es/ecology/ccon#isPartOf"/>
+                <owl:allValuesFrom rdf:resource="http://cerrado.linkeddata.es/ecology/ccon#WoodLayer"/>
+            </owl:Restriction>
+        </rdf:type>
+        <rdfs:label>Hancornia speciosa</rdfs:label>
+        <owl:sameAs rdf:resource="http://rdf.freebase.com/ns/m.0269bcv"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://cerrado.linkeddata.es/ecology/ccon#Heteropterys_byrsonimifolia -->
+
+    <owl:NamedIndividual rdf:about="http://cerrado.linkeddata.es/ecology/ccon#Heteropterys_byrsonimifolia">
+        <rdf:type rdf:resource="http://cerrado.linkeddata.es/ecology/ccon#Species"/>
+        <rdf:type rdf:resource="http://cerrado.linkeddata.es/ecology/ccon#WoodLayer"/>
+        <rdf:type rdf:resource="http://www.fao.org/aims/aos/cwr.owl#Angiosperm"/>
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://cerrado.linkeddata.es/ecology/ccon#isPartOf"/>
+                <owl:allValuesFrom rdf:resource="http://cerrado.linkeddata.es/ecology/ccon#CerradoSensuStricto"/>
+            </owl:Restriction>
+        </rdf:type>
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://cerrado.linkeddata.es/ecology/ccon#isPartOf"/>
+                <owl:allValuesFrom rdf:resource="http://cerrado.linkeddata.es/ecology/ccon#WoodLayer"/>
+            </owl:Restriction>
+        </rdf:type>
+        <rdfs:label>Heteropterys byrsonimifolia</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://cerrado.linkeddata.es/ecology/ccon#Hirtella_ciliata -->
+
+    <owl:NamedIndividual rdf:about="http://cerrado.linkeddata.es/ecology/ccon#Hirtella_ciliata">
+        <rdf:type rdf:resource="http://cerrado.linkeddata.es/ecology/ccon#Species"/>
+        <rdf:type rdf:resource="http://cerrado.linkeddata.es/ecology/ccon#WoodLayer"/>
+        <rdfs:label>Hirtella ciliata</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://cerrado.linkeddata.es/ecology/ccon#Hymenaea_stigonocarpa -->
+
+    <owl:NamedIndividual rdf:about="http://cerrado.linkeddata.es/ecology/ccon#Hymenaea_stigonocarpa">
+        <rdf:type rdf:resource="http://cerrado.linkeddata.es/ecology/ccon#Species"/>
+        <rdf:type rdf:resource="http://cerrado.linkeddata.es/ecology/ccon#WoodLayer"/>
+        <rdfs:label>Hymenaea stigonocarpa</rdfs:label>
+        <owl:sameAs rdf:resource="http://dbpedia.org/resource/Hymenaea_stigonocarpa"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://cerrado.linkeddata.es/ecology/ccon#Jacaranda_decurrens -->
+
+    <owl:NamedIndividual rdf:about="http://cerrado.linkeddata.es/ecology/ccon#Jacaranda_decurrens">
+        <rdf:type rdf:resource="http://cerrado.linkeddata.es/ecology/ccon#Species"/>
+        <rdf:type rdf:resource="http://cerrado.linkeddata.es/ecology/ccon#WoodLayer"/>
+        <rdfs:label>Jacaranda decurrens</rdfs:label>
+        <owl:sameAs rdf:resource="http://dbpedia.org/resource/Jacaranda_decurrens"/>
+        <owl:sameAs rdf:resource="http://rdf.freebase.com/ns/m.02r5m6g"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://cerrado.linkeddata.es/ecology/ccon#Kielmeyera_coriacea -->
+
+    <owl:NamedIndividual rdf:about="http://cerrado.linkeddata.es/ecology/ccon#Kielmeyera_coriacea">
+        <rdf:type rdf:resource="http://cerrado.linkeddata.es/ecology/ccon#Species"/>
+        <rdf:type rdf:resource="http://cerrado.linkeddata.es/ecology/ccon#WoodLayer"/>
+        <rdf:type rdf:resource="http://www.fao.org/aims/aos/cwr.owl#Angiosperm"/>
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://cerrado.linkeddata.es/ecology/ccon#isPartOf"/>
+                <owl:allValuesFrom rdf:resource="http://cerrado.linkeddata.es/ecology/ccon#CerradoSensuStricto"/>
+            </owl:Restriction>
+        </rdf:type>
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://cerrado.linkeddata.es/ecology/ccon#isPartOf"/>
+                <owl:allValuesFrom rdf:resource="http://cerrado.linkeddata.es/ecology/ccon#WoodLayer"/>
+            </owl:Restriction>
+        </rdf:type>
+        <rdfs:label>Kielmeyera coriacea</rdfs:label>
+        <owl:sameAs rdf:resource="http://dbpedia.org/resource/Kielmeyera_coriacea"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://cerrado.linkeddata.es/ecology/ccon#Kielmeyera_speciosa -->
+
+    <owl:NamedIndividual rdf:about="http://cerrado.linkeddata.es/ecology/ccon#Kielmeyera_speciosa">
+        <rdf:type rdf:resource="http://cerrado.linkeddata.es/ecology/ccon#Species"/>
+        <rdf:type rdf:resource="http://cerrado.linkeddata.es/ecology/ccon#WoodLayer"/>
+        <rdf:type rdf:resource="http://www.fao.org/aims/aos/cwr.owl#Angiosperm"/>
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://cerrado.linkeddata.es/ecology/ccon#isPartOf"/>
+                <owl:allValuesFrom rdf:resource="http://cerrado.linkeddata.es/ecology/ccon#CerradoSensuStricto"/>
+            </owl:Restriction>
+        </rdf:type>
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://cerrado.linkeddata.es/ecology/ccon#isPartOf"/>
+                <owl:allValuesFrom rdf:resource="http://cerrado.linkeddata.es/ecology/ccon#WoodLayer"/>
+            </owl:Restriction>
+        </rdf:type>
+        <rdfs:label>Kielmeyera speciosa</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://cerrado.linkeddata.es/ecology/ccon#Kielmeyera_variabilis -->
+
+    <owl:NamedIndividual rdf:about="http://cerrado.linkeddata.es/ecology/ccon#Kielmeyera_variabilis">
+        <rdf:type rdf:resource="http://cerrado.linkeddata.es/ecology/ccon#Species"/>
+        <rdf:type rdf:resource="http://cerrado.linkeddata.es/ecology/ccon#WoodLayer"/>
+        <rdfs:label>Kielmeyera variabilis</rdfs:label>
+        <owl:sameAs rdf:resource="http://dbpedia.org/resource/Kielmeyera_variabilis"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://cerrado.linkeddata.es/ecology/ccon#Lafoensia_pacari -->
+
+    <owl:NamedIndividual rdf:about="http://cerrado.linkeddata.es/ecology/ccon#Lafoensia_pacari">
+        <rdf:type rdf:resource="http://cerrado.linkeddata.es/ecology/ccon#Species"/>
+        <rdf:type rdf:resource="http://cerrado.linkeddata.es/ecology/ccon#WoodLayer"/>
+        <rdf:type rdf:resource="http://www.fao.org/aims/aos/cwr.owl#Angiosperm"/>
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://cerrado.linkeddata.es/ecology/ccon#isPartOf"/>
+                <owl:allValuesFrom rdf:resource="http://cerrado.linkeddata.es/ecology/ccon#CerradoSensuStricto"/>
+            </owl:Restriction>
+        </rdf:type>
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://cerrado.linkeddata.es/ecology/ccon#isPartOf"/>
+                <owl:allValuesFrom rdf:resource="http://cerrado.linkeddata.es/ecology/ccon#WoodLayer"/>
+            </owl:Restriction>
+        </rdf:type>
+        <rdfs:label>Lafoensia pacari</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://cerrado.linkeddata.es/ecology/ccon#Mauritia_flexuosa -->
+
+    <owl:NamedIndividual rdf:about="http://cerrado.linkeddata.es/ecology/ccon#Mauritia_flexuosa">
+        <rdf:type rdf:resource="http://cerrado.linkeddata.es/ecology/ccon#Species"/>
+        <rdf:type rdf:resource="http://cerrado.linkeddata.es/ecology/ccon#WoodLayer"/>
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://cerrado.linkeddata.es/ecology/ccon#isPartOf"/>
+                <owl:someValuesFrom rdf:resource="http://cerrado.linkeddata.es/ecology/ccon#Savanna"/>
+            </owl:Restriction>
+        </rdf:type>
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://cerrado.linkeddata.es/ecology/ccon#isPartOf"/>
+                <owl:someValuesFrom rdf:resource="http://cerrado.linkeddata.es/ecology/ccon#TropicalSeasonalForest"/>
+            </owl:Restriction>
+        </rdf:type>
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://cerrado.linkeddata.es/ecology/ccon#isPartOf"/>
+                <owl:allValuesFrom rdf:resource="http://cerrado.linkeddata.es/ecology/ccon#WoodLayer"/>
+            </owl:Restriction>
+        </rdf:type>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mauritia flexuosa</rdfs:label>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Palm trees are not true wood plants, but with regard to ecological fuction they perform similar function as wood plants do, and contribute for the woody community structure in contrast with grass and herbaceous plants. </rdfs:comment>
+        <owl:sameAs rdf:resource="http://dbpedia.org/resource/Moriche_Palm"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://cerrado.linkeddata.es/ecology/ccon#Miconia_albicans -->
+
+    <owl:NamedIndividual rdf:about="http://cerrado.linkeddata.es/ecology/ccon#Miconia_albicans">
+        <rdf:type rdf:resource="http://cerrado.linkeddata.es/ecology/ccon#Species"/>
+        <rdf:type rdf:resource="http://cerrado.linkeddata.es/ecology/ccon#WoodLayer"/>
+        <rdf:type rdf:resource="http://www.fao.org/aims/aos/cwr.owl#Angiosperm"/>
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://cerrado.linkeddata.es/ecology/ccon#isPartOf"/>
+                <owl:allValuesFrom rdf:resource="http://cerrado.linkeddata.es/ecology/ccon#CerradoSensuStricto"/>
+            </owl:Restriction>
+        </rdf:type>
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://cerrado.linkeddata.es/ecology/ccon#isPartOf"/>
+                <owl:allValuesFrom rdf:resource="http://cerrado.linkeddata.es/ecology/ccon#WoodLayer"/>
+            </owl:Restriction>
+        </rdf:type>
+        <rdfs:label>Miconia albicans</rdfs:label>
+        <owl:sameAs rdf:resource="http://dbpedia.org/resource/Miconia_albicans"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://cerrado.linkeddata.es/ecology/ccon#Miconia_fallax -->
+
+    <owl:NamedIndividual rdf:about="http://cerrado.linkeddata.es/ecology/ccon#Miconia_fallax">
+        <rdf:type rdf:resource="http://cerrado.linkeddata.es/ecology/ccon#Species"/>
+        <rdf:type rdf:resource="http://cerrado.linkeddata.es/ecology/ccon#WoodLayer"/>
+        <rdf:type rdf:resource="http://www.fao.org/aims/aos/cwr.owl#Angiosperm"/>
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://cerrado.linkeddata.es/ecology/ccon#isPartOf"/>
+                <owl:allValuesFrom rdf:resource="http://cerrado.linkeddata.es/ecology/ccon#CerradoSensuStricto"/>
+            </owl:Restriction>
+        </rdf:type>
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://cerrado.linkeddata.es/ecology/ccon#isPartOf"/>
+                <owl:allValuesFrom rdf:resource="http://cerrado.linkeddata.es/ecology/ccon#WoodLayer"/>
+            </owl:Restriction>
+        </rdf:type>
+        <rdfs:label>Miconia fallax</rdfs:label>
+        <owl:sameAs rdf:resource="http://dbpedia.org/resource/Miconia_fallax"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://cerrado.linkeddata.es/ecology/ccon#Miconia_ferruginata -->
+
+    <owl:NamedIndividual rdf:about="http://cerrado.linkeddata.es/ecology/ccon#Miconia_ferruginata">
+        <rdf:type rdf:resource="http://cerrado.linkeddata.es/ecology/ccon#Species"/>
+        <rdf:type rdf:resource="http://cerrado.linkeddata.es/ecology/ccon#WoodLayer"/>
+        <rdf:type rdf:resource="http://www.fao.org/aims/aos/cwr.owl#Angiosperm"/>
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://cerrado.linkeddata.es/ecology/ccon#isPartOf"/>
+                <owl:allValuesFrom rdf:resource="http://cerrado.linkeddata.es/ecology/ccon#CerradoSensuStricto"/>
+            </owl:Restriction>
+        </rdf:type>
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://cerrado.linkeddata.es/ecology/ccon#isPartOf"/>
+                <owl:allValuesFrom rdf:resource="http://cerrado.linkeddata.es/ecology/ccon#WoodLayer"/>
+            </owl:Restriction>
+        </rdf:type>
+        <rdfs:label>Miconia ferruginata</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://cerrado.linkeddata.es/ecology/ccon#Miconia_pohliana -->
+
+    <owl:NamedIndividual rdf:about="http://cerrado.linkeddata.es/ecology/ccon#Miconia_pohliana">
+        <rdf:type rdf:resource="http://cerrado.linkeddata.es/ecology/ccon#Species"/>
+        <rdf:type rdf:resource="http://cerrado.linkeddata.es/ecology/ccon#WoodLayer"/>
+        <rdf:type rdf:resource="http://www.fao.org/aims/aos/cwr.owl#Angiosperm"/>
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://cerrado.linkeddata.es/ecology/ccon#isPartOf"/>
+                <owl:allValuesFrom rdf:resource="http://cerrado.linkeddata.es/ecology/ccon#CerradoSensuStricto"/>
+            </owl:Restriction>
+        </rdf:type>
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://cerrado.linkeddata.es/ecology/ccon#isPartOf"/>
+                <owl:allValuesFrom rdf:resource="http://cerrado.linkeddata.es/ecology/ccon#WoodLayer"/>
+            </owl:Restriction>
+        </rdf:type>
+        <rdfs:label>Miconia pohliana</rdfs:label>
+        <owl:sameAs rdf:resource="http://dbpedia.org/resource/Miconia_pohliana"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://cerrado.linkeddata.es/ecology/ccon#Mimosa_claussenii -->
+
+    <owl:NamedIndividual rdf:about="http://cerrado.linkeddata.es/ecology/ccon#Mimosa_claussenii">
+        <rdf:type rdf:resource="http://cerrado.linkeddata.es/ecology/ccon#Species"/>
+        <rdf:type rdf:resource="http://cerrado.linkeddata.es/ecology/ccon#WoodLayer"/>
+        <rdf:type rdf:resource="http://www.fao.org/aims/aos/cwr.owl#Angiosperm"/>
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://cerrado.linkeddata.es/ecology/ccon#isPartOf"/>
+                <owl:allValuesFrom rdf:resource="http://cerrado.linkeddata.es/ecology/ccon#CerradoSensuStricto"/>
+            </owl:Restriction>
+        </rdf:type>
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://cerrado.linkeddata.es/ecology/ccon#isPartOf"/>
+                <owl:allValuesFrom rdf:resource="http://cerrado.linkeddata.es/ecology/ccon#WoodLayer"/>
+            </owl:Restriction>
+        </rdf:type>
+        <rdfs:label>Mimosa claussenii </rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://cerrado.linkeddata.es/ecology/ccon#Myracrodruon_urundeuva -->
+
+    <owl:NamedIndividual rdf:about="http://cerrado.linkeddata.es/ecology/ccon#Myracrodruon_urundeuva">
+        <rdf:type rdf:resource="http://cerrado.linkeddata.es/ecology/ccon#Species"/>
+        <rdf:type rdf:resource="http://cerrado.linkeddata.es/ecology/ccon#WoodLayer"/>
+        <rdf:type rdf:resource="http://www.fao.org/aims/aos/cwr.owl#Angiosperm"/>
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://cerrado.linkeddata.es/ecology/ccon#isPartOf"/>
+                <owl:someValuesFrom rdf:resource="http://cerrado.linkeddata.es/ecology/ccon#CerradoSensuStricto"/>
+            </owl:Restriction>
+        </rdf:type>
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://cerrado.linkeddata.es/ecology/ccon#isPartOf"/>
+                <owl:someValuesFrom rdf:resource="http://cerrado.linkeddata.es/ecology/ccon#TropicalSeasonalForest"/>
+            </owl:Restriction>
+        </rdf:type>
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://cerrado.linkeddata.es/ecology/ccon#isPartOf"/>
+                <owl:allValuesFrom rdf:resource="http://cerrado.linkeddata.es/ecology/ccon#WoodLayer"/>
+            </owl:Restriction>
+        </rdf:type>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Myracrodruon urundeuva</rdfs:label>
+        <owl:sameAs rdf:resource="http://dbpedia.org/resource/Myracrodruon_urundeuva"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://cerrado.linkeddata.es/ecology/ccon#Myrsine_guianensis -->
+
+    <owl:NamedIndividual rdf:about="http://cerrado.linkeddata.es/ecology/ccon#Myrsine_guianensis">
+        <rdf:type rdf:resource="http://cerrado.linkeddata.es/ecology/ccon#Species"/>
+        <rdf:type rdf:resource="http://cerrado.linkeddata.es/ecology/ccon#WoodLayer"/>
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://cerrado.linkeddata.es/ecology/ccon#isPartOf"/>
+                <owl:someValuesFrom rdf:resource="http://cerrado.linkeddata.es/ecology/ccon#WoodLayer"/>
+            </owl:Restriction>
+        </rdf:type>
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://cerrado.linkeddata.es/ecology/ccon#isPartOf"/>
+                <owl:allValuesFrom rdf:resource="http://cerrado.linkeddata.es/ecology/ccon#CerradoSensuStricto"/>
+            </owl:Restriction>
+        </rdf:type>
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://cerrado.linkeddata.es/ecology/ccon#isPartOf"/>
+                <owl:allValuesFrom rdf:resource="http://cerrado.linkeddata.es/ecology/ccon#TropicalSeasonalForest"/>
+            </owl:Restriction>
+        </rdf:type>
+        <rdfs:label>Myrsine guianensis</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://cerrado.linkeddata.es/ecology/ccon#Neea_theifera -->
+
+    <owl:NamedIndividual rdf:about="http://cerrado.linkeddata.es/ecology/ccon#Neea_theifera">
+        <rdf:type rdf:resource="http://cerrado.linkeddata.es/ecology/ccon#Species"/>
+        <rdf:type rdf:resource="http://cerrado.linkeddata.es/ecology/ccon#WoodLayer"/>
+        <rdf:type rdf:resource="http://www.fao.org/aims/aos/cwr.owl#Angiosperm"/>
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://cerrado.linkeddata.es/ecology/ccon#isPartOf"/>
+                <owl:allValuesFrom rdf:resource="http://cerrado.linkeddata.es/ecology/ccon#CerradoSensuStricto"/>
+            </owl:Restriction>
+        </rdf:type>
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://cerrado.linkeddata.es/ecology/ccon#isPartOf"/>
+                <owl:allValuesFrom rdf:resource="http://cerrado.linkeddata.es/ecology/ccon#WoodLayer"/>
+            </owl:Restriction>
+        </rdf:type>
+        <rdfs:label>Neea theifera</rdfs:label>
+        <owl:sameAs rdf:resource="http://dbpedia.org/resource/Neea_theifera"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://cerrado.linkeddata.es/ecology/ccon#Ouratea_hexasperma -->
+
+    <owl:NamedIndividual rdf:about="http://cerrado.linkeddata.es/ecology/ccon#Ouratea_hexasperma">
+        <rdf:type rdf:resource="http://cerrado.linkeddata.es/ecology/ccon#Species"/>
+        <rdf:type rdf:resource="http://cerrado.linkeddata.es/ecology/ccon#WoodLayer"/>
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://cerrado.linkeddata.es/ecology/ccon#isPartOf"/>
+                <owl:allValuesFrom rdf:resource="http://cerrado.linkeddata.es/ecology/ccon#Cerradao"/>
+            </owl:Restriction>
+        </rdf:type>
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://cerrado.linkeddata.es/ecology/ccon#isPartOf"/>
+                <owl:allValuesFrom rdf:resource="http://cerrado.linkeddata.es/ecology/ccon#Savanna"/>
+            </owl:Restriction>
+        </rdf:type>
+        <rdfs:label>Ouratea hexasperma</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://cerrado.linkeddata.es/ecology/ccon#Palicourea_rigida -->
+
+    <owl:NamedIndividual rdf:about="http://cerrado.linkeddata.es/ecology/ccon#Palicourea_rigida">
+        <rdf:type rdf:resource="http://cerrado.linkeddata.es/ecology/ccon#Species"/>
+        <rdf:type rdf:resource="http://cerrado.linkeddata.es/ecology/ccon#WoodLayer"/>
+        <rdf:type rdf:resource="http://www.fao.org/aims/aos/cwr.owl#Angiosperm"/>
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://cerrado.linkeddata.es/ecology/ccon#isPartOf"/>
+                <owl:someValuesFrom rdf:resource="http://cerrado.linkeddata.es/ecology/ccon#Savanna"/>
+            </owl:Restriction>
+        </rdf:type>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Palicourea rigida</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://cerrado.linkeddata.es/ecology/ccon#Periandra_mediterranea -->
+
+    <owl:NamedIndividual rdf:about="http://cerrado.linkeddata.es/ecology/ccon#Periandra_mediterranea">
+        <rdf:type rdf:resource="http://cerrado.linkeddata.es/ecology/ccon#Species"/>
+        <rdf:type rdf:resource="http://cerrado.linkeddata.es/ecology/ccon#WoodLayer"/>
+        <rdfs:label>Periandra mediterranea</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://cerrado.linkeddata.es/ecology/ccon#Piptocarpha_rotundifolia -->
+
+    <owl:NamedIndividual rdf:about="http://cerrado.linkeddata.es/ecology/ccon#Piptocarpha_rotundifolia">
+        <rdf:type rdf:resource="http://cerrado.linkeddata.es/ecology/ccon#Species"/>
+        <rdf:type rdf:resource="http://cerrado.linkeddata.es/ecology/ccon#WoodLayer"/>
+        <rdf:type rdf:resource="http://www.fao.org/aims/aos/cwr.owl#Angiosperm"/>
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://cerrado.linkeddata.es/ecology/ccon#isPartOf"/>
+                <owl:allValuesFrom rdf:resource="http://cerrado.linkeddata.es/ecology/ccon#CerradoSensuStricto"/>
+            </owl:Restriction>
+        </rdf:type>
+        <rdfs:label>Piptocarpha rotundifolia</rdfs:label>
+        <owl:sameAs rdf:resource="http://dbpedia.org/resource/Piptocarpha_rotundifolia"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://cerrado.linkeddata.es/ecology/ccon#Pisonia_graciliflora -->
+
+    <owl:NamedIndividual rdf:about="http://cerrado.linkeddata.es/ecology/ccon#Pisonia_graciliflora">
+        <rdf:type rdf:resource="http://cerrado.linkeddata.es/ecology/ccon#Species"/>
+        <rdf:type rdf:resource="http://cerrado.linkeddata.es/ecology/ccon#WoodLayer"/>
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://cerrado.linkeddata.es/ecology/ccon#isPartOf"/>
+                <owl:allValuesFrom rdf:resource="http://cerrado.linkeddata.es/ecology/ccon#Cerradao"/>
+            </owl:Restriction>
+        </rdf:type>
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://cerrado.linkeddata.es/ecology/ccon#isPartOf"/>
+                <owl:allValuesFrom rdf:resource="http://cerrado.linkeddata.es/ecology/ccon#CerradoSensuStricto"/>
+            </owl:Restriction>
+        </rdf:type>
+        <rdfs:label>Pisonia graciliflora</rdfs:label>
+        <ccon:hasSynonym>Guapira salicifolia</ccon:hasSynonym>
+        <ccon:hasAcceptedName>Guapira salicifolia</ccon:hasAcceptedName>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://cerrado.linkeddata.es/ecology/ccon#Pisonia_noxia -->
+
+    <owl:NamedIndividual rdf:about="http://cerrado.linkeddata.es/ecology/ccon#Pisonia_noxia">
+        <rdf:type rdf:resource="http://cerrado.linkeddata.es/ecology/ccon#Species"/>
+        <rdf:type rdf:resource="http://cerrado.linkeddata.es/ecology/ccon#WoodLayer"/>
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://cerrado.linkeddata.es/ecology/ccon#isPartOf"/>
+                <owl:allValuesFrom rdf:resource="http://cerrado.linkeddata.es/ecology/ccon#CerradoSensuStricto"/>
+            </owl:Restriction>
+        </rdf:type>
+        <rdfs:label>Pisonia noxia</rdfs:label>
+        <ccon:hasSynonym>Guapira noxia</ccon:hasSynonym>
+        <ccon:hasAcceptedName>Guapira noxia</ccon:hasAcceptedName>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://cerrado.linkeddata.es/ecology/ccon#Plenckia_populnea -->
+
+    <owl:NamedIndividual rdf:about="http://cerrado.linkeddata.es/ecology/ccon#Plenckia_populnea">
+        <rdf:type rdf:resource="http://cerrado.linkeddata.es/ecology/ccon#Species"/>
+        <rdf:type rdf:resource="http://cerrado.linkeddata.es/ecology/ccon#WoodLayer"/>
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://cerrado.linkeddata.es/ecology/ccon#isPartOf"/>
+                <owl:allValuesFrom rdf:resource="http://cerrado.linkeddata.es/ecology/ccon#CerradoSensuStricto"/>
+            </owl:Restriction>
+        </rdf:type>
+        <rdfs:label>Plenckia populnea</rdfs:label>
+        <ccon:hasSynonym>Austroplenckia populnea</ccon:hasSynonym>
+        <ccon:hasAcceptedName>Plenckia populnea</ccon:hasAcceptedName>
+        <owl:sameAs rdf:resource="http://dbpedia.org/resource/Austroplenckia_populnea"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://cerrado.linkeddata.es/ecology/ccon#Pouteria_ramiflora -->
+
+    <owl:NamedIndividual rdf:about="http://cerrado.linkeddata.es/ecology/ccon#Pouteria_ramiflora">
+        <rdf:type rdf:resource="http://cerrado.linkeddata.es/ecology/ccon#Species"/>
+        <rdf:type rdf:resource="http://cerrado.linkeddata.es/ecology/ccon#WoodLayer"/>
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://cerrado.linkeddata.es/ecology/ccon#isPartOf"/>
+                <owl:allValuesFrom rdf:resource="http://cerrado.linkeddata.es/ecology/ccon#CerradoSensuStricto"/>
+            </owl:Restriction>
+        </rdf:type>
+        <rdfs:label>Pouteria ramiflora</rdfs:label>
+        <owl:sameAs rdf:resource="http://dbpedia.org/resource/Pouteria_ramiflora"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://cerrado.linkeddata.es/ecology/ccon#Pterodon_pubescens -->
+
+    <owl:NamedIndividual rdf:about="http://cerrado.linkeddata.es/ecology/ccon#Pterodon_pubescens">
+        <rdf:type rdf:resource="http://cerrado.linkeddata.es/ecology/ccon#Species"/>
+        <rdf:type rdf:resource="http://cerrado.linkeddata.es/ecology/ccon#WoodLayer"/>
+        <rdfs:label>Pterodon pubescens</rdfs:label>
+        <owl:sameAs rdf:resource="http://dbpedia.org/resource/Pterodon_pubescens"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://cerrado.linkeddata.es/ecology/ccon#Qualea_grandiflora -->
+
+    <owl:NamedIndividual rdf:about="http://cerrado.linkeddata.es/ecology/ccon#Qualea_grandiflora">
+        <rdf:type rdf:resource="http://cerrado.linkeddata.es/ecology/ccon#Species"/>
+        <rdf:type rdf:resource="http://cerrado.linkeddata.es/ecology/ccon#WoodLayer"/>
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://cerrado.linkeddata.es/ecology/ccon#isPartOf"/>
+                <owl:someValuesFrom rdf:resource="http://cerrado.linkeddata.es/ecology/ccon#CerradoSensuStricto"/>
+            </owl:Restriction>
+        </rdf:type>
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://cerrado.linkeddata.es/ecology/ccon#isPartOf"/>
+                <owl:allValuesFrom rdf:resource="http://cerrado.linkeddata.es/ecology/ccon#WoodLayer"/>
+            </owl:Restriction>
+        </rdf:type>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Qualea grandiflora</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://cerrado.linkeddata.es/ecology/ccon#Qualea_multiflora -->
+
+    <owl:NamedIndividual rdf:about="http://cerrado.linkeddata.es/ecology/ccon#Qualea_multiflora">
+        <rdf:type rdf:resource="http://cerrado.linkeddata.es/ecology/ccon#Species"/>
+        <rdf:type rdf:resource="http://cerrado.linkeddata.es/ecology/ccon#WoodLayer"/>
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://cerrado.linkeddata.es/ecology/ccon#isPartOf"/>
+                <owl:allValuesFrom rdf:resource="http://cerrado.linkeddata.es/ecology/ccon#CerradoSensuStricto"/>
+            </owl:Restriction>
+        </rdf:type>
+        <rdfs:label>Qualea multiflora</rdfs:label>
+        <owl:sameAs rdf:resource="http://dbpedia.org/resource/Qualea_multiflora"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://cerrado.linkeddata.es/ecology/ccon#Qualea_parviflora -->
+
+    <owl:NamedIndividual rdf:about="http://cerrado.linkeddata.es/ecology/ccon#Qualea_parviflora">
+        <rdf:type rdf:resource="http://cerrado.linkeddata.es/ecology/ccon#Species"/>
+        <rdf:type rdf:resource="http://cerrado.linkeddata.es/ecology/ccon#WoodLayer"/>
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://cerrado.linkeddata.es/ecology/ccon#isPartOf"/>
+                <owl:someValuesFrom rdf:resource="http://cerrado.linkeddata.es/ecology/ccon#CerradoSensuStricto"/>
+            </owl:Restriction>
+        </rdf:type>
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://cerrado.linkeddata.es/ecology/ccon#isPartOf"/>
+                <owl:allValuesFrom rdf:resource="http://cerrado.linkeddata.es/ecology/ccon#WoodLayer"/>
+            </owl:Restriction>
+        </rdf:type>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Qualea parviflora</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://cerrado.linkeddata.es/ecology/ccon#Roupala_montana -->
+
+    <owl:NamedIndividual rdf:about="http://cerrado.linkeddata.es/ecology/ccon#Roupala_montana">
+        <rdf:type rdf:resource="http://cerrado.linkeddata.es/ecology/ccon#Species"/>
+        <rdf:type rdf:resource="http://cerrado.linkeddata.es/ecology/ccon#WoodLayer"/>
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://cerrado.linkeddata.es/ecology/ccon#isPartOf"/>
+                <owl:someValuesFrom rdf:resource="http://cerrado.linkeddata.es/ecology/ccon#CerradoSensuStricto"/>
+            </owl:Restriction>
+        </rdf:type>
+        <rdfs:label>Roupala montana</rdfs:label>
+        <owl:sameAs rdf:resource="http://dbpedia.org/resource/Roupala_montana"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://cerrado.linkeddata.es/ecology/ccon#Rourea_induta -->
+
+    <owl:NamedIndividual rdf:about="http://cerrado.linkeddata.es/ecology/ccon#Rourea_induta">
+        <rdf:type rdf:resource="http://cerrado.linkeddata.es/ecology/ccon#Species"/>
+        <rdf:type rdf:resource="http://cerrado.linkeddata.es/ecology/ccon#WoodLayer"/>
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://cerrado.linkeddata.es/ecology/ccon#isPartOf"/>
+                <owl:someValuesFrom rdf:resource="http://cerrado.linkeddata.es/ecology/ccon#CerradoSensuStricto"/>
+            </owl:Restriction>
+        </rdf:type>
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://cerrado.linkeddata.es/ecology/ccon#isPartOf"/>
+                <owl:someValuesFrom rdf:resource="http://cerrado.linkeddata.es/ecology/ccon#Species"/>
+            </owl:Restriction>
+        </rdf:type>
+        <rdfs:label>Rourea induta</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://cerrado.linkeddata.es/ecology/ccon#Salacia_crassifolia -->
+
+    <owl:NamedIndividual rdf:about="http://cerrado.linkeddata.es/ecology/ccon#Salacia_crassifolia">
+        <rdf:type rdf:resource="http://cerrado.linkeddata.es/ecology/ccon#Species"/>
+        <rdf:type rdf:resource="http://cerrado.linkeddata.es/ecology/ccon#WoodLayer"/>
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://cerrado.linkeddata.es/ecology/ccon#isPartOf"/>
+                <owl:allValuesFrom rdf:resource="http://cerrado.linkeddata.es/ecology/ccon#CerradoSensuStricto"/>
+            </owl:Restriction>
+        </rdf:type>
+        <rdfs:label>Salacia crassifolia</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://cerrado.linkeddata.es/ecology/ccon#Schefflera__macrocarpa -->
+
+    <owl:NamedIndividual rdf:about="http://cerrado.linkeddata.es/ecology/ccon#Schefflera__macrocarpa">
+        <rdf:type rdf:resource="http://cerrado.linkeddata.es/ecology/ccon#Species"/>
+        <rdf:type rdf:resource="http://cerrado.linkeddata.es/ecology/ccon#WoodLayer"/>
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://cerrado.linkeddata.es/ecology/ccon#isPartOf"/>
+                <owl:allValuesFrom rdf:resource="http://cerrado.linkeddata.es/ecology/ccon#Cerradao"/>
+            </owl:Restriction>
+        </rdf:type>
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://cerrado.linkeddata.es/ecology/ccon#isPartOf"/>
+                <owl:allValuesFrom rdf:resource="http://cerrado.linkeddata.es/ecology/ccon#CerradoSensuStricto"/>
+            </owl:Restriction>
+        </rdf:type>
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://cerrado.linkeddata.es/ecology/ccon#isPartOf"/>
+                <owl:allValuesFrom rdf:resource="http://cerrado.linkeddata.es/ecology/ccon#WoodLayer"/>
+            </owl:Restriction>
+        </rdf:type>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Schefflera  macrocarpa</rdfs:label>
+        <owl:sameAs rdf:resource="http://dbpedia.org/resource/Schefflera_macrocarpa"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://cerrado.linkeddata.es/ecology/ccon#Sclerolobium_paniculatum -->
+
+    <owl:NamedIndividual rdf:about="http://cerrado.linkeddata.es/ecology/ccon#Sclerolobium_paniculatum">
+        <rdf:type rdf:resource="http://cerrado.linkeddata.es/ecology/ccon#Species"/>
+        <rdf:type rdf:resource="http://cerrado.linkeddata.es/ecology/ccon#WoodLayer"/>
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://cerrado.linkeddata.es/ecology/ccon#isPartOf"/>
+                <owl:allValuesFrom rdf:resource="http://cerrado.linkeddata.es/ecology/ccon#CerradoSensuStricto"/>
+            </owl:Restriction>
+        </rdf:type>
+        <rdfs:label>Sclerolobium paniculatum</rdfs:label>
+        <owl:sameAs rdf:resource="http://dbpedia.org/resource/Sclerolobium_paniculatum"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://cerrado.linkeddata.es/ecology/ccon#Spiranthera_odoratissima -->
+
+    <owl:NamedIndividual rdf:about="http://cerrado.linkeddata.es/ecology/ccon#Spiranthera_odoratissima">
+        <rdf:type rdf:resource="http://cerrado.linkeddata.es/ecology/ccon#Species"/>
+        <rdf:type rdf:resource="http://cerrado.linkeddata.es/ecology/ccon#WoodLayer"/>
+        <rdfs:label>Spiranthera odoratissima</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://cerrado.linkeddata.es/ecology/ccon#Stryphnodendron_adstringens -->
+
+    <owl:NamedIndividual rdf:about="http://cerrado.linkeddata.es/ecology/ccon#Stryphnodendron_adstringens">
+        <rdf:type rdf:resource="http://cerrado.linkeddata.es/ecology/ccon#Species"/>
+        <rdf:type rdf:resource="http://cerrado.linkeddata.es/ecology/ccon#WoodLayer"/>
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://cerrado.linkeddata.es/ecology/ccon#isPartOf"/>
+                <owl:allValuesFrom rdf:resource="http://cerrado.linkeddata.es/ecology/ccon#CerradoSensuStricto"/>
+            </owl:Restriction>
+        </rdf:type>
+        <rdfs:label>Stryphnodendron adstringens</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://cerrado.linkeddata.es/ecology/ccon#Styrax_ferrugineus -->
+
+    <owl:NamedIndividual rdf:about="http://cerrado.linkeddata.es/ecology/ccon#Styrax_ferrugineus">
+        <rdf:type rdf:resource="http://cerrado.linkeddata.es/ecology/ccon#Species"/>
+        <rdf:type rdf:resource="http://cerrado.linkeddata.es/ecology/ccon#WoodLayer"/>
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://cerrado.linkeddata.es/ecology/ccon#isPartOf"/>
+                <owl:allValuesFrom rdf:resource="http://cerrado.linkeddata.es/ecology/ccon#Savanna"/>
+            </owl:Restriction>
+        </rdf:type>
+        <rdfs:label>Styrax ferrugineus</rdfs:label>
+        <owl:sameAs rdf:resource="http://dbpedia.org/resource/Styrax_ferrugineus"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://cerrado.linkeddata.es/ecology/ccon#Syagrus_comosa -->
+
+    <owl:NamedIndividual rdf:about="http://cerrado.linkeddata.es/ecology/ccon#Syagrus_comosa">
+        <rdf:type rdf:resource="http://cerrado.linkeddata.es/ecology/ccon#Species"/>
+        <rdf:type rdf:resource="http://cerrado.linkeddata.es/ecology/ccon#WoodLayer"/>
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://cerrado.linkeddata.es/ecology/ccon#isPartOf"/>
+                <owl:allValuesFrom rdf:resource="http://cerrado.linkeddata.es/ecology/ccon#Savanna"/>
+            </owl:Restriction>
+        </rdf:type>
+        <rdfs:label>Syagrus comosa</rdfs:label>
+        <owl:sameAs rdf:resource="http://dbpedia.org/resource/Syagrus_comosa"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://cerrado.linkeddata.es/ecology/ccon#Syagrus_flexuosa -->
+
+    <owl:NamedIndividual rdf:about="http://cerrado.linkeddata.es/ecology/ccon#Syagrus_flexuosa">
+        <rdf:type rdf:resource="http://cerrado.linkeddata.es/ecology/ccon#Species"/>
+        <rdf:type rdf:resource="http://cerrado.linkeddata.es/ecology/ccon#WoodLayer"/>
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://cerrado.linkeddata.es/ecology/ccon#isPartOf"/>
+                <owl:allValuesFrom rdf:resource="http://cerrado.linkeddata.es/ecology/ccon#Savanna"/>
+            </owl:Restriction>
+        </rdf:type>
+        <rdfs:label>Syagrus flexuosa</rdfs:label>
+        <owl:sameAs rdf:resource="http://dbpedia.org/resource/Syagrus_flexuosa"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://cerrado.linkeddata.es/ecology/ccon#Syagrus_petraea -->
+
+    <owl:NamedIndividual rdf:about="http://cerrado.linkeddata.es/ecology/ccon#Syagrus_petraea">
+        <rdf:type rdf:resource="http://cerrado.linkeddata.es/ecology/ccon#Species"/>
+        <rdf:type rdf:resource="http://cerrado.linkeddata.es/ecology/ccon#WoodLayer"/>
+        <rdfs:label>Syagrus petraea</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://cerrado.linkeddata.es/ecology/ccon#Symplocos_rhamnifolia -->
+
+    <owl:NamedIndividual rdf:about="http://cerrado.linkeddata.es/ecology/ccon#Symplocos_rhamnifolia">
+        <rdf:type rdf:resource="http://cerrado.linkeddata.es/ecology/ccon#Species"/>
+        <rdf:type rdf:resource="http://cerrado.linkeddata.es/ecology/ccon#WoodLayer"/>
+        <rdfs:label>Symplocos rhamnifolia</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://cerrado.linkeddata.es/ecology/ccon#Tabebuia_ochracea -->
+
+    <owl:NamedIndividual rdf:about="http://cerrado.linkeddata.es/ecology/ccon#Tabebuia_ochracea">
+        <rdf:type rdf:resource="http://cerrado.linkeddata.es/ecology/ccon#Species"/>
+        <rdf:type rdf:resource="http://cerrado.linkeddata.es/ecology/ccon#WoodLayer"/>
+        <rdfs:label>Tabebuia ochracea</rdfs:label>
+        <owl:sameAs rdf:resource="http://dbpedia.org/resource/Tabebuia_ochracea"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://cerrado.linkeddata.es/ecology/ccon#Tocoyena_formosa -->
+
+    <owl:NamedIndividual rdf:about="http://cerrado.linkeddata.es/ecology/ccon#Tocoyena_formosa">
+        <rdf:type rdf:resource="http://cerrado.linkeddata.es/ecology/ccon#Species"/>
+        <rdf:type rdf:resource="http://cerrado.linkeddata.es/ecology/ccon#WoodLayer"/>
+        <rdfs:label>Tocoyena formosa</rdfs:label>
+        <owl:sameAs rdf:resource="http://dbpedia.org/resource/Tocoyena_formosa"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://cerrado.linkeddata.es/ecology/ccon#Vatairea_macrocarpa -->
+
+    <owl:NamedIndividual rdf:about="http://cerrado.linkeddata.es/ecology/ccon#Vatairea_macrocarpa">
+        <rdf:type rdf:resource="http://cerrado.linkeddata.es/ecology/ccon#Species"/>
+        <rdf:type rdf:resource="http://cerrado.linkeddata.es/ecology/ccon#WoodLayer"/>
+        <rdfs:label>Vatairea macrocarpa</rdfs:label>
+        <owl:sameAs rdf:resource="http://dbpedia.org/resource/Vatairea_macrocarpa"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://cerrado.linkeddata.es/ecology/ccon#Vellozia_squamata -->
+
+    <owl:NamedIndividual rdf:about="http://cerrado.linkeddata.es/ecology/ccon#Vellozia_squamata">
+        <rdf:type rdf:resource="http://cerrado.linkeddata.es/ecology/ccon#Species"/>
+        <rdf:type rdf:resource="http://cerrado.linkeddata.es/ecology/ccon#WoodLayer"/>
+        <rdfs:label>Vellozia squamata</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://cerrado.linkeddata.es/ecology/ccon#Vochysia_elliptica -->
+
+    <owl:NamedIndividual rdf:about="http://cerrado.linkeddata.es/ecology/ccon#Vochysia_elliptica">
+        <rdf:type rdf:resource="http://cerrado.linkeddata.es/ecology/ccon#Species"/>
+        <rdf:type rdf:resource="http://cerrado.linkeddata.es/ecology/ccon#WoodLayer"/>
+        <rdfs:label>Vochysia elliptica</rdfs:label>
+        <owl:sameAs rdf:resource="http://dbpedia.org/resource/Vochysia_elliptica"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://cerrado.linkeddata.es/ecology/ccon#Vochysia_thyrsoidea -->
+
+    <owl:NamedIndividual rdf:about="http://cerrado.linkeddata.es/ecology/ccon#Vochysia_thyrsoidea">
+        <rdf:type rdf:resource="http://cerrado.linkeddata.es/ecology/ccon#Species"/>
+        <rdf:type rdf:resource="http://cerrado.linkeddata.es/ecology/ccon#WoodLayer"/>
+        <rdfs:label>Vochysia thyrsoidea</rdfs:label>
+        <owl:sameAs rdf:resource="http://dbpedia.org/resource/Vochysia_thyrsoidea"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://dbpedia.org/page/Caryocar_brasiliense -->
+
+    <owl:NamedIndividual rdf:about="http://dbpedia.org/page/Caryocar_brasiliense"/>
+    
+
+
+    <!-- http://dbpedia.org/resource/Acosmium_dasycarpum -->
+
+    <owl:NamedIndividual rdf:about="http://dbpedia.org/resource/Acosmium_dasycarpum"/>
+    
+
+
+    <!-- http://dbpedia.org/resource/Aegiphila_lhotzkiana -->
+
+    <owl:NamedIndividual rdf:about="http://dbpedia.org/resource/Aegiphila_lhotzkiana"/>
+    
+
+
+    <!-- http://dbpedia.org/resource/Anacardium_humile -->
+
+    <owl:NamedIndividual rdf:about="http://dbpedia.org/resource/Anacardium_humile"/>
+    
+
+
+    <!-- http://dbpedia.org/resource/Annona_crassiflora -->
+
+    <owl:NamedIndividual rdf:about="http://dbpedia.org/resource/Annona_crassiflora"/>
+    
+
+
+    <!-- http://dbpedia.org/resource/Annona_tomentosa -->
+
+    <owl:NamedIndividual rdf:about="http://dbpedia.org/resource/Annona_tomentosa"/>
+    
+
+
+    <!-- http://dbpedia.org/resource/Aspidosperma_macrocarpon -->
+
+    <owl:NamedIndividual rdf:about="http://dbpedia.org/resource/Aspidosperma_macrocarpon"/>
+    
+
+
+    <!-- http://dbpedia.org/resource/Aspidosperma_tomentosum -->
+
+    <owl:NamedIndividual rdf:about="http://dbpedia.org/resource/Aspidosperma_tomentosum"/>
+    
+
+
+    <!-- http://dbpedia.org/resource/Austroplenckia_populnea -->
+
+    <owl:NamedIndividual rdf:about="http://dbpedia.org/resource/Austroplenckia_populnea"/>
+    
+
+
+    <!-- http://dbpedia.org/resource/Blepharocalyx_suaveolens -->
+
+    <owl:NamedIndividual rdf:about="http://dbpedia.org/resource/Blepharocalyx_suaveolens"/>
+    
+
+
+    <!-- http://dbpedia.org/resource/Byrsonima_coccolobifolia -->
+
+    <owl:NamedIndividual rdf:about="http://dbpedia.org/resource/Byrsonima_coccolobifolia"/>
+    
+
+
+    <!-- http://dbpedia.org/resource/Byrsonima_crassa -->
+
+    <owl:NamedIndividual rdf:about="http://dbpedia.org/resource/Byrsonima_crassa"/>
+    
+
+
+    <!-- http://dbpedia.org/resource/Byrsonima_verbascifolia -->
+
+    <owl:NamedIndividual rdf:about="http://dbpedia.org/resource/Byrsonima_verbascifolia"/>
+    
+
+
+    <!-- http://dbpedia.org/resource/Cardiopetalum_calophyllum -->
+
+    <owl:NamedIndividual rdf:about="http://dbpedia.org/resource/Cardiopetalum_calophyllum"/>
+    
+
+
+    <!-- http://dbpedia.org/resource/Casearia_sylvestris -->
+
+    <owl:NamedIndividual rdf:about="http://dbpedia.org/resource/Casearia_sylvestris"/>
+    
+
+
+    <!-- http://dbpedia.org/resource/Connarus_suberosus -->
+
+    <owl:NamedIndividual rdf:about="http://dbpedia.org/resource/Connarus_suberosus"/>
+    
+
+
+    <!-- http://dbpedia.org/resource/Couepia_grandiflora -->
+
+    <owl:NamedIndividual rdf:about="http://dbpedia.org/resource/Couepia_grandiflora"/>
+    
+
+
+    <!-- http://dbpedia.org/resource/Cybianthus_detergens -->
+
+    <owl:NamedIndividual rdf:about="http://dbpedia.org/resource/Cybianthus_detergens"/>
+    
+
+
+    <!-- http://dbpedia.org/resource/Cybistax_antisyphilitica -->
+
+    <owl:NamedIndividual rdf:about="http://dbpedia.org/resource/Cybistax_antisyphilitica"/>
+    
+
+
+    <!-- http://dbpedia.org/resource/Dalbergia_miscolobium -->
+
+    <owl:NamedIndividual rdf:about="http://dbpedia.org/resource/Dalbergia_miscolobium"/>
+    
+
+
+    <!-- http://dbpedia.org/resource/Dendropanax_cuneatus -->
+
+    <owl:NamedIndividual rdf:about="http://dbpedia.org/resource/Dendropanax_cuneatus"/>
+    
+
+
+    <!-- http://dbpedia.org/resource/Dimorphandra_molli -->
+
+    <owl:NamedIndividual rdf:about="http://dbpedia.org/resource/Dimorphandra_molli"/>
+    
+
+
+    <!-- http://dbpedia.org/resource/Enterolobium_gummiferum -->
+
+    <owl:NamedIndividual rdf:about="http://dbpedia.org/resource/Enterolobium_gummiferum"/>
+    
+
+
+    <!-- http://dbpedia.org/resource/Eremanthus_goyazensi -->
+
+    <owl:NamedIndividual rdf:about="http://dbpedia.org/resource/Eremanthus_goyazensi"/>
+    
+
+
+    <!-- http://dbpedia.org/resource/Eriotheca_pubescens -->
+
+    <owl:NamedIndividual rdf:about="http://dbpedia.org/resource/Eriotheca_pubescens"/>
+    
+
+
+    <!-- http://dbpedia.org/resource/Erythroxylum_deciduum -->
+
+    <owl:NamedIndividual rdf:about="http://dbpedia.org/resource/Erythroxylum_deciduum"/>
+    
+
+
+    <!-- http://dbpedia.org/resource/Erythroxylum_suberosum -->
+
+    <owl:NamedIndividual rdf:about="http://dbpedia.org/resource/Erythroxylum_suberosum"/>
+    
+
+
+    <!-- http://dbpedia.org/resource/Erythroxylum_tortuosum -->
+
+    <owl:NamedIndividual rdf:about="http://dbpedia.org/resource/Erythroxylum_tortuosum"/>
+    
+
+
+    <!-- http://dbpedia.org/resource/Hymenaea_stigonocarpa -->
+
+    <owl:NamedIndividual rdf:about="http://dbpedia.org/resource/Hymenaea_stigonocarpa"/>
+    
+
+
+    <!-- http://dbpedia.org/resource/Jacaranda_decurrens -->
+
+    <owl:NamedIndividual rdf:about="http://dbpedia.org/resource/Jacaranda_decurrens"/>
+    
+
+
+    <!-- http://dbpedia.org/resource/Kielmeyera_coriacea -->
+
+    <owl:NamedIndividual rdf:about="http://dbpedia.org/resource/Kielmeyera_coriacea"/>
+    
+
+
+    <!-- http://dbpedia.org/resource/Kielmeyera_variabilis -->
+
+    <owl:NamedIndividual rdf:about="http://dbpedia.org/resource/Kielmeyera_variabilis"/>
+    
+
+
+    <!-- http://dbpedia.org/resource/Miconia_albicans -->
+
+    <owl:NamedIndividual rdf:about="http://dbpedia.org/resource/Miconia_albicans"/>
+    
+
+
+    <!-- http://dbpedia.org/resource/Miconia_fallax -->
+
+    <owl:NamedIndividual rdf:about="http://dbpedia.org/resource/Miconia_fallax"/>
+    
+
+
+    <!-- http://dbpedia.org/resource/Miconia_pohliana -->
+
+    <owl:NamedIndividual rdf:about="http://dbpedia.org/resource/Miconia_pohliana"/>
+    
+
+
+    <!-- http://dbpedia.org/resource/Moriche_Palm -->
+
+    <owl:NamedIndividual rdf:about="http://dbpedia.org/resource/Moriche_Palm"/>
+    
+
+
+    <!-- http://dbpedia.org/resource/Myracrodruon_urundeuva -->
+
+    <owl:NamedIndividual rdf:about="http://dbpedia.org/resource/Myracrodruon_urundeuva"/>
+    
+
+
+    <!-- http://dbpedia.org/resource/Neea_theifera -->
+
+    <owl:NamedIndividual rdf:about="http://dbpedia.org/resource/Neea_theifera"/>
+    
+
+
+    <!-- http://dbpedia.org/resource/Piptocarpha_rotundifolia -->
+
+    <owl:NamedIndividual rdf:about="http://dbpedia.org/resource/Piptocarpha_rotundifolia"/>
+    
+
+
+    <!-- http://dbpedia.org/resource/Pouteria_ramiflora -->
+
+    <owl:NamedIndividual rdf:about="http://dbpedia.org/resource/Pouteria_ramiflora"/>
+    
+
+
+    <!-- http://dbpedia.org/resource/Pterodon_pubescens -->
+
+    <owl:NamedIndividual rdf:about="http://dbpedia.org/resource/Pterodon_pubescens"/>
+    
+
+
+    <!-- http://dbpedia.org/resource/Qualea_multiflora -->
+
+    <owl:NamedIndividual rdf:about="http://dbpedia.org/resource/Qualea_multiflora"/>
+    
+
+
+    <!-- http://dbpedia.org/resource/Roupala_montana -->
+
+    <owl:NamedIndividual rdf:about="http://dbpedia.org/resource/Roupala_montana"/>
+    
+
+
+    <!-- http://dbpedia.org/resource/Schefflera_macrocarpa -->
+
+    <owl:NamedIndividual rdf:about="http://dbpedia.org/resource/Schefflera_macrocarpa"/>
+    
+
+
+    <!-- http://dbpedia.org/resource/Sclerolobium_paniculatum -->
+
+    <owl:NamedIndividual rdf:about="http://dbpedia.org/resource/Sclerolobium_paniculatum"/>
+    
+
+
+    <!-- http://dbpedia.org/resource/Styrax_ferrugineus -->
+
+    <owl:NamedIndividual rdf:about="http://dbpedia.org/resource/Styrax_ferrugineus"/>
+    
+
+
+    <!-- http://dbpedia.org/resource/Syagrus_comosa -->
+
+    <owl:NamedIndividual rdf:about="http://dbpedia.org/resource/Syagrus_comosa"/>
+    
+
+
+    <!-- http://dbpedia.org/resource/Syagrus_flexuosa -->
+
+    <owl:NamedIndividual rdf:about="http://dbpedia.org/resource/Syagrus_flexuosa"/>
+    
+
+
+    <!-- http://dbpedia.org/resource/Tabebuia_ochracea -->
+
+    <owl:NamedIndividual rdf:about="http://dbpedia.org/resource/Tabebuia_ochracea"/>
+    
+
+
+    <!-- http://dbpedia.org/resource/Tocoyena_formosa -->
+
+    <owl:NamedIndividual rdf:about="http://dbpedia.org/resource/Tocoyena_formosa"/>
+    
+
+
+    <!-- http://dbpedia.org/resource/Vatairea_macrocarpa -->
+
+    <owl:NamedIndividual rdf:about="http://dbpedia.org/resource/Vatairea_macrocarpa"/>
+    
+
+
+    <!-- http://dbpedia.org/resource/Vochysia_elliptica -->
+
+    <owl:NamedIndividual rdf:about="http://dbpedia.org/resource/Vochysia_elliptica"/>
+    
+
+
+    <!-- http://dbpedia.org/resource/Vochysia_thyrsoidea -->
+
+    <owl:NamedIndividual rdf:about="http://dbpedia.org/resource/Vochysia_thyrsoidea"/>
+    
+
+
+    <!-- http://rdf.freebase.com/ns/m.0269bcv -->
+
+    <owl:NamedIndividual rdf:about="http://rdf.freebase.com/ns/m.0269bcv">
+        <rdf:type rdf:resource="http://cerrado.linkeddata.es/ecology/ccon#WoodLayer"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Hancornia speciosa</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://rdf.freebase.com/ns/m.02r5m6g -->
+
+    <owl:NamedIndividual rdf:about="http://rdf.freebase.com/ns/m.02r5m6g">
+        <rdf:type rdf:resource="http://cerrado.linkeddata.es/ecology/ccon#Species"/>
+        <rdf:type rdf:resource="http://cerrado.linkeddata.es/ecology/ccon#WoodLayer"/>
+        <rdfs:label>Jacaranda decurrens</rdfs:label>
+    </owl:NamedIndividual>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 3.5.6) http://owlapi.sourceforge.net -->
+

@@ -1,0 +1,3722 @@
+<?xml version="1.0"?>
+
+
+<!DOCTYPE rdf:RDF [
+    <!ENTITY terms "http://purl.org/dc/terms/" >
+    <!ENTITY vann "http://purl.org/vocab/vann/" >
+    <!ENTITY owl "http://www.w3.org/2002/07/owl#" >
+    <!ENTITY dc "http://purl.org/dc/elements/1.1/" >
+    <!ENTITY xsd "http://www.w3.org/2001/XMLSchema#" >
+    <!ENTITY skos "http://www.w3.org/2004/02/skos/core#" >
+    <!ENTITY rdfs "http://www.w3.org/2000/01/rdf-schema#" >
+    <!ENTITY ccon "http://cerrado.linkeddata.es/ecology/ccon#" >
+    <!ENTITY rdf "http://www.w3.org/1999/02/22-rdf-syntax-ns#" >
+    <!ENTITY oboInOwl "http://www.geneontology.org/formats/oboInOwl#" >
+]>
+
+
+<rdf:RDF xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://www.w3.org/2002/07/owl"
+     xmlns:dc="http://purl.org/dc/elements/1.1/"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:terms="http://purl.org/dc/terms/"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:ccon="http://cerrado.linkeddata.es/ecology/ccon#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:vann="http://purl.org/vocab/vann/"
+     xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#"
+     xmlns:skos="http://www.w3.org/2004/02/skos/core#">
+    <Ontology rdf:about="http://cerrado.linkeddata.es/ecology/ccon#">
+        <terms:creator rdf:datatype="&xsd;anyURI">http://lattes.cnpq.br/3259677468745429</terms:creator>
+        <rdfs:comment xml:lang="en">Cerrado concepts and dynamics ontology (Ccon) aims to represent the main concepts about the Cerrado plant communities structure and dynamics.</rdfs:comment>
+        <vann:preferredNamespacePrefix>ccon</vann:preferredNamespacePrefix>
+        <terms:created>2013-10-31</terms:created>
+        <vann:preferredNamespaceUri>http://cerrado.linkeddata.es/ecology/ccon#</vann:preferredNamespaceUri>
+        <versionInfo>0.9.3</versionInfo>
+        <terms:modified>2013-12-03</terms:modified>
+        <terms:title xml:lang="en">The Ccon Ontology</terms:title>
+        <terms:description xml:lang="en">The Ccon represents the main concepts about the Cerrado plant communities structure and dynamics. This ontology will be part of the GeoLinked Data Ontology network to enrich the web of data with geospatial information of the Cerrado Biome, especially with regard the wood plant dynamics.</terms:description>
+    </Ontology>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://cerrado.linkeddata.es/ecology/ccon#hasAcceptedName -->
+
+    <AnnotationProperty rdf:about="&ccon;hasAcceptedName"/>
+    
+
+
+    <!-- http://cerrado.linkeddata.es/ecology/ccon#hasSynonym -->
+
+    <AnnotationProperty rdf:about="&ccon;hasSynonym"/>
+    
+
+
+    <!-- http://purl.org/dc/elements/1.1/date -->
+
+    <AnnotationProperty rdf:about="&dc;date"/>
+    
+
+
+    <!-- http://purl.org/dc/elements/1.1/identifier -->
+
+    <AnnotationProperty rdf:about="&dc;identifier"/>
+    
+
+
+    <!-- http://purl.org/dc/elements/1.1/source -->
+
+    <AnnotationProperty rdf:about="&dc;source"/>
+    
+
+
+    <!-- http://purl.org/dc/terms/created -->
+
+    <AnnotationProperty rdf:about="&terms;created"/>
+    
+
+
+    <!-- http://purl.org/dc/terms/creator -->
+
+    <AnnotationProperty rdf:about="&terms;creator"/>
+    
+
+
+    <!-- http://purl.org/dc/terms/description -->
+
+    <AnnotationProperty rdf:about="&terms;description"/>
+    
+
+
+    <!-- http://purl.org/dc/terms/modified -->
+
+    <AnnotationProperty rdf:about="&terms;modified"/>
+    
+
+
+    <!-- http://purl.org/dc/terms/title -->
+
+    <AnnotationProperty rdf:about="&terms;title"/>
+    
+
+
+    <!-- http://purl.org/vocab/vann/preferredNamespacePrefix -->
+
+    <AnnotationProperty rdf:about="&vann;preferredNamespacePrefix"/>
+    
+
+
+    <!-- http://purl.org/vocab/vann/preferredNamespaceUri -->
+
+    <AnnotationProperty rdf:about="&vann;preferredNamespaceUri"/>
+    
+
+
+    <!-- http://www.geneontology.org/formats/oboInOwl#created_by -->
+
+    <AnnotationProperty rdf:about="&oboInOwl;created_by"/>
+    
+
+
+    <!-- http://www.geneontology.org/formats/oboInOwl#creation_date -->
+
+    <AnnotationProperty rdf:about="&oboInOwl;creation_date"/>
+    
+
+
+    <!-- http://www.geneontology.org/formats/oboInOwl#hasDbXref -->
+
+    <AnnotationProperty rdf:about="&oboInOwl;hasDbXref"/>
+    
+
+
+    <!-- http://www.geneontology.org/formats/oboInOwl#hasOBONamespace -->
+
+    <AnnotationProperty rdf:about="&oboInOwl;hasOBONamespace"/>
+    
+
+
+    <!-- http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym -->
+
+    <AnnotationProperty rdf:about="&oboInOwl;hasRelatedSynonym"/>
+    
+
+
+    <!-- http://www.geneontology.org/formats/oboInOwl#id -->
+
+    <AnnotationProperty rdf:about="&oboInOwl;id"/>
+    
+
+
+    <!-- http://www.w3.org/2004/02/skos/core#definition -->
+
+    <AnnotationProperty rdf:about="&skos;definition"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://cerrado.linkeddata.es/ecology/ccon#affects -->
+
+    <ObjectProperty rdf:about="&ccon;affects">
+        <rdfs:label>affects</rdfs:label>
+        <rdfs:range rdf:resource="&ccon;Environment"/>
+        <inverseOf rdf:resource="&ccon;isAffectedBy"/>
+        <rdfs:domain rdf:resource="http://www.fao.org/aims/aos/cwr.owl#EcologicalPhenomena"/>
+    </ObjectProperty>
+    
+
+
+    <!-- http://cerrado.linkeddata.es/ecology/ccon#decreases -->
+
+    <ObjectProperty rdf:about="&ccon;decreases">
+        <rdfs:label>decreases</rdfs:label>
+        <rdfs:range rdf:resource="&ccon;GroundLayer"/>
+        <rdfs:domain rdf:resource="&ccon;Precipitation"/>
+        <rdfs:subPropertyOf rdf:resource="&ccon;affects"/>
+    </ObjectProperty>
+    
+
+
+    <!-- http://cerrado.linkeddata.es/ecology/ccon#hasComponent -->
+
+    <ObjectProperty rdf:about="&ccon;hasComponent">
+        <rdfs:label>has component</rdfs:label>
+        <rdfs:range rdf:resource="&ccon;Species"/>
+        <inverseOf rdf:resource="&ccon;isPartOf"/>
+        <rdfs:domain rdf:resource="http://www.fao.org/aims/aos/cwr.owl#Community"/>
+    </ObjectProperty>
+    
+
+
+    <!-- http://cerrado.linkeddata.es/ecology/ccon#hasDistribution -->
+
+    <ObjectProperty rdf:about="&ccon;hasDistribution">
+        <rdfs:label>has distribution</rdfs:label>
+        <rdfs:range rdf:resource="&ccon;GeographicalDistribution"/>
+        <rdfs:domain rdf:resource="&ccon;Species"/>
+    </ObjectProperty>
+    
+
+
+    <!-- http://cerrado.linkeddata.es/ecology/ccon#hasGrowth -->
+
+    <ObjectProperty rdf:about="&ccon;hasGrowth">
+        <rdfs:label xml:lang="en">has Growth</rdfs:label>
+        <rdfs:range rdf:resource="&ccon;GrowthRate"/>
+        <rdfs:domain>
+            <Class>
+                <unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.fao.org/aims/aos/cwr.owl#Community"/>
+                    <rdf:Description rdf:about="http://www.fao.org/aims/aos/cwr.owl#Population"/>
+                </unionOf>
+            </Class>
+        </rdfs:domain>
+    </ObjectProperty>
+    
+
+
+    <!-- http://cerrado.linkeddata.es/ecology/ccon#hasMortality -->
+
+    <ObjectProperty rdf:about="&ccon;hasMortality">
+        <rdfs:label>has mortality</rdfs:label>
+        <rdfs:range rdf:resource="&ccon;Mortality"/>
+        <inverseOf rdf:resource="&ccon;isMortalityOf"/>
+        <rdfs:domain rdf:resource="http://www.fao.org/aims/aos/cwr.owl#Community"/>
+    </ObjectProperty>
+    
+
+
+    <!-- http://cerrado.linkeddata.es/ecology/ccon#hasNatality -->
+
+    <ObjectProperty rdf:about="&ccon;hasNatality">
+        <rdfs:label>has natality</rdfs:label>
+        <rdfs:range rdf:resource="&ccon;Natality"/>
+        <inverseOf rdf:resource="&ccon;isNatalityOf"/>
+        <rdfs:domain rdf:resource="http://www.fao.org/aims/aos/cwr.owl#Population"/>
+    </ObjectProperty>
+    
+
+
+    <!-- http://cerrado.linkeddata.es/ecology/ccon#hasNumberOfIndividuals -->
+
+    <ObjectProperty rdf:about="&ccon;hasNumberOfIndividuals">
+        <rdfs:range rdf:resource="&ccon;NumberOfIndividuos"/>
+        <rdfs:domain rdf:resource="&ccon;Species"/>
+    </ObjectProperty>
+    
+
+
+    <!-- http://cerrado.linkeddata.es/ecology/ccon#hasRecruitment -->
+
+    <ObjectProperty rdf:about="&ccon;hasRecruitment">
+        <rdfs:label>has recruitment</rdfs:label>
+        <rdfs:range rdf:resource="&ccon;Recruitment"/>
+        <inverseOf rdf:resource="&ccon;isRecruitmentOf"/>
+        <rdfs:domain rdf:resource="http://www.fao.org/aims/aos/cwr.owl#Community"/>
+    </ObjectProperty>
+    
+
+
+    <!-- http://cerrado.linkeddata.es/ecology/ccon#hasSpecificName -->
+
+    <ObjectProperty rdf:about="&ccon;hasSpecificName">
+        <rdfs:label xml:lang="en">has specific name</rdfs:label>
+        <rdfs:domain rdf:resource="&ccon;Species"/>
+        <rdfs:range rdf:resource="&ccon;SpecificName"/>
+        <inverseOf rdf:resource="&ccon;isSpecificNameOf"/>
+    </ObjectProperty>
+    
+
+
+    <!-- http://cerrado.linkeddata.es/ecology/ccon#hasStatus -->
+
+    <ObjectProperty rdf:about="&ccon;hasStatus">
+        <rdfs:label>has status</rdfs:label>
+        <rdfs:range rdf:resource="&ccon;ConservationStatus"/>
+        <rdfs:domain rdf:resource="&ccon;Species"/>
+        <inverseOf rdf:resource="&ccon;isStatusOf"/>
+    </ObjectProperty>
+    
+
+
+    <!-- http://cerrado.linkeddata.es/ecology/ccon#increases -->
+
+    <ObjectProperty rdf:about="&ccon;increases">
+        <rdfs:label>increases</rdfs:label>
+        <rdfs:domain rdf:resource="&ccon;Precipitation"/>
+        <rdfs:range rdf:resource="&ccon;WoodLayer"/>
+        <rdfs:subPropertyOf rdf:resource="&ccon;affects"/>
+    </ObjectProperty>
+    
+
+
+    <!-- http://cerrado.linkeddata.es/ecology/ccon#isAffectedBy -->
+
+    <ObjectProperty rdf:about="&ccon;isAffectedBy">
+        <rdfs:label>is affected by</rdfs:label>
+        <rdfs:domain rdf:resource="&ccon;Environment"/>
+        <rdfs:range rdf:resource="http://www.fao.org/aims/aos/cwr.owl#EcologicalPhenomena"/>
+    </ObjectProperty>
+    
+
+
+    <!-- http://cerrado.linkeddata.es/ecology/ccon#isCharacteristicOf -->
+
+    <ObjectProperty rdf:about="&ccon;isCharacteristicOf">
+        <rdfs:label>is characteristic of</rdfs:label>
+        <inverseOf rdf:resource="&ccon;isCharacterizedBy"/>
+        <rdfs:range rdf:resource="http://www.fao.org/aims/aos/cwr.owl#Community"/>
+        <rdfs:domain rdf:resource="http://www.fao.org/aims/aos/cwr.owl#EcologicalPhenomena"/>
+    </ObjectProperty>
+    
+
+
+    <!-- http://cerrado.linkeddata.es/ecology/ccon#isCharacterizedBy -->
+
+    <ObjectProperty rdf:about="&ccon;isCharacterizedBy">
+        <rdfs:label>is characterized by</rdfs:label>
+        <rdfs:domain rdf:resource="http://www.fao.org/aims/aos/cwr.owl#Community"/>
+        <rdfs:range rdf:resource="http://www.fao.org/aims/aos/cwr.owl#EcologicalPhenomena"/>
+    </ObjectProperty>
+    
+
+
+    <!-- http://cerrado.linkeddata.es/ecology/ccon#isDecreasedBy -->
+
+    <ObjectProperty rdf:about="&ccon;isDecreasedBy">
+        <rdfs:label>is decreased by</rdfs:label>
+        <rdfs:domain rdf:resource="&ccon;GroundLayer"/>
+        <rdfs:range rdf:resource="&ccon;Precipitation"/>
+        <inverseOf rdf:resource="&ccon;decreases"/>
+    </ObjectProperty>
+    
+
+
+    <!-- http://cerrado.linkeddata.es/ecology/ccon#isGrowthOf -->
+
+    <ObjectProperty rdf:about="&ccon;isGrowthOf">
+        <rdfs:label xml:lang="en">is growth of</rdfs:label>
+        <rdfs:domain rdf:resource="&ccon;GrowthRate"/>
+        <inverseOf rdf:resource="&ccon;hasGrowth"/>
+        <rdfs:range>
+            <Class>
+                <unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.fao.org/aims/aos/cwr.owl#Community"/>
+                    <rdf:Description rdf:about="http://www.fao.org/aims/aos/cwr.owl#Population"/>
+                </unionOf>
+            </Class>
+        </rdfs:range>
+    </ObjectProperty>
+    
+
+
+    <!-- http://cerrado.linkeddata.es/ecology/ccon#isHabitatOf -->
+
+    <ObjectProperty rdf:about="&ccon;isHabitatOf">
+        <rdfs:label>is habitat of</rdfs:label>
+        <rdfs:domain rdf:resource="&ccon;GeographicalDistribution"/>
+        <rdfs:range rdf:resource="&ccon;Species"/>
+        <inverseOf rdf:resource="&ccon;hasDistribution"/>
+    </ObjectProperty>
+    
+
+
+    <!-- http://cerrado.linkeddata.es/ecology/ccon#isIncreasedBy -->
+
+    <ObjectProperty rdf:about="&ccon;isIncreasedBy">
+        <rdfs:label>is increased by</rdfs:label>
+        <rdfs:range rdf:resource="&ccon;Precipitation"/>
+        <rdfs:domain rdf:resource="&ccon;WoodLayer"/>
+        <inverseOf rdf:resource="&ccon;increases"/>
+    </ObjectProperty>
+    
+
+
+    <!-- http://cerrado.linkeddata.es/ecology/ccon#isMortalityOf -->
+
+    <ObjectProperty rdf:about="&ccon;isMortalityOf">
+        <rdfs:label>is mortality of</rdfs:label>
+        <rdfs:domain rdf:resource="&ccon;Mortality"/>
+        <rdfs:range rdf:resource="http://www.fao.org/aims/aos/cwr.owl#Community"/>
+    </ObjectProperty>
+    
+
+
+    <!-- http://cerrado.linkeddata.es/ecology/ccon#isNatalityOf -->
+
+    <ObjectProperty rdf:about="&ccon;isNatalityOf">
+        <rdfs:label>is natality of</rdfs:label>
+        <rdfs:domain rdf:resource="&ccon;Natality"/>
+        <rdfs:range rdf:resource="http://www.fao.org/aims/aos/cwr.owl#Population"/>
+    </ObjectProperty>
+    
+
+
+    <!-- http://cerrado.linkeddata.es/ecology/ccon#isPartOf -->
+
+    <ObjectProperty rdf:about="&ccon;isPartOf">
+        <rdfs:label>is part of</rdfs:label>
+        <rdfs:domain rdf:resource="&ccon;Species"/>
+        <rdfs:range rdf:resource="http://www.fao.org/aims/aos/cwr.owl#Community"/>
+        <equivalentProperty rdf:resource="http://www.fao.org/aims/aos/cwr.owl#isPartOf"/>
+    </ObjectProperty>
+    
+
+
+    <!-- http://cerrado.linkeddata.es/ecology/ccon#isRecruitmentOf -->
+
+    <ObjectProperty rdf:about="&ccon;isRecruitmentOf">
+        <rdfs:label>is recruitment of</rdfs:label>
+        <rdfs:domain rdf:resource="&ccon;Recruitment"/>
+        <rdfs:range rdf:resource="http://www.fao.org/aims/aos/cwr.owl#Community"/>
+    </ObjectProperty>
+    
+
+
+    <!-- http://cerrado.linkeddata.es/ecology/ccon#isSpecificNameOf -->
+
+    <ObjectProperty rdf:about="&ccon;isSpecificNameOf">
+        <rdfs:label xml:lang="en">is specific name of</rdfs:label>
+        <rdfs:range rdf:resource="&ccon;Species"/>
+        <rdfs:domain rdf:resource="&ccon;SpecificName"/>
+    </ObjectProperty>
+    
+
+
+    <!-- http://cerrado.linkeddata.es/ecology/ccon#isStatusOf -->
+
+    <ObjectProperty rdf:about="&ccon;isStatusOf">
+        <rdfs:label>is status of</rdfs:label>
+        <rdfs:domain rdf:resource="&ccon;ConservationStatus"/>
+        <rdfs:range rdf:resource="&ccon;Species"/>
+    </ObjectProperty>
+    
+
+
+    <!-- http://www.fao.org/aims/aos/cwr.owl#isPartOf -->
+
+    <ObjectProperty rdf:about="http://www.fao.org/aims/aos/cwr.owl#isPartOf">
+        <rdfs:label>is part of</rdfs:label>
+        <rdfs:domain rdf:resource="&ccon;Species"/>
+        <inverseOf rdf:resource="&ccon;hasComponent"/>
+        <rdfs:range rdf:resource="http://www.fao.org/aims/aos/cwr.owl#Community"/>
+    </ObjectProperty>
+    
+
+
+    <!-- http://www.w3.org/2004/02/skos/core#exactMatch -->
+
+    <ObjectProperty rdf:about="&skos;exactMatch">
+        <rdf:type rdf:resource="&owl;SymmetricProperty"/>
+        <rdf:type rdf:resource="&owl;TransitiveProperty"/>
+        <rdfs:label xml:lang="en">has exact match</rdfs:label>
+        <rdfs:comment xml:lang="en">skos:exactMatch is disjoint with each of the properties skos:broadMatch and skos:relatedMatch.</rdfs:comment>
+        <skos:definition xml:lang="en">skos:exactMatch is used to link two concepts, indicating a high degree of confidence that the concepts can be used interchangeably across a wide range of information retrieval applications. skos:exactMatch is a transitive property, and is a sub-property of skos:closeMatch.</skos:definition>
+        <rdfs:domain rdf:resource="&ccon;Species"/>
+        <rdfs:range rdf:resource="&ccon;Species"/>
+        <rdfs:isDefinedBy rdf:resource="http://www.w3.org/2004/02/skos/core"/>
+        <rdfs:subPropertyOf rdf:resource="&skos;mappingRelation"/>
+    </ObjectProperty>
+    
+
+
+    <!-- http://www.w3.org/2004/02/skos/core#mappingRelation -->
+
+    <ObjectProperty rdf:about="&skos;mappingRelation">
+        <rdf:type rdf:resource="&owl;SymmetricProperty"/>
+        <rdfs:label>mapping relation</rdfs:label>
+        <rdfs:range rdf:resource="&ccon;Species"/>
+        <rdfs:domain rdf:resource="&ccon;Species"/>
+    </ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://cerrado.linkeddata.es/ecology/ccon#BasalArea -->
+
+    <Class rdf:about="&ccon;BasalArea">
+        <rdfs:label rdf:datatype="&xsd;string">basal area</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.fao.org/aims/aos/cwr.owl#CommunityStructure"/>
+        <rdfs:comment xml:lang="en">It&apos;s the area of a breast-high cross section of a tree or of all the trees in a stand.
+
+Source: Merriam-Webster dictionary (www.merriam-webster.com)</rdfs:comment>
+    </Class>
+    
+
+
+    <!-- http://cerrado.linkeddata.es/ecology/ccon#Biodiversity -->
+
+    <Class rdf:about="&ccon;Biodiversity">
+        <rdfs:label rdf:datatype="&xsd;string">biodiversity</rdfs:label>
+        <rdfs:label>biological diversity</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.fao.org/aims/aos/cwr.owl#Diversity"/>
+        <rdfs:comment xml:lang="en">It&apos;s the degree of veriation of life forms within a given species, ecosystem, biome, or planet.
+Source: wikipedia.org</rdfs:comment>
+    </Class>
+    
+
+
+    <!-- http://cerrado.linkeddata.es/ecology/ccon#BiologicalOrganizationLevel -->
+
+    <Class rdf:about="&ccon;BiologicalOrganizationLevel">
+        <rdfs:label rdf:datatype="&xsd;string">biological organization level</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&owl;Thing"/>
+        <rdfs:comment xml:lang="en">The hierarchy of complex biological structures and systems that define life using a reductionistic approach</rdfs:comment>
+        <rdfs:comment xml:lang="pt">Hierarquia de estruturas e sistemas biológicos complexos que definem a vida usando uma abordagem reducionista.</rdfs:comment>
+    </Class>
+    
+
+
+    <!-- http://cerrado.linkeddata.es/ecology/ccon#CampoCerrado -->
+
+    <Class rdf:about="&ccon;CampoCerrado">
+        <rdfs:label xml:lang="en">&quot;closed field&quot;</rdfs:label>
+        <rdfs:label xml:lang="pt">campo cerrado</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&ccon;Savanna"/>
+        <disjointWith rdf:resource="&ccon;CampoSujo"/>
+        <disjointWith rdf:resource="&ccon;CerradoSensuStricto"/>
+        <rdfs:comment xml:lang="en">Scattered trees and shrubs and a large proportion of grassland</rdfs:comment>
+    </Class>
+    
+
+
+    <!-- http://cerrado.linkeddata.es/ecology/ccon#CampoLimpo -->
+
+    <Class rdf:about="&ccon;CampoLimpo">
+        <rdfs:label rdf:datatype="&xsd;string">campo limpo</rdfs:label>
+        <rdfs:label xml:lang="en">&quot;clean field&quot;</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&ccon;TropicalGrassland"/>
+        <rdfs:comment xml:lang="en">Dry grassland without shrubs or trees</rdfs:comment>
+    </Class>
+    
+
+
+    <!-- http://cerrado.linkeddata.es/ecology/ccon#CampoSujo -->
+
+    <Class rdf:about="&ccon;CampoSujo">
+        <rdfs:label xml:lang="en">&quot;dirty field&quot;</rdfs:label>
+        <rdfs:label xml:lang="pt">campo sujo</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&ccon;Savanna"/>
+        <disjointWith rdf:resource="&ccon;CerradoSensuStricto"/>
+        <rdfs:comment xml:lang="en">Grassland with a scattering of shrubs and small trees</rdfs:comment>
+    </Class>
+    
+
+
+    <!-- http://cerrado.linkeddata.es/ecology/ccon#Cerradao -->
+
+    <Class rdf:about="&ccon;Cerradao">
+        <rdfs:label rdf:datatype="&xsd;string">cerradão</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&ccon;TropicalSeasonalForest"/>
+        <rdfs:comment xml:lang="en">Portuguese augmentative of cerrado, is an almost closed woodland with crown cover of 50% to 90%, made up of trees, often 8-12m or even taller, casting a considerable shade so that the ground layer is much reduced</rdfs:comment>
+    </Class>
+    
+
+
+    <!-- http://cerrado.linkeddata.es/ecology/ccon#Cerrado -->
+
+    <Class rdf:about="&ccon;Cerrado">
+        <rdfs:label rdf:datatype="&xsd;string">cerrado</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&ccon;Ecoregion"/>
+        <rdfs:comment xml:lang="en">It&apos;s a vast tropical savanna ecoregion of Brazil</rdfs:comment>
+    </Class>
+    
+
+
+    <!-- http://cerrado.linkeddata.es/ecology/ccon#CerradoDeterminingFactors -->
+
+    <Class rdf:about="&ccon;CerradoDeterminingFactors">
+        <rdfs:label rdf:datatype="&xsd;string">cerrado determining factors</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&ccon;Environment"/>
+        <rdfs:comment xml:lang="en">Environmental factos that affect the current occurrence and geographical distribution of the cerrado ecoregion.</rdfs:comment>
+    </Class>
+    
+
+
+    <!-- http://cerrado.linkeddata.es/ecology/ccon#CerradoSensuLato -->
+
+    <Class rdf:about="&ccon;CerradoSensuLato">
+        <rdfs:label rdf:datatype="&xsd;string">cerrado sensu lato</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&ccon;Cerrado"/>
+        <rdfs:comment xml:lang="en">It&apos;s a regional large scale vegetation which consists of a floristic and vegetational province</rdfs:comment>
+        <rdfs:comment xml:lang="pt">É uma vegetação de larga escala regional que forma tanto uma província vegetacional quanto florística</rdfs:comment>
+    </Class>
+    
+
+
+    <!-- http://cerrado.linkeddata.es/ecology/ccon#CerradoSensuStricto -->
+
+    <Class rdf:about="&ccon;CerradoSensuStricto">
+        <rdfs:label xml:lang="en">cerrado sensu stricto</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&ccon;Savanna"/>
+        <rdfs:comment xml:lang="en">The vegetation is dominated by trees and shrubs with over 30% of canopy cover, but with stiil a fair amount of herbaceous vegetation between them</rdfs:comment>
+    </Class>
+    
+
+
+    <!-- http://cerrado.linkeddata.es/ecology/ccon#Climate -->
+
+    <Class rdf:about="&ccon;Climate">
+        <rdfs:label>climate</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&ccon;CerradoDeterminingFactors"/>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="&ccon;hasComponent"/>
+                <someValuesFrom rdf:resource="&ccon;RelativeHumidity"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="&ccon;hasComponent"/>
+                <someValuesFrom rdf:resource="&ccon;Precipitation"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:comment xml:lang="en">The type of average weather, the state, including statistical description, of the climate system.</rdfs:comment>
+    </Class>
+    
+
+
+    <!-- http://cerrado.linkeddata.es/ecology/ccon#ComunityDynamics -->
+
+    <Class rdf:about="&ccon;ComunityDynamics">
+        <rdfs:label rdf:datatype="&xsd;string">community dynamics</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.fao.org/aims/aos/cwr.owl#EcologicalPhenomena"/>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="&ccon;isCharacteristicOf"/>
+                <someValuesFrom rdf:resource="http://www.fao.org/aims/aos/cwr.owl#PlantCommunity"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:comment xml:lang="en">The community dynamics is the study of changes over time of the structure of biological communities.</rdfs:comment>
+    </Class>
+    
+
+
+    <!-- http://cerrado.linkeddata.es/ecology/ccon#ConservationStatus -->
+
+    <Class rdf:about="&ccon;ConservationStatus">
+        <rdfs:label rdf:datatype="&xsd;string">conservation status</rdfs:label>
+        <rdfs:comment xml:lang="en">The conservation status of a group of organisms (for instance, a species) indicates whether the group is extant (members of it are still alive) and how likely the group is to become extinct in the near future. Source: wikipedia.org</rdfs:comment>
+    </Class>
+    
+
+
+    <!-- http://cerrado.linkeddata.es/ecology/ccon#Density -->
+
+    <Class rdf:about="&ccon;Density">
+        <rdfs:label rdf:datatype="&xsd;string">density</rdfs:label>
+        <equivalentClass rdf:resource="http://www.fao.org/aims/aos/cwr.owl#PopulationDensity"/>
+        <rdfs:subClassOf rdf:resource="http://www.fao.org/aims/aos/cwr.owl#CommunityStructure"/>
+        <rdfs:comment xml:lang="en">The number of individuals of a population or cummunity occupying an area. </rdfs:comment>
+    </Class>
+    
+
+
+    <!-- http://cerrado.linkeddata.es/ecology/ccon#DiameterClassDistribution -->
+
+    <Class rdf:about="&ccon;DiameterClassDistribution">
+        <rdfs:label rdf:datatype="&xsd;string">diameter class distribution</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.fao.org/aims/aos/cwr.owl#CommunityStructure"/>
+        <rdfs:comment xml:lang="en">Consists of the distribution of the number of individuals in diameter classes. </rdfs:comment>
+    </Class>
+    
+
+
+    <!-- http://cerrado.linkeddata.es/ecology/ccon#Difference -->
+
+    <Class rdf:about="&ccon;Difference">
+        <rdfs:label xml:lang="en">difference</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&ccon;ComunityDynamics"/>
+        <rdfs:comment xml:lang="en">It&apos;s the difference of any parameter (size, number of deads, number of recruits etc.) between two dates. </rdfs:comment>
+    </Class>
+    
+
+
+    <!-- http://cerrado.linkeddata.es/ecology/ccon#DiversityIndex -->
+
+    <Class rdf:about="&ccon;DiversityIndex">
+        <rdfs:label rdf:datatype="&xsd;string">diversity index</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.fao.org/aims/aos/cwr.owl#Diversity"/>
+        <rdfs:comment xml:lang="en">It&apos;s a quantitative measure that reflects how many different types (such as species) there are in a dataset, and can simultaneously takes into account how evenly the basic units (such as individuals) are distributed among those types.
+Source: wikipedia.org</rdfs:comment>
+    </Class>
+    
+
+
+    <!-- http://cerrado.linkeddata.es/ecology/ccon#DrySeason -->
+
+    <Class rdf:about="&ccon;DrySeason">
+        <rdfs:label>dry season</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&ccon;TropicalSeason"/>
+        <disjointWith rdf:resource="&ccon;WetSeason"/>
+        <rdfs:comment xml:lang="en">Consists of the period of the year in some tropical climate areas with average rainfall less than 60mm by month.</rdfs:comment>
+    </Class>
+    
+
+
+    <!-- http://cerrado.linkeddata.es/ecology/ccon#Ecoregion -->
+
+    <Class rdf:about="&ccon;Ecoregion">
+        <rdfs:label rdf:datatype="&xsd;string">ecoregion</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&ccon;BiologicalOrganizationLevel"/>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="&ccon;isPartOf"/>
+                <someValuesFrom rdf:resource="http://www.fao.org/aims/aos/cwr.owl#Biosphere"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:comment xml:lang="en">An ecologically defined large unit of land or water containing a geographically distinct assemblage of species, natural communities, and environmental conditions</rdfs:comment>
+        <rdfs:comment xml:lang="pt">Uma grande unidade terrestre ou aquática ecologicamente definida contendo uma assembleia geograficamente distinta de espécies, comunidades naturais e condiçoes ambientais. </rdfs:comment>
+    </Class>
+    
+
+
+    <!-- http://cerrado.linkeddata.es/ecology/ccon#Environment -->
+
+    <Class rdf:about="&ccon;Environment">
+        <rdfs:label rdf:datatype="&xsd;string">environment</rdfs:label>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="&ccon;affects"/>
+                <someValuesFrom rdf:resource="http://www.fao.org/aims/aos/cwr.owl#EcologicalPhenomena"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="&ccon;affects"/>
+                <someValuesFrom rdf:resource="&ccon;Species"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="&ccon;affects"/>
+                <someValuesFrom rdf:resource="&ccon;BiologicalOrganizationLevel"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:comment xml:lang="en">The environment of an organism consists of all those factors and phenomena outside the organism that influence it, whether these
+are physical and chemical (abiotic) or other organisms (biotic) (Begon et al., 2006)</rdfs:comment>
+        <rdfs:comment xml:lang="pt">O ambiente de um organismo consiste de todos os fatores e fenômenos exteriores ao organismo que o influencia, tanto físicos e químicos (abióticos), quanto outros organismos (bióticos) (Begon et al., 2006).</rdfs:comment>
+    </Class>
+    
+
+
+    <!-- http://cerrado.linkeddata.es/ecology/ccon#FireIncidence -->
+
+    <Class rdf:about="&ccon;FireIncidence">
+        <rdfs:label rdf:datatype="&xsd;string">fire incidence</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_01000203"/>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="&ccon;increases"/>
+                <allValuesFrom rdf:resource="&ccon;GroundLayer"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="&ccon;decreases"/>
+                <allValuesFrom rdf:resource="&ccon;WoodLayer"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:comment xml:lang="en">The occurrence of burning in ecosystems.</rdfs:comment>
+    </Class>
+    
+
+
+    <!-- http://cerrado.linkeddata.es/ecology/ccon#FireRegime -->
+
+    <Class rdf:about="&ccon;FireRegime">
+        <rdfs:label rdf:datatype="&xsd;string">fire regime</rdfs:label>
+        <rdfs:label xml:lang="en">Fire</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&ccon;CerradoDeterminingFactors"/>
+        <rdfs:comment xml:lang="en">It&apos;s the pattern of veriation in fire occurence, frequency and severity.</rdfs:comment>
+    </Class>
+    
+
+
+    <!-- http://cerrado.linkeddata.es/ecology/ccon#GeographicalDistribution -->
+
+    <Class rdf:about="&ccon;GeographicalDistribution">
+        <rdfs:label rdf:datatype="&xsd;string">geographical distribution</rdfs:label>
+        <rdfs:comment xml:lang="en">The total area of habitat in which a species can inhabit.</rdfs:comment>
+    </Class>
+    
+
+
+    <!-- http://cerrado.linkeddata.es/ecology/ccon#Grass -->
+
+    <Class rdf:about="&ccon;Grass">
+        <rdfs:label>grass</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.fao.org/aims/aos/cwr.owl#Angiosperm"/>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="&ccon;isPartOf"/>
+                <allValuesFrom rdf:resource="&ccon;GroundLayer"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <disjointWith rdf:resource="&ccon;HerbaceousPlant"/>
+        <disjointWith rdf:resource="&ccon;Shrub"/>
+        <disjointWith rdf:resource="&ccon;Tree"/>
+        <rdfs:comment xml:lang="en">Grasses or graminoids are monocotyledonous from Poales Order, usually herbaceos plants with narrow leaves growing from the base. They include some of the most versatile plant life-forms and became widespread toward the end of the Cretaceous period. 
+Source: wikipedia.org; eol.org</rdfs:comment>
+    </Class>
+    
+
+
+    <!-- http://cerrado.linkeddata.es/ecology/ccon#GroundLayer -->
+
+    <Class rdf:about="&ccon;GroundLayer">
+        <rdfs:label rdf:datatype="&xsd;string">ground layer</rdfs:label>
+        <rdfs:label>understory vegetation</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.fao.org/aims/aos/cwr.owl#VegetationCover"/>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="&ccon;hasComponent"/>
+                <someValuesFrom rdf:resource="&ccon;Grass"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="&ccon;isPartOf"/>
+                <allValuesFrom rdf:resource="&ccon;Savanna"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="&ccon;hasComponent"/>
+                <someValuesFrom rdf:resource="&ccon;HerbaceousPlant"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="&ccon;isPartOf"/>
+                <allValuesFrom rdf:resource="&ccon;TropicalGrassland"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <disjointWith rdf:resource="&ccon;WoodLayer"/>
+        <rdfs:comment xml:lang="en">It is the understory vegegtation which consistis of mainly grass and herbaceous plants</rdfs:comment>
+    </Class>
+    
+
+
+    <!-- http://cerrado.linkeddata.es/ecology/ccon#GrowthRate -->
+
+    <Class rdf:about="&ccon;GrowthRate">
+        <rdfs:label rdf:datatype="&xsd;string">growth</rdfs:label>
+        <rdfs:label rdf:datatype="&xsd;string">growth rate</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&ccon;ComunityDynamics"/>
+        <rdfs:subClassOf rdf:resource="&ccon;PopulationDynamics"/>
+        <rdfs:comment xml:lang="en">It&apos;s a measure of the changes in population or community size over time.</rdfs:comment>
+    </Class>
+    
+
+
+    <!-- http://cerrado.linkeddata.es/ecology/ccon#HerbaceousPlant -->
+
+    <Class rdf:about="&ccon;HerbaceousPlant">
+        <rdfs:label>herbaceous plant</rdfs:label>
+        <rdfs:label>herb</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.fao.org/aims/aos/cwr.owl#Angiosperm"/>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="&ccon;isPartOf"/>
+                <allValuesFrom rdf:resource="&ccon;GroundLayer"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <disjointWith rdf:resource="&ccon;Shrub"/>
+        <disjointWith rdf:resource="&ccon;Tree"/>
+        <rdfs:comment xml:lang="en">A herbaceous plant is a plant that has leaves and stems that die down at the end of the growing season to the soil level. They have no persistent woody stem above ground. Herbaceous plants may be annuals, biennials or perennials.
+Source: wikipedia.org</rdfs:comment>
+    </Class>
+    
+
+
+    <!-- http://cerrado.linkeddata.es/ecology/ccon#Metapopulation -->
+
+    <Class rdf:about="&ccon;Metapopulation">
+        <rdfs:label rdf:datatype="&xsd;string">metapopulation</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&ccon;BiologicalOrganizationLevel"/>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="&ccon;isPartOf"/>
+                <someValuesFrom rdf:resource="http://www.fao.org/aims/aos/cwr.owl#Community"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="&ccon;isPartOf"/>
+                <someValuesFrom rdf:resource="&ccon;Species"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:comment xml:lang="en">Consists of a group of spatially separated populations of the same species which interact at some level.
+Source: wikipedia.org</rdfs:comment>
+    </Class>
+    
+
+
+    <!-- http://cerrado.linkeddata.es/ecology/ccon#Mortality -->
+
+    <Class rdf:about="&ccon;Mortality">
+        <rdfs:label rdf:datatype="&xsd;string">death rate</rdfs:label>
+        <rdfs:label rdf:datatype="&xsd;string">mortality</rdfs:label>
+        <rdfs:label rdf:datatype="&xsd;string">mortality rate</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&ccon;ComunityDynamics"/>
+        <rdfs:subClassOf rdf:resource="&ccon;PopulationDynamics"/>
+        <rdfs:comment xml:lang="en">It&apos;s the number of individuals dead over time.</rdfs:comment>
+    </Class>
+    
+
+
+    <!-- http://cerrado.linkeddata.es/ecology/ccon#Natality -->
+
+    <Class rdf:about="&ccon;Natality">
+        <rdfs:label rdf:datatype="&xsd;string">birth rate</rdfs:label>
+        <rdfs:label rdf:datatype="&xsd;string">natality</rdfs:label>
+        <rdfs:label rdf:datatype="&xsd;string">natality rate</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&ccon;PopulationDynamics"/>
+        <rdfs:comment xml:lang="en">The rate in which new borns are added to a population, or in other words, the number of new borns over time.</rdfs:comment>
+    </Class>
+    
+
+
+    <!-- http://cerrado.linkeddata.es/ecology/ccon#NumberOfIndividuos -->
+
+    <Class rdf:about="&ccon;NumberOfIndividuos">
+        <rdfs:label rdf:datatype="&xsd;string">number of individuos</rdfs:label>
+        <equivalentClass rdf:resource="http://www.fao.org/aims/aos/cwr.owl#PopulationSize"/>
+        <rdfs:subClassOf rdf:resource="http://www.fao.org/aims/aos/cwr.owl#CommunityStructure"/>
+        <rdfs:comment xml:lang="en">It&apos;s the amount of individuals of a population or community.</rdfs:comment>
+    </Class>
+    
+
+
+    <!-- http://cerrado.linkeddata.es/ecology/ccon#PielousEvenness -->
+
+    <Class rdf:about="&ccon;PielousEvenness">
+        <rdfs:label>pielou&apos;s evenness</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&ccon;SpeciesEvenness"/>
+        <rdfs:comment xml:lang="en">It&apos;s a representation of the evenness and quantifies how equal the community is numerically.</rdfs:comment>
+    </Class>
+    
+
+
+    <!-- http://cerrado.linkeddata.es/ecology/ccon#PopulationDynamics -->
+
+    <Class rdf:about="&ccon;PopulationDynamics">
+        <rdfs:label> population dynamics</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.fao.org/aims/aos/cwr.owl#EcologicalPhenomena"/>
+        <rdfs:comment xml:lang="en">It&apos;s the study of the changes of the size of a population over time.</rdfs:comment>
+    </Class>
+    
+
+
+    <!-- http://cerrado.linkeddata.es/ecology/ccon#Precipitation -->
+
+    <Class rdf:about="&ccon;Precipitation">
+        <rdfs:label rdf:datatype="&xsd;string">precipitation</rdfs:label>
+        <rdfs:label rdf:datatype="&xsd;string">rainfall</rdfs:label>
+        <rdfs:label>average annual precipitation</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_01000203"/>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="&ccon;increases"/>
+                <allValuesFrom rdf:resource="&ccon;WoodLayer"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="&ccon;decreases"/>
+                <allValuesFrom rdf:resource="&ccon;GroundLayer"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:comment xml:lang="en">Any product of the condensation of atmospheric water vapour that falls under gravity (http://en.wikipedia.org/wiki/Precipitation)</rdfs:comment>
+        <rdfs:comment xml:lang="pt">Qualquer produto da condensação do vapor de água atmosférico que cai sob efeito da gravidade.</rdfs:comment>
+    </Class>
+    
+
+
+    <!-- http://cerrado.linkeddata.es/ecology/ccon#Recruitment -->
+
+    <Class rdf:about="&ccon;Recruitment">
+        <rdfs:label rdf:datatype="&xsd;string">recruitment rate</rdfs:label>
+        <rdfs:label xml:lang="en">recruitment</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&ccon;ComunityDynamics"/>
+        <rdfs:comment xml:lang="en">It&apos;s the rate on which new individuals establishes in a certain community either by new born individuals or immigration.</rdfs:comment>
+    </Class>
+    
+
+
+    <!-- http://cerrado.linkeddata.es/ecology/ccon#RelativeHumidity -->
+
+    <Class rdf:about="&ccon;RelativeHumidity">
+        <rdfs:label rdf:datatype="&xsd;string">relative humidity</rdfs:label>
+        <rdfs:label>Mean annual relative humidity</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_01000203"/>
+        <rdfs:comment xml:lang="en">The relative amount of whater vapour in the atmosphere</rdfs:comment>
+        <rdfs:comment xml:lang="pt">Quantidade relativa de vapor de água na atmosfera</rdfs:comment>
+    </Class>
+    
+
+
+    <!-- http://cerrado.linkeddata.es/ecology/ccon#Savanna -->
+
+    <Class rdf:about="&ccon;Savanna">
+        <rdfs:label rdf:datatype="&xsd;string">savanna</rdfs:label>
+        <equivalentClass rdf:resource="http://www.fao.org/aims/aos/cwr.owl#SavannaHabitat"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_00000446"/>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="&ccon;isPartOf"/>
+                <allValuesFrom rdf:resource="&ccon;CerradoSensuLato"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:comment xml:lang="en">grasslands with scattered trees</rdfs:comment>
+        <rdfs:comment xml:lang="pt">campos com árvores esparsas</rdfs:comment>
+    </Class>
+    
+
+
+    <!-- http://cerrado.linkeddata.es/ecology/ccon#Season -->
+
+    <Class rdf:about="&ccon;Season">
+        <rdfs:label rdf:datatype="&xsd;string">season</rdfs:label>
+        <equivalentClass rdf:resource="http://www.fao.org/aims/aos/cwr.owl#SeasonalVariation"/>
+        <rdfs:subClassOf rdf:resource="&ccon;Environment"/>
+        <rdfs:subClassOf rdf:resource="http://www.fao.org/aims/aos/cwr.owl#Periodicity"/>
+        <rdfs:comment xml:lang="en">A subdivision of the year, marked by changes in weather, ecology, and hours of day light</rdfs:comment>
+    </Class>
+    
+
+
+    <!-- http://cerrado.linkeddata.es/ecology/ccon#Shrub -->
+
+    <Class rdf:about="&ccon;Shrub">
+        <rdfs:label rdf:datatype="&xsd;string">shrub</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.fao.org/aims/aos/cwr.owl#Angiosperm"/>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="&ccon;isPartOf"/>
+                <allValuesFrom rdf:resource="&ccon;WoodLayer"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <disjointWith rdf:resource="&ccon;Tree"/>
+        <rdfs:comment xml:lang="en">A shrub is distinguished from a tree by its multiple stems and shorter height, usually under 6 m tall. Plants of many species may grow either into shrubs or trees, depending on their growing conditions.
+Source: wikipedia.org </rdfs:comment>
+    </Class>
+    
+
+
+    <!-- http://cerrado.linkeddata.es/ecology/ccon#SimpsonsIndex -->
+
+    <Class rdf:about="&ccon;SimpsonsIndex">
+        <rdfs:label>simpson&apos;s index</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&ccon;SpeciesDiversity"/>
+        <rdfs:comment xml:lang="en">The simplest measure of the character of a community that takes into account both the abundance (or biomass) patterns and the species richness (Begon et al., 2006).</rdfs:comment>
+    </Class>
+    
+
+
+    <!-- http://cerrado.linkeddata.es/ecology/ccon#Soil -->
+
+    <Class rdf:about="&ccon;Soil">
+        <rdfs:label rdf:datatype="&xsd;string">soil</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&ccon;CerradoDeterminingFactors"/>
+        <rdfs:comment xml:lang="en">It&apos;s a natural body consisting of layers (soil horizons) that are primarily composed of minerals, mixed with at least some organic matter, which differ from their parent materials in their texture, structure, consistency, color, chemical, biological and other characteristics. It is the loose covering of fine rock particles that covers the surface of the earth.
+Source: wikipedia.org</rdfs:comment>
+    </Class>
+    
+
+
+    <!-- http://cerrado.linkeddata.es/ecology/ccon#SorensensSimilarityIndex -->
+
+    <Class rdf:about="&ccon;SorensensSimilarityIndex">
+        <rdfs:label>Sørensen’s similarity coefficient</rdfs:label>
+        <rdfs:label>sorensen&apos;s similarity index</rdfs:label>
+        <rdfs:label>Sørensen–Dice index</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&ccon;SpeciesCompositionSimilarity"/>
+    </Class>
+    
+
+
+    <!-- http://cerrado.linkeddata.es/ecology/ccon#Species -->
+
+    <Class rdf:about="&ccon;Species">
+        <rdfs:label rdf:datatype="&xsd;string">species</rdfs:label>
+        <rdfs:comment xml:lang="en">A group of organinsms capable of interbreeding and producing fertile offspring.</rdfs:comment>
+        <rdfs:comment xml:lang="pt">Um grupo de organismos semelhantes capazes de reproduzirem entre si originando descendentes férteis e vivem na mesma região geográfica.</rdfs:comment>
+    </Class>
+    
+
+
+    <!-- http://cerrado.linkeddata.es/ecology/ccon#SpeciesCompositionSimilarity -->
+
+    <Class rdf:about="&ccon;SpeciesCompositionSimilarity">
+        <rdfs:label rdf:datatype="&xsd;string">species composition</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&ccon;DiversityIndex"/>
+        <rdfs:comment xml:lang="en">It&apos;s how many different species occurs in a community or ecosystem.</rdfs:comment>
+    </Class>
+    
+
+
+    <!-- http://cerrado.linkeddata.es/ecology/ccon#SpeciesDiversity -->
+
+    <Class rdf:about="&ccon;SpeciesDiversity">
+        <rdfs:label rdf:datatype="&xsd;string">species diversity</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&ccon;DiversityIndex"/>
+        <rdfs:comment xml:lang="en">the effective number of different species that are represented in a collection of individuals, it consists of two components: species richness and species evenness</rdfs:comment>
+    </Class>
+    
+
+
+    <!-- http://cerrado.linkeddata.es/ecology/ccon#SpeciesEvenness -->
+
+    <Class rdf:about="&ccon;SpeciesEvenness">
+        <rdfs:label rdf:datatype="&xsd;string">species evenness</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&ccon;DiversityIndex"/>
+        <rdfs:comment xml:lang="en">Evenness is simply a measure of how similar specie are in their abundances.</rdfs:comment>
+    </Class>
+    
+
+
+    <!-- http://cerrado.linkeddata.es/ecology/ccon#SpeciesRichness -->
+
+    <Class rdf:about="&ccon;SpeciesRichness">
+        <rdfs:label rdf:datatype="&xsd;string">species richness</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&ccon;DiversityIndex"/>
+        <rdfs:comment xml:lang="en">the number of differnet species represented in an ecological community, landscape or region</rdfs:comment>
+    </Class>
+    
+
+
+    <!-- http://cerrado.linkeddata.es/ecology/ccon#SpecificName -->
+
+    <Class rdf:about="&ccon;SpecificName">
+        <rdfs:label xml:lang="en">specific name
+</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://cerrado.linkeddata.es/ecology/ccon#Temperature -->
+
+    <Class rdf:about="&ccon;Temperature">
+        <rdfs:label rdf:datatype="&xsd;string">temperature</rdfs:label>
+        <rdfs:label>Mean annual temperature</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_01000203"/>
+        <rdfs:comment xml:lang="en">It is a measure of the thermal energy per particle of matter or radiation; it is measured by a thermometer, which may be calibrated in any of various temperature scales, Celsius, Fahrenheit, Kelvin, etc (http://en.wikipedia.org/wiki/Temperature).</rdfs:comment>
+    </Class>
+    
+
+
+    <!-- http://cerrado.linkeddata.es/ecology/ccon#Tree -->
+
+    <Class rdf:about="&ccon;Tree">
+        <rdfs:label rdf:datatype="&xsd;string">tree</rdfs:label>
+        <rdfs:label>wood plant</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.fao.org/aims/aos/cwr.owl#Angiosperm"/>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="&ccon;isPartOf"/>
+                <allValuesFrom rdf:resource="&ccon;WoodLayer"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:comment xml:lang="en">A tree can be defined as a large woody perennial plant.
+Source: wikipedia.org</rdfs:comment>
+    </Class>
+    
+
+
+    <!-- http://cerrado.linkeddata.es/ecology/ccon#TropicalGrassland -->
+
+    <Class rdf:about="&ccon;TropicalGrassland">
+        <rdfs:label rdf:datatype="&xsd;string">tropical grassland</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_00000446"/>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="&ccon;isPartOf"/>
+                <someValuesFrom rdf:resource="&ccon;CerradoSensuLato"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:comment xml:lang="en">Dry grassland without shrubs or trees</rdfs:comment>
+    </Class>
+    
+
+
+    <!-- http://cerrado.linkeddata.es/ecology/ccon#TropicalSeason -->
+
+    <Class rdf:about="&ccon;TropicalSeason">
+        <rdfs:label>tropical season</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&ccon;Season"/>
+        <rdfs:comment xml:lang="en">Most of tropical areas has only two distinct seasons during the year, which are called tropical seasons and they can be distinguish as wet season and dry season.</rdfs:comment>
+    </Class>
+    
+
+
+    <!-- http://cerrado.linkeddata.es/ecology/ccon#TropicalSeasonalForest -->
+
+    <Class rdf:about="&ccon;TropicalSeasonalForest">
+        <rdfs:label rdf:datatype="&xsd;string">tropical seasonal forest</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_00000446"/>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="&ccon;isPartOf"/>
+                <allValuesFrom rdf:resource="&ccon;CerradoSensuLato"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:comment xml:lang="en">A tropical forest grows in regions with a marked dry season. There is some defoliation during the dry season, the degree depending on the severity of the moisture deficit. The structure of the forest is also simpler than of the rain forest, with fewer tree strata, and less luxuriant growths of climbing and herbaceous plants. 
+
+www.oxfordreference.com</rdfs:comment>
+    </Class>
+    
+
+
+    <!-- http://cerrado.linkeddata.es/ecology/ccon#WetSeason -->
+
+    <Class rdf:about="&ccon;WetSeason">
+        <rdfs:label>wet season</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&ccon;TropicalSeason"/>
+        <rdfs:comment xml:lang="en">Consists of the period of the year in some tropical climate areas with average rainfall greater than 60mm by month.</rdfs:comment>
+    </Class>
+    
+
+
+    <!-- http://cerrado.linkeddata.es/ecology/ccon#WoodLayer -->
+
+    <Class rdf:about="&ccon;WoodLayer">
+        <rdfs:label rdf:datatype="&xsd;string">wood layer</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.fao.org/aims/aos/cwr.owl#VegetationCover"/>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="&ccon;isPartOf"/>
+                <allValuesFrom rdf:resource="&ccon;TropicalSeasonalForest"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="&ccon;isPartOf"/>
+                <allValuesFrom rdf:resource="&ccon;Savanna"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="&ccon;hasComponent"/>
+                <someValuesFrom rdf:resource="&ccon;Shrub"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="&ccon;hasComponent"/>
+                <someValuesFrom rdf:resource="&ccon;Tree"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:comment xml:lang="en">It consists of mainly wood plants and many researchers include monocots like palm trees becouse of their woody like trunks, but they are not considered trees. </rdfs:comment>
+    </Class>
+    
+
+
+    <!-- http://cerrado.linkeddata.es/ecology/ccon#shannonsDiversityIndex -->
+
+    <Class rdf:about="&ccon;shannonsDiversityIndex">
+        <rdfs:label>shannon&apos;s diversity index</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&ccon;SpeciesDiversity"/>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_00000428 -->
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/ENVO_00000428">
+        <rdfs:label rdf:datatype="&xsd;string">biome</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&ccon;BiologicalOrganizationLevel"/>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="&ccon;isPartOf"/>
+                <someValuesFrom rdf:resource="http://www.fao.org/aims/aos/cwr.owl#Biosphere"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <oboInOwl:hasOBONamespace rdf:datatype="&xsd;string">ENVO</oboInOwl:hasOBONamespace>
+        <oboInOwl:id rdf:datatype="&xsd;string">ENVO:00000428</oboInOwl:id>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="&xsd;string">EcosytemType</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">Wikipedia:Biome</oboInOwl:hasDbXref>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="&xsd;string">ecosystem</oboInOwl:hasRelatedSynonym>
+        <rdfs:comment xml:lang="en">A major class of ecologically similar communities of plants, animals, and other organisms. Biomes are defined based on factors such as plant structures (such as trees, shrubs, and grasses), leaf types (such as broadleaf and needleleaf), plant spacing (forest, woodland, savanna), and other factors like climate. Unlike ecozones, biomes are not defined by genetic, taxonomic, or historical similarities. Biomes are often identified with particular patterns of ecological succession and climax vegetation.</rdfs:comment>
+    </Class>
+    <Axiom>
+        <annotatedTarget rdf:datatype="&xsd;string">EcosytemType</annotatedTarget>
+        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">NASA:earthrealm</oboInOwl:hasDbXref>
+        <annotatedSource rdf:resource="http://purl.obolibrary.org/obo/ENVO_00000428"/>
+        <annotatedProperty rdf:resource="&oboInOwl;hasRelatedSynonym"/>
+    </Axiom>
+    <Axiom>
+        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">Wikipedia:Biome</oboInOwl:hasDbXref>
+        <annotatedTarget xml:lang="en">A major class of ecologically similar communities of plants, animals, and other organisms. Biomes are defined based on factors such as plant structures (such as trees, shrubs, and grasses), leaf types (such as broadleaf and needleleaf), plant spacing (forest, woodland, savanna), and other factors like climate. Unlike ecozones, biomes are not defined by genetic, taxonomic, or historical similarities. Biomes are often identified with particular patterns of ecological succession and climax vegetation.</annotatedTarget>
+        <annotatedSource rdf:resource="http://purl.obolibrary.org/obo/ENVO_00000428"/>
+        <annotatedProperty rdf:resource="&rdfs;comment"/>
+    </Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_00000446 -->
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/ENVO_00000446">
+        <rdfs:label rdf:datatype="&xsd;string">terrestrial biome</rdfs:label>
+        <equivalentClass rdf:resource="http://www.fao.org/aims/aos/cwr.owl#TerrestrialHabitat"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_00000428"/>
+        <rdfs:comment rdf:datatype="&xsd;string">A biome that applies to the terrestrial realm.</rdfs:comment>
+        <oboInOwl:hasOBONamespace rdf:datatype="&xsd;string">ENVO</oboInOwl:hasOBONamespace>
+        <oboInOwl:id rdf:datatype="&xsd;string">ENVO:00000446</oboInOwl:id>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="&xsd;string">terrestrial realm</oboInOwl:hasRelatedSynonym>
+    </Class>
+    <Axiom>
+        <annotatedTarget rdf:datatype="&xsd;string">A biome that applies to the terrestrial realm.</annotatedTarget>
+        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">Wikipedia:Biome#Terrestrial_biomes</oboInOwl:hasDbXref>
+        <annotatedSource rdf:resource="http://purl.obolibrary.org/obo/ENVO_00000446"/>
+        <annotatedProperty rdf:resource="&rdfs;comment"/>
+    </Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_01000203 -->
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/ENVO_01000203">
+        <rdfs:label rdf:datatype="&xsd;string">environmental condition</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&ccon;Environment"/>
+        <oboInOwl:creation_date rdf:datatype="&xsd;string">2013-04-07T14:35:18Z</oboInOwl:creation_date>
+        <oboInOwl:hasOBONamespace rdf:datatype="&xsd;string">ENVO</oboInOwl:hasOBONamespace>
+        <oboInOwl:id rdf:datatype="&xsd;string">ENVO:01000203</oboInOwl:id>
+        <rdfs:comment rdf:datatype="&xsd;string">Experimental class created in EnvO. A condition defines a restricted range of a given quality or combination of qualities. If an environment class, E, has_condition C, then all qualities listed in C are restricted to the ranges defined in C in E. This is not intended as a logical conditional.</rdfs:comment>
+        <oboInOwl:created_by rdf:datatype="&xsd;string">pbuttigi</oboInOwl:created_by>
+        <rdfs:comment xml:lang="en">An abiotic environmental factor that influences the functioning of living organisms (Begon et al., 2006).</rdfs:comment>
+    </Class>
+    
+
+
+    <!-- http://www.fao.org/aims/aos/cwr.owl#Angiosperm -->
+
+    <Class rdf:about="http://www.fao.org/aims/aos/cwr.owl#Angiosperm">
+        <rdfs:label xml:lang="en">angiosperm</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.fao.org/aims/aos/cwr.owl#VascularPlant"/>
+        <dc:date rdf:datatype="&xsd;string">2005-03-13</dc:date>
+        <dc:identifier rdf:datatype="&xsd;string">http://www.fao.org/aims/ag_intro.htm?termid=413&amp;myLangTerms=EN</dc:identifier>
+        <dc:source rdf:datatype="&xsd;string">http://www.mobot.org/MOBOT/Research/APweb/top/glossarya_h.html</dc:source>
+        <rdfs:comment xml:lang="en">A seed-bearing plant with the ovules borne enclosed by a sporophyll whose margins are fused, i.e., the ovules are borne in an ovary.</rdfs:comment>
+    </Class>
+    
+
+
+    <!-- http://www.fao.org/aims/aos/cwr.owl#Biosphere -->
+
+    <Class rdf:about="http://www.fao.org/aims/aos/cwr.owl#Biosphere">
+        <rdfs:label xml:lang="en">biosphere</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&ccon;BiologicalOrganizationLevel"/>
+        <dc:date rdf:datatype="&xsd;string">2005-03-13</dc:date>
+        <dc:source rdf:datatype="&xsd;string">http://highered.mcgraw-hill.com/sites/dl/free/0072909498/57896/glossary.pdf</dc:source>
+        <rdfs:comment xml:lang="en">The entire world of living organisms.</rdfs:comment>
+    </Class>
+    
+
+
+    <!-- http://www.fao.org/aims/aos/cwr.owl#Community -->
+
+    <Class rdf:about="http://www.fao.org/aims/aos/cwr.owl#Community">
+        <rdfs:label xml:lang="en">community</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&ccon;BiologicalOrganizationLevel"/>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="&ccon;isCharacterizedBy"/>
+                <someValuesFrom rdf:resource="&ccon;ComunityDynamics"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="&ccon;isPartOf"/>
+                <someValuesFrom rdf:resource="http://www.fao.org/aims/aos/cwr.owl#Ecosystem"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="&ccon;isCharacterizedBy"/>
+                <someValuesFrom rdf:resource="http://www.fao.org/aims/aos/cwr.owl#CommunityStructure"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="&ccon;isCharacterizedBy"/>
+                <someValuesFrom rdf:resource="http://www.fao.org/aims/aos/cwr.owl#Diversity"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="&ccon;isPartOf"/>
+                <someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/ENVO_00000428"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <versionInfo rdf:datatype="&xsd;string">http://www.lasgrwc.org/LandscapeEthic/GlossaryNov17.doc</versionInfo>
+        <rdfs:comment xml:lang="en">Any group of organisms belonging to a number of different species that co-occur in the same habitat or area and interact through trophic and spatial relationships.</rdfs:comment>
+    </Class>
+    
+
+
+    <!-- http://www.fao.org/aims/aos/cwr.owl#CommunityStructure -->
+
+    <Class rdf:about="http://www.fao.org/aims/aos/cwr.owl#CommunityStructure">
+        <rdfs:label xml:lang="en">community structure</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.fao.org/aims/aos/cwr.owl#EcologicalPhenomena"/>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="&ccon;isCharacteristicOf"/>
+                <someValuesFrom rdf:resource="http://www.fao.org/aims/aos/cwr.owl#PlantCommunity"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:comment xml:lang="en">Community structure is a set of parameters that we can use to describe a ecological community.</rdfs:comment>
+    </Class>
+    
+
+
+    <!-- http://www.fao.org/aims/aos/cwr.owl#Diversity -->
+
+    <Class rdf:about="http://www.fao.org/aims/aos/cwr.owl#Diversity">
+        <rdfs:label xml:lang="en">diversity</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.fao.org/aims/aos/cwr.owl#EcologicalPhenomena"/>
+        <dc:source rdf:datatype="&xsd;string">http://soilslab.cfr.washington.edu</dc:source>
+        <rdfs:comment xml:lang="en">1) The variety of plant and animal taxa, including genes, amino acids, flowers, species, or populations. 2) The variety of plant and animal communities, forest types, stand conditions, age classes, and landscape components.</rdfs:comment>
+    </Class>
+    
+
+
+    <!-- http://www.fao.org/aims/aos/cwr.owl#EcologicalPhenomena -->
+
+    <Class rdf:about="http://www.fao.org/aims/aos/cwr.owl#EcologicalPhenomena">
+        <rdfs:label rdf:datatype="&xsd;string">ecological phenomena</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&owl;Thing"/>
+        <rdfs:comment xml:lang="en">Ecological phenomenon is any event - regarding interactions among organisms and their environment - that is observable, however common it might be, even if it requires the use of instrumentation to observe, record, or compile data concerning it.</rdfs:comment>
+    </Class>
+    
+
+
+    <!-- http://www.fao.org/aims/aos/cwr.owl#Ecosystem -->
+
+    <Class rdf:about="http://www.fao.org/aims/aos/cwr.owl#Ecosystem">
+        <rdfs:label xml:lang="en">ecosystem</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&ccon;BiologicalOrganizationLevel"/>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="&ccon;isPartOf"/>
+                <someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/ENVO_00000428"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="&ccon;isPartOf"/>
+                <someValuesFrom rdf:resource="&ccon;Ecoregion"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <versionInfo rdf:datatype="&xsd;string"></versionInfo>
+        <dc:source rdf:datatype="&xsd;string">http://www.fao.org/aims/ag_intro.htm?termid=2482&amp;myLangTerms=EN</dc:source>
+        <dc:identifier rdf:datatype="&xsd;string">http://www.fao.org/aims/ag_intro.htm?termid=2482&amp;myLangTerms=EN</dc:identifier>
+        <rdfs:comment xml:lang="en">A complex of organisms and their environment forming a functioning whole.</rdfs:comment>
+    </Class>
+    
+
+
+    <!-- http://www.fao.org/aims/aos/cwr.owl#Eukaryote -->
+
+    <Class rdf:about="http://www.fao.org/aims/aos/cwr.owl#Eukaryote">
+        <rdfs:label xml:lang="en">eukaryote</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.fao.org/aims/aos/cwr.owl#Organism"/>
+        <dc:date rdf:datatype="&xsd;string">2005-03-13</dc:date>
+        <dc:source rdf:datatype="&xsd;string">http://helios.bto.ed.ac.uk/bto/glossary/ef.htm</dc:source>
+        <rdfs:comment xml:lang="en">An organism having eukaryotic cells with true nuclei.</rdfs:comment>
+    </Class>
+    
+
+
+    <!-- http://www.fao.org/aims/aos/cwr.owl#Habitat -->
+
+    <Class rdf:about="http://www.fao.org/aims/aos/cwr.owl#Habitat">
+        <rdfs:label xml:lang="en">habitat</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.fao.org/aims/aos/cwr.owl#Ecosystem"/>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="http://www.fao.org/aims/aos/cwr.owl#isPartOf"/>
+                <allValuesFrom rdf:resource="http://www.fao.org/aims/aos/cwr.owl#Ecosystem"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <dc:identifier rdf:datatype="&xsd;string">http://www.fao.org/aims/ag_intro.htm?termid=3456&amp;myLangTerms=EN</dc:identifier>
+        <dc:source rdf:datatype="&xsd;string">http://www.fao.org/aims/ag_intro.htm?termid=3456&amp;myLangTerms=EN</dc:source>
+        <rdfs:comment xml:lang="en">Environment in a given area occupied by an organism or a group of organisms.</rdfs:comment>
+    </Class>
+    
+
+
+    <!-- http://www.fao.org/aims/aos/cwr.owl#Organism -->
+
+    <Class rdf:about="http://www.fao.org/aims/aos/cwr.owl#Organism">
+        <rdfs:label xml:lang="en">organism</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&ccon;BiologicalOrganizationLevel"/>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="&ccon;isPartOf"/>
+                <someValuesFrom rdf:resource="http://www.fao.org/aims/aos/cwr.owl#Population"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:isDefinedBy rdf:datatype="&xsd;string">The basic living system, a functional grouping of the lower-level components, including at least one cell.</rdfs:isDefinedBy>
+        <dc:source rdf:datatype="&xsd;string">http://tolweb.org</dc:source>
+        <rdfs:comment xml:lang="en">Any living creature. A plant, animal, or micro-organism.</rdfs:comment>
+        <rdfs:comment xml:lang="pt">Um sistema vivo básico, um grupo funcional de componentes básicos, incluindo pelo menos uma célula.</rdfs:comment>
+    </Class>
+    
+
+
+    <!-- http://www.fao.org/aims/aos/cwr.owl#Periodicity -->
+
+    <Class rdf:about="http://www.fao.org/aims/aos/cwr.owl#Periodicity">
+        <rdfs:label xml:lang="en">periodicity</rdfs:label>
+        <rdfs:label xml:lang="es">Periodicidad</rdfs:label>
+        <rdfs:label xml:lang="fr">Périodicité</rdfs:label>
+        <rdfs:label xml:lang="ru">периодичность</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&ccon;Environment"/>
+        <dc:identifier rdf:datatype="&xsd;string">http://www.fao.org/aims/ag_intro.htm?termid=5708&amp;myLangTerms=EN</dc:identifier>
+        <rdfs:comment xml:lang="en">Periodicity is used to define events that are recurrent or the repetition of similar events.</rdfs:comment>
+    </Class>
+    
+
+
+    <!-- http://www.fao.org/aims/aos/cwr.owl#Plant -->
+
+    <Class rdf:about="http://www.fao.org/aims/aos/cwr.owl#Plant">
+        <rdfs:label xml:lang="en">plant</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.fao.org/aims/aos/cwr.owl#Eukaryote"/>
+        <dc:source rdf:datatype="&xsd;string">http://aquat1.ifas.ufl.edu</dc:source>
+        <dc:identifier rdf:datatype="&xsd;string">http://www.fao.org/aims/ag_intro.htm?termid=5993&amp;myLangTerms=EN</dc:identifier>
+        <rdfs:comment xml:lang="en">Any of a kingdom (Plantae) of living beings typically lacking locomotive movement or obvious sensory organs, generally making its own food, possessing cell walls, and unlimited growth.</rdfs:comment>
+        <rdfs:comment xml:lang="en">Conventionally the term plant implies a taxon with characteristics of multicellularity, cell structure with walls containing cellulose, and organisms capable of photosynthesis. 
+
+Source: Ecyclopedia of life (www.eol.org/info/449)</rdfs:comment>
+    </Class>
+    
+
+
+    <!-- http://www.fao.org/aims/aos/cwr.owl#PlantCommunity -->
+
+    <Class rdf:about="http://www.fao.org/aims/aos/cwr.owl#PlantCommunity">
+        <rdfs:label xml:lang="en">plant community</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.fao.org/aims/aos/cwr.owl#Community"/>
+        <dc:date rdf:datatype="&xsd;string">2005-03-13</dc:date>
+        <dc:source rdf:datatype="&xsd;string">http://www.kcl.ac.uk/kis/schools/hums/geog/desertlinks/downloads/Glossary.doc</dc:source>
+        <rdfs:comment xml:lang="en">An assemblage of individuals of one or more species that influence one another and modify their environment (after Mueller-Dombois and Ellenberg, 1974).</rdfs:comment>
+    </Class>
+    
+
+
+    <!-- http://www.fao.org/aims/aos/cwr.owl#Population -->
+
+    <Class rdf:about="http://www.fao.org/aims/aos/cwr.owl#Population">
+        <rdfs:label xml:lang="en">population</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&ccon;BiologicalOrganizationLevel"/>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="&ccon;isPartOf"/>
+                <someValuesFrom rdf:resource="&ccon;Metapopulation"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="&ccon;isPartOf"/>
+                <someValuesFrom rdf:resource="http://www.fao.org/aims/aos/cwr.owl#Community"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <Restriction>
+                <onProperty rdf:resource="&ccon;isPartOf"/>
+                <someValuesFrom rdf:resource="&ccon;Species"/>
+            </Restriction>
+        </rdfs:subClassOf>
+        <dc:source rdf:datatype="&xsd;string">http://www.lasgrwc.org</dc:source>
+        <rdfs:comment xml:lang="en">A group of interbreeding organisms not separated by geographic barriers which would inhibit breeding between all individuals.</rdfs:comment>
+    </Class>
+    
+
+
+    <!-- http://www.fao.org/aims/aos/cwr.owl#PopulationDensity -->
+
+    <Class rdf:about="http://www.fao.org/aims/aos/cwr.owl#PopulationDensity">
+        <rdfs:label xml:lang="en">population density</rdfs:label>
+        <rdfs:label xml:lang="es">densidad de población</rdfs:label>
+        <rdfs:label xml:lang="fr">densité de population</rdfs:label>
+        <rdfs:label xml:lang="ru">густота популяции</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&ccon;PopulationDynamics"/>
+        <versionInfo rdf:datatype="&xsd;string">Blackwell’s concise encyclopedia of ecology, 1999</versionInfo>
+        <rdfs:comment xml:lang="en">The number of individuals per unit area.</rdfs:comment>
+    </Class>
+    
+
+
+    <!-- http://www.fao.org/aims/aos/cwr.owl#PopulationSize -->
+
+    <Class rdf:about="http://www.fao.org/aims/aos/cwr.owl#PopulationSize">
+        <rdfs:label xml:lang="en">population size</rdfs:label>
+        <rdfs:label xml:lang="es">tamaño de la población</rdfs:label>
+        <rdfs:label xml:lang="fr">taille d&apos;une population</rdfs:label>
+        <rdfs:label xml:lang="ru">размер популяции</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&ccon;PopulationDynamics"/>
+        <rdfs:comment xml:lang="en">It&apos;s the amount of individuals in a population</rdfs:comment>
+    </Class>
+    
+
+
+    <!-- http://www.fao.org/aims/aos/cwr.owl#Sample -->
+
+    <Class rdf:about="http://www.fao.org/aims/aos/cwr.owl#Sample">
+        <rdfs:label xml:lang="en">sample</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.fao.org/aims/aos/cwr.owl#Population"/>
+        <versionInfo rdf:datatype="&xsd;string">http://www.bugwood.org/glossary/html/glossary-s.html</versionInfo>
+        <rdfs:comment xml:lang="en">A part of a population, consisting of one or more units selected and examined as representative of the whole</rdfs:comment>
+    </Class>
+    
+
+
+    <!-- http://www.fao.org/aims/aos/cwr.owl#SavannaHabitat -->
+
+    <Class rdf:about="http://www.fao.org/aims/aos/cwr.owl#SavannaHabitat">
+        <rdfs:label xml:lang="en">savanna habitat</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.fao.org/aims/aos/cwr.owl#TerrestrialHabitat"/>
+        <disjointWith rdf:resource="http://www.fao.org/aims/aos/cwr.owl#Woodland"/>
+        <rdfs:comment xml:lang="en">It&apos;s a terrestrial habitat consisting of grasslands with scattered trees.</rdfs:comment>
+    </Class>
+    
+
+
+    <!-- http://www.fao.org/aims/aos/cwr.owl#SeasonalVariation -->
+
+    <Class rdf:about="http://www.fao.org/aims/aos/cwr.owl#SeasonalVariation">
+        <rdfs:label xml:lang="en">seasonal variation</rdfs:label>
+        <rdfs:label xml:lang="es">Variación estacional</rdfs:label>
+        <rdfs:label xml:lang="fr">Variation saisonnière</rdfs:label>
+        <rdfs:label xml:lang="ru">сезонные изменения</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.fao.org/aims/aos/cwr.owl#Periodicity"/>
+        <dc:identifier rdf:datatype="&xsd;string">http://www.fao.org/aims/ag_intro.htm?termid=24894&amp;myLangTerms=EN</dc:identifier>
+        <rdfs:comment xml:lang="en">It&apos;s the change of climate seasons  during a one year period.</rdfs:comment>
+    </Class>
+    
+
+
+    <!-- http://www.fao.org/aims/aos/cwr.owl#Specimen -->
+
+    <Class rdf:about="http://www.fao.org/aims/aos/cwr.owl#Specimen">
+        <rdfs:label xml:lang="en">specimen</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.fao.org/aims/aos/cwr.owl#Sample"/>
+        <versionInfo rdf:datatype="&xsd;string">http://www.fishbase.org/Glossary/Glossary.cfm?TermEnglish=specimen</versionInfo>
+        <rdfs:comment xml:lang="en">An individual from a scientific sample; sometimes an individual regarded as typical of the group.</rdfs:comment>
+    </Class>
+    
+
+
+    <!-- http://www.fao.org/aims/aos/cwr.owl#TerrestrialHabitat -->
+
+    <Class rdf:about="http://www.fao.org/aims/aos/cwr.owl#TerrestrialHabitat">
+        <rdfs:label xml:lang="en">terrestrial habitat</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.fao.org/aims/aos/cwr.owl#Habitat"/>
+        <rdfs:comment xml:lang="en">It&apos;s the terrestrial environment occupied by an organism, population or community.</rdfs:comment>
+    </Class>
+    
+
+
+    <!-- http://www.fao.org/aims/aos/cwr.owl#VascularPlant -->
+
+    <Class rdf:about="http://www.fao.org/aims/aos/cwr.owl#VascularPlant">
+        <rdfs:label xml:lang="en">vascular plant</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.fao.org/aims/aos/cwr.owl#Plant"/>
+        <dc:date rdf:datatype="&xsd;string">2005-03-13</dc:date>
+        <dc:source rdf:datatype="&xsd;string">http://highered.mcgraw-hill.com/sites/dl/free/0072909498/57896/glossary.pdf</dc:source>
+        <rdfs:comment xml:lang="en">A general name for any plant that has xylem and phloem.</rdfs:comment>
+    </Class>
+    
+
+
+    <!-- http://www.fao.org/aims/aos/cwr.owl#Vegetation -->
+
+    <Class rdf:about="http://www.fao.org/aims/aos/cwr.owl#Vegetation">
+        <rdfs:label xml:lang="en">vegetation</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.fao.org/aims/aos/cwr.owl#PlantCommunity"/>
+        <dc:identifier rdf:datatype="&xsd;string">http://www.fao.org/aims/ag_intro.htm?termid=8176&amp;myLangTerms=EN</dc:identifier>
+        <dc:source rdf:datatype="&xsd;string">http://www.lasgrwc.org</dc:source>
+        <rdfs:comment xml:lang="en">The assemblage of plant species in a given area; also used as a general term for plant life.</rdfs:comment>
+    </Class>
+    
+
+
+    <!-- http://www.fao.org/aims/aos/cwr.owl#VegetationCover -->
+
+    <Class rdf:about="http://www.fao.org/aims/aos/cwr.owl#VegetationCover">
+        <rdfs:label xml:lang="en">vegetation cover</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.fao.org/aims/aos/cwr.owl#Vegetation"/>
+        <rdfs:comment xml:lang="en">It&apos;s the type of the dominant vegetation or the dominant plant-life form in a certain location.</rdfs:comment>
+    </Class>
+    
+
+
+    <!-- http://www.fao.org/aims/aos/cwr.owl#Woodland -->
+
+    <Class rdf:about="http://www.fao.org/aims/aos/cwr.owl#Woodland">
+        <rdfs:label xml:lang="en">woodland</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.fao.org/aims/aos/cwr.owl#TerrestrialHabitat"/>
+        <dc:identifier rdf:datatype="&xsd;string">http://www.fao.org/aims/ag_intro.htm?termid=8433&amp;myLangTerms=EN</dc:identifier>
+        <rdfs:comment xml:lang="en">Woodland is a low-density forest forming open habitats with plenty of sunlight and limited shade.
+Source: Wikipedia.org</rdfs:comment>
+    </Class>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://cerrado.linkeddata.es/ecology/ccon#Acosmium_dasycarpum -->
+
+    <NamedIndividual rdf:about="&ccon;Acosmium_dasycarpum">
+        <rdf:type rdf:resource="&ccon;Species"/>
+        <rdf:type rdf:resource="&ccon;WoodLayer"/>
+        <rdf:type>
+            <Restriction>
+                <onProperty rdf:resource="&ccon;isPartOf"/>
+                <allValuesFrom rdf:resource="&ccon;Cerradao"/>
+            </Restriction>
+        </rdf:type>
+        <rdf:type>
+            <Restriction>
+                <onProperty rdf:resource="&ccon;isPartOf"/>
+                <allValuesFrom rdf:resource="&ccon;WoodLayer"/>
+            </Restriction>
+        </rdf:type>
+        <rdf:type>
+            <Restriction>
+                <onProperty rdf:resource="&ccon;isPartOf"/>
+                <allValuesFrom rdf:resource="&ccon;Savanna"/>
+            </Restriction>
+        </rdf:type>
+        <rdfs:label rdf:datatype="&xsd;string">Acosmium dasycarpum</rdfs:label>
+        <sameAs rdf:resource="http://dbpedia.org/resource/Acosmium_dasycarpum"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://cerrado.linkeddata.es/ecology/ccon#Aegiphila_lhotzkiana -->
+
+    <NamedIndividual rdf:about="&ccon;Aegiphila_lhotzkiana">
+        <rdf:type rdf:resource="&ccon;Species"/>
+        <rdf:type rdf:resource="&ccon;WoodLayer"/>
+        <rdf:type>
+            <Restriction>
+                <onProperty rdf:resource="&ccon;isPartOf"/>
+                <allValuesFrom rdf:resource="&ccon;WoodLayer"/>
+            </Restriction>
+        </rdf:type>
+        <rdf:type>
+            <Restriction>
+                <onProperty rdf:resource="&ccon;isPartOf"/>
+                <allValuesFrom rdf:resource="&ccon;CerradoSensuLato"/>
+            </Restriction>
+        </rdf:type>
+        <rdfs:label rdf:datatype="&xsd;string">Aegiphila lhotzkiana</rdfs:label>
+        <sameAs rdf:resource="http://dbpedia.org/resource/Aegiphila_lhotzkiana"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://cerrado.linkeddata.es/ecology/ccon#Anacardium_humile -->
+
+    <NamedIndividual rdf:about="&ccon;Anacardium_humile">
+        <rdf:type rdf:resource="&ccon;Species"/>
+        <rdf:type rdf:resource="&ccon;WoodLayer"/>
+        <rdfs:label>Anacardium humile
+</rdfs:label>
+        <sameAs rdf:resource="http://dbpedia.org/resource/Anacardium_humile"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://cerrado.linkeddata.es/ecology/ccon#Annona_crassiflora -->
+
+    <NamedIndividual rdf:about="&ccon;Annona_crassiflora">
+        <rdf:type rdf:resource="&ccon;Species"/>
+        <rdf:type rdf:resource="&ccon;WoodLayer"/>
+        <rdf:type rdf:resource="http://www.fao.org/aims/aos/cwr.owl#Angiosperm"/>
+        <rdf:type>
+            <Restriction>
+                <onProperty rdf:resource="&ccon;isPartOf"/>
+                <someValuesFrom rdf:resource="&ccon;Savanna"/>
+            </Restriction>
+        </rdf:type>
+        <rdf:type>
+            <Restriction>
+                <onProperty rdf:resource="&ccon;isPartOf"/>
+                <allValuesFrom rdf:resource="&ccon;WoodLayer"/>
+            </Restriction>
+        </rdf:type>
+        <rdfs:label rdf:datatype="&xsd;string">Annona crassiflora</rdfs:label>
+        <sameAs rdf:resource="http://dbpedia.org/resource/Annona_crassiflora"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://cerrado.linkeddata.es/ecology/ccon#Annona_tomentosa -->
+
+    <NamedIndividual rdf:about="&ccon;Annona_tomentosa">
+        <rdf:type rdf:resource="&ccon;Species"/>
+        <rdf:type rdf:resource="&ccon;WoodLayer"/>
+        <rdfs:label>Annona tomentosa</rdfs:label>
+        <sameAs rdf:resource="http://dbpedia.org/resource/Annona_tomentosa"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://cerrado.linkeddata.es/ecology/ccon#Aspidosperma_macrocarpon -->
+
+    <NamedIndividual rdf:about="&ccon;Aspidosperma_macrocarpon">
+        <rdf:type rdf:resource="&ccon;Species"/>
+        <rdf:type rdf:resource="&ccon;WoodLayer"/>
+        <rdf:type rdf:resource="http://www.fao.org/aims/aos/cwr.owl#Angiosperm"/>
+        <rdf:type>
+            <Restriction>
+                <onProperty rdf:resource="&ccon;isPartOf"/>
+                <someValuesFrom rdf:resource="&ccon;Savanna"/>
+            </Restriction>
+        </rdf:type>
+        <rdf:type>
+            <Restriction>
+                <onProperty rdf:resource="&ccon;isPartOf"/>
+                <allValuesFrom rdf:resource="&ccon;WoodLayer"/>
+            </Restriction>
+        </rdf:type>
+        <rdfs:label rdf:datatype="&xsd;string">Aspidosperma macrocarpon</rdfs:label>
+        <sameAs rdf:resource="http://dbpedia.org/resource/Aspidosperma_macrocarpon"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://cerrado.linkeddata.es/ecology/ccon#Aspidosperma_tomentosum -->
+
+    <NamedIndividual rdf:about="&ccon;Aspidosperma_tomentosum">
+        <rdf:type rdf:resource="&ccon;Species"/>
+        <rdf:type>
+            <Restriction>
+                <onProperty rdf:resource="&ccon;isPartOf"/>
+                <allValuesFrom rdf:resource="&ccon;CerradoSensuStricto"/>
+            </Restriction>
+        </rdf:type>
+        <rdf:type>
+            <Restriction>
+                <onProperty rdf:resource="&ccon;isPartOf"/>
+                <allValuesFrom rdf:resource="&ccon;TropicalSeasonalForest"/>
+            </Restriction>
+        </rdf:type>
+        <rdfs:label>Aspidosperma tomentosum</rdfs:label>
+        <sameAs rdf:resource="http://dbpedia.org/resource/Aspidosperma_tomentosum"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://cerrado.linkeddata.es/ecology/ccon#Blepharocalyx_suaveolens -->
+
+    <NamedIndividual rdf:about="&ccon;Blepharocalyx_suaveolens">
+        <rdf:type rdf:resource="&ccon;Species"/>
+        <rdf:type rdf:resource="&ccon;WoodLayer"/>
+        <rdfs:label>Blepharocalyx suaveolens</rdfs:label>
+        <sameAs rdf:resource="http://dbpedia.org/resource/Blepharocalyx_suaveolens"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://cerrado.linkeddata.es/ecology/ccon#Byrsonima_coccolobifolia -->
+
+    <NamedIndividual rdf:about="&ccon;Byrsonima_coccolobifolia">
+        <rdf:type rdf:resource="&ccon;Species"/>
+        <rdf:type rdf:resource="&ccon;WoodLayer"/>
+        <rdf:type>
+            <Restriction>
+                <onProperty rdf:resource="&ccon;isPartOf"/>
+                <allValuesFrom rdf:resource="&ccon;Savanna"/>
+            </Restriction>
+        </rdf:type>
+        <rdf:type>
+            <Restriction>
+                <onProperty rdf:resource="&ccon;isPartOf"/>
+                <allValuesFrom rdf:resource="&ccon;WoodLayer"/>
+            </Restriction>
+        </rdf:type>
+        <rdfs:label rdf:datatype="&xsd;string">Byrsonima coccolobifolia</rdfs:label>
+        <sameAs rdf:resource="http://dbpedia.org/resource/Byrsonima_coccolobifolia"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://cerrado.linkeddata.es/ecology/ccon#Byrsonima_crassa -->
+
+    <NamedIndividual rdf:about="&ccon;Byrsonima_crassa">
+        <rdf:type rdf:resource="&ccon;Species"/>
+        <rdf:type rdf:resource="&ccon;WoodLayer"/>
+        <rdf:type>
+            <Restriction>
+                <onProperty rdf:resource="&ccon;isPartOf"/>
+                <allValuesFrom rdf:resource="&ccon;CerradoSensuStricto"/>
+            </Restriction>
+        </rdf:type>
+        <rdf:type>
+            <Restriction>
+                <onProperty rdf:resource="&ccon;isPartOf"/>
+                <allValuesFrom rdf:resource="&ccon;WoodLayer"/>
+            </Restriction>
+        </rdf:type>
+        <rdfs:label rdf:datatype="&xsd;string">Byrsonima crassa</rdfs:label>
+        <sameAs rdf:resource="http://dbpedia.org/resource/Byrsonima_crassa"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://cerrado.linkeddata.es/ecology/ccon#Byrsonima_verbascifolia -->
+
+    <NamedIndividual rdf:about="&ccon;Byrsonima_verbascifolia">
+        <rdf:type rdf:resource="&ccon;Species"/>
+        <rdf:type rdf:resource="&ccon;WoodLayer"/>
+        <rdf:type>
+            <Restriction>
+                <onProperty rdf:resource="&ccon;isPartOf"/>
+                <allValuesFrom rdf:resource="&ccon;WoodLayer"/>
+            </Restriction>
+        </rdf:type>
+        <rdf:type>
+            <Restriction>
+                <onProperty rdf:resource="&ccon;isPartOf"/>
+                <allValuesFrom rdf:resource="&ccon;CerradoSensuStricto"/>
+            </Restriction>
+        </rdf:type>
+        <rdfs:label rdf:datatype="&xsd;string">Byrsonima verbascifolia</rdfs:label>
+        <sameAs rdf:resource="http://dbpedia.org/resource/Byrsonima_verbascifolia"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://cerrado.linkeddata.es/ecology/ccon#Cardiopetalum_calophyllum -->
+
+    <NamedIndividual rdf:about="&ccon;Cardiopetalum_calophyllum">
+        <rdf:type rdf:resource="&ccon;Species"/>
+        <rdf:type rdf:resource="&ccon;WoodLayer"/>
+        <rdf:type>
+            <Restriction>
+                <onProperty rdf:resource="&ccon;isPartOf"/>
+                <allValuesFrom rdf:resource="&ccon;CampoSujo"/>
+            </Restriction>
+        </rdf:type>
+        <rdf:type>
+            <Restriction>
+                <onProperty rdf:resource="&ccon;isPartOf"/>
+                <allValuesFrom rdf:resource="&ccon;Cerradao"/>
+            </Restriction>
+        </rdf:type>
+        <rdf:type>
+            <Restriction>
+                <onProperty rdf:resource="&ccon;isPartOf"/>
+                <allValuesFrom rdf:resource="&ccon;WoodLayer"/>
+            </Restriction>
+        </rdf:type>
+        <rdfs:label>Cardiopetalum calophyllum</rdfs:label>
+        <sameAs rdf:resource="http://dbpedia.org/resource/Cardiopetalum_calophyllum"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://cerrado.linkeddata.es/ecology/ccon#Caryocar_brasiliense -->
+
+    <NamedIndividual rdf:about="&ccon;Caryocar_brasiliense">
+        <rdf:type rdf:resource="&ccon;Species"/>
+        <rdf:type rdf:resource="&ccon;WoodLayer"/>
+        <rdf:type>
+            <Restriction>
+                <onProperty rdf:resource="&ccon;isPartOf"/>
+                <allValuesFrom rdf:resource="&ccon;CerradoSensuStricto"/>
+            </Restriction>
+        </rdf:type>
+        <rdf:type>
+            <Restriction>
+                <onProperty rdf:resource="&ccon;isPartOf"/>
+                <allValuesFrom rdf:resource="&ccon;WoodLayer"/>
+            </Restriction>
+        </rdf:type>
+        <rdf:type>
+            <Restriction>
+                <onProperty rdf:resource="&ccon;isPartOf"/>
+                <allValuesFrom rdf:resource="&ccon;Cerradao"/>
+            </Restriction>
+        </rdf:type>
+        <rdfs:label>Caryocar brasiliense</rdfs:label>
+        <sameAs rdf:resource="http://dbpedia.org/page/Caryocar_brasiliense"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://cerrado.linkeddata.es/ecology/ccon#Casearia_sylvestris -->
+
+    <NamedIndividual rdf:about="&ccon;Casearia_sylvestris">
+        <rdf:type rdf:resource="&ccon;Species"/>
+        <rdf:type rdf:resource="&ccon;WoodLayer"/>
+        <rdfs:label>Casearia sylvestris</rdfs:label>
+        <sameAs rdf:resource="http://dbpedia.org/resource/Casearia_sylvestris"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://cerrado.linkeddata.es/ecology/ccon#Connarus_suberosus -->
+
+    <NamedIndividual rdf:about="&ccon;Connarus_suberosus">
+        <rdf:type rdf:resource="&ccon;Species"/>
+        <rdf:type rdf:resource="&ccon;WoodLayer"/>
+        <rdf:type>
+            <Restriction>
+                <onProperty rdf:resource="&ccon;isPartOf"/>
+                <allValuesFrom rdf:resource="&ccon;WoodLayer"/>
+            </Restriction>
+        </rdf:type>
+        <rdf:type>
+            <Restriction>
+                <onProperty rdf:resource="&ccon;isPartOf"/>
+                <allValuesFrom rdf:resource="&ccon;Savanna"/>
+            </Restriction>
+        </rdf:type>
+        <rdfs:label rdf:datatype="&xsd;string">Connarus suberosus</rdfs:label>
+        <sameAs rdf:resource="http://dbpedia.org/resource/Connarus_suberosus"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://cerrado.linkeddata.es/ecology/ccon#Couepia_grandiflora -->
+
+    <NamedIndividual rdf:about="&ccon;Couepia_grandiflora">
+        <rdf:type rdf:resource="&ccon;Species"/>
+        <rdf:type rdf:resource="&ccon;WoodLayer"/>
+        <rdf:type>
+            <Restriction>
+                <onProperty rdf:resource="&ccon;isPartOf"/>
+                <allValuesFrom rdf:resource="&ccon;Savanna"/>
+            </Restriction>
+        </rdf:type>
+        <rdf:type>
+            <Restriction>
+                <onProperty rdf:resource="&ccon;isPartOf"/>
+                <allValuesFrom rdf:resource="&ccon;WoodLayer"/>
+            </Restriction>
+        </rdf:type>
+        <rdfs:label rdf:datatype="&xsd;string">Couepia grandiflora</rdfs:label>
+        <sameAs rdf:resource="http://dbpedia.org/resource/Couepia_grandiflora"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://cerrado.linkeddata.es/ecology/ccon#Cybianthus_detergens -->
+
+    <NamedIndividual rdf:about="&ccon;Cybianthus_detergens">
+        <rdf:type rdf:resource="&ccon;Species"/>
+        <rdf:type rdf:resource="&ccon;WoodLayer"/>
+        <rdfs:label>Cybianthus detergens</rdfs:label>
+        <sameAs rdf:resource="http://dbpedia.org/resource/Cybianthus_detergens"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://cerrado.linkeddata.es/ecology/ccon#Cybistax_antisyphilitica -->
+
+    <NamedIndividual rdf:about="&ccon;Cybistax_antisyphilitica">
+        <rdf:type rdf:resource="&ccon;Species"/>
+        <rdf:type rdf:resource="&ccon;WoodLayer"/>
+        <rdf:type>
+            <Restriction>
+                <onProperty rdf:resource="&ccon;isPartOf"/>
+                <allValuesFrom rdf:resource="&ccon;Savanna"/>
+            </Restriction>
+        </rdf:type>
+        <rdf:type>
+            <Restriction>
+                <onProperty rdf:resource="&ccon;isPartOf"/>
+                <allValuesFrom rdf:resource="&ccon;WoodLayer"/>
+            </Restriction>
+        </rdf:type>
+        <rdfs:label rdf:datatype="&xsd;string">Cybistax antisyphilitica</rdfs:label>
+        <sameAs rdf:resource="http://dbpedia.org/resource/Cybistax_antisyphilitica"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://cerrado.linkeddata.es/ecology/ccon#Dalbergia_miscolobium -->
+
+    <NamedIndividual rdf:about="&ccon;Dalbergia_miscolobium">
+        <rdf:type rdf:resource="&ccon;Species"/>
+        <rdf:type rdf:resource="&ccon;WoodLayer"/>
+        <rdf:type>
+            <Restriction>
+                <onProperty rdf:resource="&ccon;isPartOf"/>
+                <someValuesFrom rdf:resource="&ccon;Savanna"/>
+            </Restriction>
+        </rdf:type>
+        <rdf:type>
+            <Restriction>
+                <onProperty rdf:resource="&ccon;isPartOf"/>
+                <allValuesFrom rdf:resource="&ccon;WoodLayer"/>
+            </Restriction>
+        </rdf:type>
+        <rdf:type>
+            <Restriction>
+                <onProperty rdf:resource="&ccon;isPartOf"/>
+                <someValuesFrom rdf:resource="&ccon;TropicalSeasonalForest"/>
+            </Restriction>
+        </rdf:type>
+        <rdfs:label rdf:datatype="&xsd;string">Dalbergia miscolobium</rdfs:label>
+        <sameAs rdf:resource="http://dbpedia.org/resource/Dalbergia_miscolobium"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://cerrado.linkeddata.es/ecology/ccon#Davilla_elliptica -->
+
+    <NamedIndividual rdf:about="&ccon;Davilla_elliptica">
+        <rdf:type rdf:resource="&ccon;Species"/>
+        <rdf:type rdf:resource="&ccon;WoodLayer"/>
+        <rdf:type>
+            <Restriction>
+                <onProperty rdf:resource="&ccon;isPartOf"/>
+                <someValuesFrom rdf:resource="&ccon;Savanna"/>
+            </Restriction>
+        </rdf:type>
+        <rdf:type>
+            <Restriction>
+                <onProperty rdf:resource="&ccon;isPartOf"/>
+                <allValuesFrom rdf:resource="&ccon;WoodLayer"/>
+            </Restriction>
+        </rdf:type>
+        <rdfs:label rdf:datatype="&xsd;string">Davilla elliptica</rdfs:label>
+    </NamedIndividual>
+    
+
+
+    <!-- http://cerrado.linkeddata.es/ecology/ccon#Dendropanax_cuneatus -->
+
+    <NamedIndividual rdf:about="&ccon;Dendropanax_cuneatus">
+        <rdf:type rdf:resource="&ccon;Species"/>
+        <rdf:type rdf:resource="&ccon;WoodLayer"/>
+        <rdf:type>
+            <Restriction>
+                <onProperty rdf:resource="&ccon;isPartOf"/>
+                <someValuesFrom rdf:resource="&ccon;WoodLayer"/>
+            </Restriction>
+        </rdf:type>
+        <rdf:type>
+            <Restriction>
+                <onProperty rdf:resource="&ccon;isPartOf"/>
+                <someValuesFrom rdf:resource="&ccon;Cerrado"/>
+            </Restriction>
+        </rdf:type>
+        <rdfs:label rdf:datatype="&xsd;string">Dendropanax cuneatus</rdfs:label>
+        <sameAs rdf:resource="http://dbpedia.org/resource/Dendropanax_cuneatus"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://cerrado.linkeddata.es/ecology/ccon#Dimorphandra_mollis -->
+
+    <NamedIndividual rdf:about="&ccon;Dimorphandra_mollis">
+        <rdf:type rdf:resource="&ccon;Species"/>
+        <rdf:type rdf:resource="&ccon;WoodLayer"/>
+        <rdf:type>
+            <Restriction>
+                <onProperty rdf:resource="&ccon;isPartOf"/>
+                <allValuesFrom rdf:resource="&ccon;Savanna"/>
+            </Restriction>
+        </rdf:type>
+        <rdf:type>
+            <Restriction>
+                <onProperty rdf:resource="&ccon;isPartOf"/>
+                <allValuesFrom rdf:resource="&ccon;WoodLayer"/>
+            </Restriction>
+        </rdf:type>
+        <rdfs:label rdf:datatype="&xsd;string">Dimorphandra mollis</rdfs:label>
+        <sameAs rdf:resource="http://dbpedia.org/resource/Dimorphandra_molli"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://cerrado.linkeddata.es/ecology/ccon#Diospyros_burchellii -->
+
+    <NamedIndividual rdf:about="&ccon;Diospyros_burchellii">
+        <rdf:type rdf:resource="&ccon;Species"/>
+        <rdf:type rdf:resource="&ccon;WoodLayer"/>
+        <rdf:type>
+            <Restriction>
+                <onProperty rdf:resource="&ccon;isPartOf"/>
+                <allValuesFrom rdf:resource="&ccon;CerradoSensuStricto"/>
+            </Restriction>
+        </rdf:type>
+        <rdf:type>
+            <Restriction>
+                <onProperty rdf:resource="&ccon;isPartOf"/>
+                <allValuesFrom rdf:resource="&ccon;WoodLayer"/>
+            </Restriction>
+        </rdf:type>
+        <rdfs:label rdf:datatype="&xsd;string">Diospyros burchellii</rdfs:label>
+    </NamedIndividual>
+    
+
+
+    <!-- http://cerrado.linkeddata.es/ecology/ccon#Enterolobium_gummiferum -->
+
+    <NamedIndividual rdf:about="&ccon;Enterolobium_gummiferum">
+        <rdf:type rdf:resource="&ccon;Species"/>
+        <rdf:type rdf:resource="&ccon;WoodLayer"/>
+        <rdf:type>
+            <Restriction>
+                <onProperty rdf:resource="&ccon;isPartOf"/>
+                <allValuesFrom rdf:resource="&ccon;WoodLayer"/>
+            </Restriction>
+        </rdf:type>
+        <rdf:type>
+            <Restriction>
+                <onProperty rdf:resource="&ccon;isPartOf"/>
+                <allValuesFrom rdf:resource="&ccon;CerradoSensuStricto"/>
+            </Restriction>
+        </rdf:type>
+        <rdfs:label>Enterolobium gummiferum</rdfs:label>
+        <sameAs rdf:resource="http://dbpedia.org/resource/Enterolobium_gummiferum"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://cerrado.linkeddata.es/ecology/ccon#Eremanthus_glomerulatus -->
+
+    <NamedIndividual rdf:about="&ccon;Eremanthus_glomerulatus">
+        <rdf:type rdf:resource="&ccon;Species"/>
+        <rdf:type rdf:resource="&ccon;WoodLayer"/>
+        <rdf:type>
+            <Restriction>
+                <onProperty rdf:resource="&ccon;isPartOf"/>
+                <allValuesFrom rdf:resource="&ccon;CerradoSensuStricto"/>
+            </Restriction>
+        </rdf:type>
+        <rdf:type>
+            <Restriction>
+                <onProperty rdf:resource="&ccon;isPartOf"/>
+                <allValuesFrom rdf:resource="&ccon;WoodLayer"/>
+            </Restriction>
+        </rdf:type>
+        <rdfs:label>Eremanthus glomerulatus</rdfs:label>
+    </NamedIndividual>
+    
+
+
+    <!-- http://cerrado.linkeddata.es/ecology/ccon#Eremanthus_goyazensis -->
+
+    <NamedIndividual rdf:about="&ccon;Eremanthus_goyazensis">
+        <rdf:type rdf:resource="&ccon;Species"/>
+        <rdf:type rdf:resource="&ccon;WoodLayer"/>
+        <rdf:type>
+            <Restriction>
+                <onProperty rdf:resource="&ccon;isPartOf"/>
+                <allValuesFrom rdf:resource="&ccon;CerradoSensuStricto"/>
+            </Restriction>
+        </rdf:type>
+        <rdf:type>
+            <Restriction>
+                <onProperty rdf:resource="&ccon;isPartOf"/>
+                <allValuesFrom rdf:resource="&ccon;WoodLayer"/>
+            </Restriction>
+        </rdf:type>
+        <rdfs:label>Eremanthus goyazensis</rdfs:label>
+        <sameAs rdf:resource="http://dbpedia.org/resource/Eremanthus_goyazensi"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://cerrado.linkeddata.es/ecology/ccon#Eriotheca_pubescens -->
+
+    <NamedIndividual rdf:about="&ccon;Eriotheca_pubescens">
+        <rdf:type rdf:resource="&ccon;Species"/>
+        <rdf:type rdf:resource="&ccon;WoodLayer"/>
+        <rdf:type>
+            <Restriction>
+                <onProperty rdf:resource="&ccon;isPartOf"/>
+                <allValuesFrom rdf:resource="&ccon;CerradoSensuStricto"/>
+            </Restriction>
+        </rdf:type>
+        <rdf:type>
+            <Restriction>
+                <onProperty rdf:resource="&ccon;isPartOf"/>
+                <allValuesFrom rdf:resource="&ccon;WoodLayer"/>
+            </Restriction>
+        </rdf:type>
+        <rdfs:label>Eriotheca pubescens</rdfs:label>
+        <sameAs rdf:resource="http://dbpedia.org/resource/Eriotheca_pubescens"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://cerrado.linkeddata.es/ecology/ccon#Erythroxylum_deciduum -->
+
+    <NamedIndividual rdf:about="&ccon;Erythroxylum_deciduum">
+        <rdf:type rdf:resource="&ccon;Species"/>
+        <rdf:type rdf:resource="&ccon;WoodLayer"/>
+        <rdf:type>
+            <Restriction>
+                <onProperty rdf:resource="&ccon;isPartOf"/>
+                <allValuesFrom rdf:resource="&ccon;WoodLayer"/>
+            </Restriction>
+        </rdf:type>
+        <rdf:type>
+            <Restriction>
+                <onProperty rdf:resource="&ccon;isPartOf"/>
+                <allValuesFrom rdf:resource="&ccon;CerradoSensuStricto"/>
+            </Restriction>
+        </rdf:type>
+        <rdfs:label>Erythroxylum deciduum</rdfs:label>
+        <sameAs rdf:resource="http://dbpedia.org/resource/Erythroxylum_deciduum"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://cerrado.linkeddata.es/ecology/ccon#Erythroxylum_suberosum -->
+
+    <NamedIndividual rdf:about="&ccon;Erythroxylum_suberosum">
+        <rdf:type rdf:resource="&ccon;Species"/>
+        <rdf:type rdf:resource="&ccon;WoodLayer"/>
+        <rdf:type rdf:resource="http://www.fao.org/aims/aos/cwr.owl#Angiosperm"/>
+        <rdf:type>
+            <Restriction>
+                <onProperty rdf:resource="&ccon;isPartOf"/>
+                <allValuesFrom rdf:resource="&ccon;CerradoSensuStricto"/>
+            </Restriction>
+        </rdf:type>
+        <rdf:type>
+            <Restriction>
+                <onProperty rdf:resource="&ccon;isPartOf"/>
+                <allValuesFrom rdf:resource="&ccon;WoodLayer"/>
+            </Restriction>
+        </rdf:type>
+        <rdfs:label>Erythroxylum suberosum</rdfs:label>
+        <sameAs rdf:resource="http://dbpedia.org/resource/Erythroxylum_suberosum"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://cerrado.linkeddata.es/ecology/ccon#Erythroxylum_tortuosum -->
+
+    <NamedIndividual rdf:about="&ccon;Erythroxylum_tortuosum">
+        <rdf:type rdf:resource="&ccon;Species"/>
+        <rdf:type rdf:resource="&ccon;WoodLayer"/>
+        <rdf:type rdf:resource="http://www.fao.org/aims/aos/cwr.owl#Angiosperm"/>
+        <rdf:type>
+            <Restriction>
+                <onProperty rdf:resource="&ccon;isPartOf"/>
+                <allValuesFrom rdf:resource="&ccon;CerradoSensuStricto"/>
+            </Restriction>
+        </rdf:type>
+        <rdf:type>
+            <Restriction>
+                <onProperty rdf:resource="&ccon;isPartOf"/>
+                <allValuesFrom rdf:resource="&ccon;WoodLayer"/>
+            </Restriction>
+        </rdf:type>
+        <rdfs:label>Erythroxylum tortuosum</rdfs:label>
+        <sameAs rdf:resource="http://dbpedia.org/resource/Erythroxylum_tortuosum"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://cerrado.linkeddata.es/ecology/ccon#Guapira_noxia -->
+
+    <NamedIndividual rdf:about="&ccon;Guapira_noxia">
+        <rdf:type rdf:resource="&ccon;Species"/>
+        <rdf:type rdf:resource="&ccon;WoodLayer"/>
+        <rdf:type rdf:resource="http://www.fao.org/aims/aos/cwr.owl#Angiosperm"/>
+        <rdf:type>
+            <Restriction>
+                <onProperty rdf:resource="&ccon;isPartOf"/>
+                <allValuesFrom rdf:resource="&ccon;CerradoSensuStricto"/>
+            </Restriction>
+        </rdf:type>
+        <rdf:type>
+            <Restriction>
+                <onProperty rdf:resource="&ccon;isPartOf"/>
+                <allValuesFrom rdf:resource="&ccon;WoodLayer"/>
+            </Restriction>
+        </rdf:type>
+        <rdfs:label>Guapira noxia</rdfs:label>
+        <ccon:hasSynonym>Pisonia noxia</ccon:hasSynonym>
+        <ccon:hasAcceptedName>Guapira noxia</ccon:hasAcceptedName>
+        <sameAs rdf:resource="&ccon;Pisonia_noxia"/>
+        <skos:exactMatch rdf:resource="&ccon;Pisonia_noxia"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://cerrado.linkeddata.es/ecology/ccon#Guapira_salicifolia -->
+
+    <NamedIndividual rdf:about="&ccon;Guapira_salicifolia">
+        <rdf:type rdf:resource="&ccon;Species"/>
+        <rdf:type rdf:resource="&ccon;WoodLayer"/>
+        <rdf:type rdf:resource="http://www.fao.org/aims/aos/cwr.owl#Angiosperm"/>
+        <rdf:type>
+            <Restriction>
+                <onProperty rdf:resource="&ccon;isPartOf"/>
+                <allValuesFrom rdf:resource="&ccon;WoodLayer"/>
+            </Restriction>
+        </rdf:type>
+        <rdf:type>
+            <Restriction>
+                <onProperty rdf:resource="&ccon;isPartOf"/>
+                <allValuesFrom rdf:resource="&ccon;CerradoSensuStricto"/>
+            </Restriction>
+        </rdf:type>
+        <rdfs:label>Guapira salicifolia</rdfs:label>
+        <ccon:hasAcceptedName>Guapira salicifolia</ccon:hasAcceptedName>
+        <ccon:hasSynonym>Pisonia graciliflora</ccon:hasSynonym>
+        <skos:exactMatch rdf:resource="&ccon;Pisonia_graciliflora"/>
+        <sameAs rdf:resource="&ccon;Pisonia_graciliflora"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://cerrado.linkeddata.es/ecology/ccon#Hancornia_pubescens -->
+
+    <NamedIndividual rdf:about="&ccon;Hancornia_pubescens">
+        <rdf:type rdf:resource="&ccon;Species"/>
+        <rdf:type rdf:resource="&ccon;WoodLayer"/>
+        <rdf:type rdf:resource="http://www.fao.org/aims/aos/cwr.owl#Angiosperm"/>
+        <rdf:type>
+            <Restriction>
+                <onProperty rdf:resource="&ccon;isPartOf"/>
+                <allValuesFrom rdf:resource="&ccon;WoodLayer"/>
+            </Restriction>
+        </rdf:type>
+        <rdf:type>
+            <Restriction>
+                <onProperty rdf:resource="&ccon;isPartOf"/>
+                <allValuesFrom rdf:resource="&ccon;Cerradao"/>
+            </Restriction>
+        </rdf:type>
+        <rdf:type>
+            <Restriction>
+                <onProperty rdf:resource="&ccon;isPartOf"/>
+                <allValuesFrom rdf:resource="&ccon;CerradoSensuStricto"/>
+            </Restriction>
+        </rdf:type>
+        <rdf:type>
+            <Restriction>
+                <onProperty rdf:resource="&ccon;isPartOf"/>
+                <someValuesFrom rdf:resource="&ccon;Species"/>
+            </Restriction>
+        </rdf:type>
+        <rdfs:label>Hancornia pubescens</rdfs:label>
+    </NamedIndividual>
+    
+
+
+    <!-- http://cerrado.linkeddata.es/ecology/ccon#Hancornia_speciosa -->
+
+    <NamedIndividual rdf:about="&ccon;Hancornia_speciosa">
+        <rdf:type rdf:resource="&ccon;Species"/>
+        <rdf:type rdf:resource="&ccon;WoodLayer"/>
+        <rdf:type>
+            <Restriction>
+                <onProperty rdf:resource="&ccon;isPartOf"/>
+                <allValuesFrom rdf:resource="&ccon;WoodLayer"/>
+            </Restriction>
+        </rdf:type>
+        <rdf:type>
+            <Restriction>
+                <onProperty rdf:resource="&ccon;isPartOf"/>
+                <allValuesFrom rdf:resource="&ccon;Cerradao"/>
+            </Restriction>
+        </rdf:type>
+        <rdf:type>
+            <Restriction>
+                <onProperty rdf:resource="&ccon;isPartOf"/>
+                <allValuesFrom rdf:resource="&ccon;CerradoSensuStricto"/>
+            </Restriction>
+        </rdf:type>
+        <rdfs:label>Hancornia speciosa</rdfs:label>
+        <sameAs rdf:resource="http://rdf.freebase.com/ns/m.0269bcv"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://cerrado.linkeddata.es/ecology/ccon#Heteropterys_byrsonimifolia -->
+
+    <NamedIndividual rdf:about="&ccon;Heteropterys_byrsonimifolia">
+        <rdf:type rdf:resource="&ccon;Species"/>
+        <rdf:type rdf:resource="&ccon;WoodLayer"/>
+        <rdf:type rdf:resource="http://www.fao.org/aims/aos/cwr.owl#Angiosperm"/>
+        <rdf:type>
+            <Restriction>
+                <onProperty rdf:resource="&ccon;isPartOf"/>
+                <allValuesFrom rdf:resource="&ccon;CerradoSensuStricto"/>
+            </Restriction>
+        </rdf:type>
+        <rdf:type>
+            <Restriction>
+                <onProperty rdf:resource="&ccon;isPartOf"/>
+                <allValuesFrom rdf:resource="&ccon;WoodLayer"/>
+            </Restriction>
+        </rdf:type>
+        <rdfs:label>Heteropterys byrsonimifolia</rdfs:label>
+    </NamedIndividual>
+    
+
+
+    <!-- http://cerrado.linkeddata.es/ecology/ccon#Hirtella_ciliata -->
+
+    <NamedIndividual rdf:about="&ccon;Hirtella_ciliata">
+        <rdf:type rdf:resource="&ccon;Species"/>
+        <rdf:type rdf:resource="&ccon;WoodLayer"/>
+        <rdfs:label>Hirtella ciliata</rdfs:label>
+    </NamedIndividual>
+    
+
+
+    <!-- http://cerrado.linkeddata.es/ecology/ccon#Hymenaea_stigonocarpa -->
+
+    <NamedIndividual rdf:about="&ccon;Hymenaea_stigonocarpa">
+        <rdf:type rdf:resource="&ccon;Species"/>
+        <rdf:type rdf:resource="&ccon;WoodLayer"/>
+        <rdfs:label>Hymenaea stigonocarpa</rdfs:label>
+        <sameAs rdf:resource="http://dbpedia.org/resource/Hymenaea_stigonocarpa"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://cerrado.linkeddata.es/ecology/ccon#Jacaranda_decurrens -->
+
+    <NamedIndividual rdf:about="&ccon;Jacaranda_decurrens">
+        <rdf:type rdf:resource="&ccon;Species"/>
+        <rdf:type rdf:resource="&ccon;WoodLayer"/>
+        <rdfs:label>Jacaranda decurrens</rdfs:label>
+        <sameAs rdf:resource="http://dbpedia.org/resource/Jacaranda_decurrens"/>
+        <sameAs rdf:resource="http://rdf.freebase.com/ns/m.02r5m6g"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://cerrado.linkeddata.es/ecology/ccon#Kielmeyera_coriacea -->
+
+    <NamedIndividual rdf:about="&ccon;Kielmeyera_coriacea">
+        <rdf:type rdf:resource="&ccon;Species"/>
+        <rdf:type rdf:resource="&ccon;WoodLayer"/>
+        <rdf:type rdf:resource="http://www.fao.org/aims/aos/cwr.owl#Angiosperm"/>
+        <rdf:type>
+            <Restriction>
+                <onProperty rdf:resource="&ccon;isPartOf"/>
+                <allValuesFrom rdf:resource="&ccon;CerradoSensuStricto"/>
+            </Restriction>
+        </rdf:type>
+        <rdf:type>
+            <Restriction>
+                <onProperty rdf:resource="&ccon;isPartOf"/>
+                <allValuesFrom rdf:resource="&ccon;WoodLayer"/>
+            </Restriction>
+        </rdf:type>
+        <rdfs:label>Kielmeyera coriacea</rdfs:label>
+        <sameAs rdf:resource="http://dbpedia.org/resource/Kielmeyera_coriacea"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://cerrado.linkeddata.es/ecology/ccon#Kielmeyera_speciosa -->
+
+    <NamedIndividual rdf:about="&ccon;Kielmeyera_speciosa">
+        <rdf:type rdf:resource="&ccon;Species"/>
+        <rdf:type rdf:resource="&ccon;WoodLayer"/>
+        <rdf:type rdf:resource="http://www.fao.org/aims/aos/cwr.owl#Angiosperm"/>
+        <rdf:type>
+            <Restriction>
+                <onProperty rdf:resource="&ccon;isPartOf"/>
+                <allValuesFrom rdf:resource="&ccon;WoodLayer"/>
+            </Restriction>
+        </rdf:type>
+        <rdf:type>
+            <Restriction>
+                <onProperty rdf:resource="&ccon;isPartOf"/>
+                <allValuesFrom rdf:resource="&ccon;CerradoSensuStricto"/>
+            </Restriction>
+        </rdf:type>
+        <rdfs:label>Kielmeyera speciosa</rdfs:label>
+    </NamedIndividual>
+    
+
+
+    <!-- http://cerrado.linkeddata.es/ecology/ccon#Kielmeyera_variabilis -->
+
+    <NamedIndividual rdf:about="&ccon;Kielmeyera_variabilis">
+        <rdf:type rdf:resource="&ccon;Species"/>
+        <rdf:type rdf:resource="&ccon;WoodLayer"/>
+        <rdfs:label>Kielmeyera variabilis</rdfs:label>
+        <sameAs rdf:resource="http://dbpedia.org/resource/Kielmeyera_variabilis"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://cerrado.linkeddata.es/ecology/ccon#Lafoensia_pacari -->
+
+    <NamedIndividual rdf:about="&ccon;Lafoensia_pacari">
+        <rdf:type rdf:resource="&ccon;Species"/>
+        <rdf:type rdf:resource="&ccon;WoodLayer"/>
+        <rdf:type rdf:resource="http://www.fao.org/aims/aos/cwr.owl#Angiosperm"/>
+        <rdf:type>
+            <Restriction>
+                <onProperty rdf:resource="&ccon;isPartOf"/>
+                <allValuesFrom rdf:resource="&ccon;CerradoSensuStricto"/>
+            </Restriction>
+        </rdf:type>
+        <rdf:type>
+            <Restriction>
+                <onProperty rdf:resource="&ccon;isPartOf"/>
+                <allValuesFrom rdf:resource="&ccon;WoodLayer"/>
+            </Restriction>
+        </rdf:type>
+        <rdfs:label>Lafoensia pacari</rdfs:label>
+    </NamedIndividual>
+    
+
+
+    <!-- http://cerrado.linkeddata.es/ecology/ccon#Mauritia_flexuosa -->
+
+    <NamedIndividual rdf:about="&ccon;Mauritia_flexuosa">
+        <rdf:type rdf:resource="&ccon;Species"/>
+        <rdf:type rdf:resource="&ccon;WoodLayer"/>
+        <rdf:type>
+            <Restriction>
+                <onProperty rdf:resource="&ccon;isPartOf"/>
+                <allValuesFrom rdf:resource="&ccon;WoodLayer"/>
+            </Restriction>
+        </rdf:type>
+        <rdf:type>
+            <Restriction>
+                <onProperty rdf:resource="&ccon;isPartOf"/>
+                <someValuesFrom rdf:resource="&ccon;TropicalSeasonalForest"/>
+            </Restriction>
+        </rdf:type>
+        <rdf:type>
+            <Restriction>
+                <onProperty rdf:resource="&ccon;isPartOf"/>
+                <someValuesFrom rdf:resource="&ccon;Savanna"/>
+            </Restriction>
+        </rdf:type>
+        <rdfs:label rdf:datatype="&xsd;string">Mauritia flexuosa</rdfs:label>
+        <rdfs:comment rdf:datatype="&xsd;string">Palm trees are not true wood plants, but with regard to ecological fuction they perform similar function as wood plants do, and contribute for the woody community structure in contrast with grass and herbaceous plants. </rdfs:comment>
+        <sameAs rdf:resource="http://dbpedia.org/resource/Moriche_Palm"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://cerrado.linkeddata.es/ecology/ccon#Miconia_albicans -->
+
+    <NamedIndividual rdf:about="&ccon;Miconia_albicans">
+        <rdf:type rdf:resource="&ccon;Species"/>
+        <rdf:type rdf:resource="&ccon;WoodLayer"/>
+        <rdf:type rdf:resource="http://www.fao.org/aims/aos/cwr.owl#Angiosperm"/>
+        <rdf:type>
+            <Restriction>
+                <onProperty rdf:resource="&ccon;isPartOf"/>
+                <allValuesFrom rdf:resource="&ccon;CerradoSensuStricto"/>
+            </Restriction>
+        </rdf:type>
+        <rdf:type>
+            <Restriction>
+                <onProperty rdf:resource="&ccon;isPartOf"/>
+                <allValuesFrom rdf:resource="&ccon;WoodLayer"/>
+            </Restriction>
+        </rdf:type>
+        <rdfs:label>Miconia albicans</rdfs:label>
+        <sameAs rdf:resource="http://dbpedia.org/resource/Miconia_albicans"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://cerrado.linkeddata.es/ecology/ccon#Miconia_fallax -->
+
+    <NamedIndividual rdf:about="&ccon;Miconia_fallax">
+        <rdf:type rdf:resource="&ccon;Species"/>
+        <rdf:type rdf:resource="&ccon;WoodLayer"/>
+        <rdf:type rdf:resource="http://www.fao.org/aims/aos/cwr.owl#Angiosperm"/>
+        <rdf:type>
+            <Restriction>
+                <onProperty rdf:resource="&ccon;isPartOf"/>
+                <allValuesFrom rdf:resource="&ccon;CerradoSensuStricto"/>
+            </Restriction>
+        </rdf:type>
+        <rdf:type>
+            <Restriction>
+                <onProperty rdf:resource="&ccon;isPartOf"/>
+                <allValuesFrom rdf:resource="&ccon;WoodLayer"/>
+            </Restriction>
+        </rdf:type>
+        <rdfs:label>Miconia fallax</rdfs:label>
+        <sameAs rdf:resource="http://dbpedia.org/resource/Miconia_fallax"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://cerrado.linkeddata.es/ecology/ccon#Miconia_ferruginata -->
+
+    <NamedIndividual rdf:about="&ccon;Miconia_ferruginata">
+        <rdf:type rdf:resource="&ccon;Species"/>
+        <rdf:type rdf:resource="&ccon;WoodLayer"/>
+        <rdf:type rdf:resource="http://www.fao.org/aims/aos/cwr.owl#Angiosperm"/>
+        <rdf:type>
+            <Restriction>
+                <onProperty rdf:resource="&ccon;isPartOf"/>
+                <allValuesFrom rdf:resource="&ccon;CerradoSensuStricto"/>
+            </Restriction>
+        </rdf:type>
+        <rdf:type>
+            <Restriction>
+                <onProperty rdf:resource="&ccon;isPartOf"/>
+                <allValuesFrom rdf:resource="&ccon;WoodLayer"/>
+            </Restriction>
+        </rdf:type>
+        <rdfs:label>Miconia ferruginata</rdfs:label>
+    </NamedIndividual>
+    
+
+
+    <!-- http://cerrado.linkeddata.es/ecology/ccon#Miconia_pohliana -->
+
+    <NamedIndividual rdf:about="&ccon;Miconia_pohliana">
+        <rdf:type rdf:resource="&ccon;Species"/>
+        <rdf:type rdf:resource="&ccon;WoodLayer"/>
+        <rdf:type rdf:resource="http://www.fao.org/aims/aos/cwr.owl#Angiosperm"/>
+        <rdf:type>
+            <Restriction>
+                <onProperty rdf:resource="&ccon;isPartOf"/>
+                <allValuesFrom rdf:resource="&ccon;WoodLayer"/>
+            </Restriction>
+        </rdf:type>
+        <rdf:type>
+            <Restriction>
+                <onProperty rdf:resource="&ccon;isPartOf"/>
+                <allValuesFrom rdf:resource="&ccon;CerradoSensuStricto"/>
+            </Restriction>
+        </rdf:type>
+        <rdfs:label>Miconia pohliana</rdfs:label>
+        <sameAs rdf:resource="http://dbpedia.org/resource/Miconia_pohliana"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://cerrado.linkeddata.es/ecology/ccon#Mimosa_claussenii -->
+
+    <NamedIndividual rdf:about="&ccon;Mimosa_claussenii">
+        <rdf:type rdf:resource="&ccon;Species"/>
+        <rdf:type rdf:resource="&ccon;WoodLayer"/>
+        <rdf:type rdf:resource="http://www.fao.org/aims/aos/cwr.owl#Angiosperm"/>
+        <rdf:type>
+            <Restriction>
+                <onProperty rdf:resource="&ccon;isPartOf"/>
+                <allValuesFrom rdf:resource="&ccon;CerradoSensuStricto"/>
+            </Restriction>
+        </rdf:type>
+        <rdf:type>
+            <Restriction>
+                <onProperty rdf:resource="&ccon;isPartOf"/>
+                <allValuesFrom rdf:resource="&ccon;WoodLayer"/>
+            </Restriction>
+        </rdf:type>
+        <rdfs:label>Mimosa claussenii </rdfs:label>
+    </NamedIndividual>
+    
+
+
+    <!-- http://cerrado.linkeddata.es/ecology/ccon#Myracrodruon_urundeuva -->
+
+    <NamedIndividual rdf:about="&ccon;Myracrodruon_urundeuva">
+        <rdf:type rdf:resource="&ccon;Species"/>
+        <rdf:type rdf:resource="&ccon;WoodLayer"/>
+        <rdf:type rdf:resource="http://www.fao.org/aims/aos/cwr.owl#Angiosperm"/>
+        <rdf:type>
+            <Restriction>
+                <onProperty rdf:resource="&ccon;isPartOf"/>
+                <someValuesFrom rdf:resource="&ccon;CerradoSensuStricto"/>
+            </Restriction>
+        </rdf:type>
+        <rdf:type>
+            <Restriction>
+                <onProperty rdf:resource="&ccon;isPartOf"/>
+                <someValuesFrom rdf:resource="&ccon;TropicalSeasonalForest"/>
+            </Restriction>
+        </rdf:type>
+        <rdf:type>
+            <Restriction>
+                <onProperty rdf:resource="&ccon;isPartOf"/>
+                <allValuesFrom rdf:resource="&ccon;WoodLayer"/>
+            </Restriction>
+        </rdf:type>
+        <rdfs:label rdf:datatype="&xsd;string">Myracrodruon urundeuva</rdfs:label>
+        <sameAs rdf:resource="http://dbpedia.org/resource/Myracrodruon_urundeuva"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://cerrado.linkeddata.es/ecology/ccon#Myrsine_guianensis -->
+
+    <NamedIndividual rdf:about="&ccon;Myrsine_guianensis">
+        <rdf:type rdf:resource="&ccon;Species"/>
+        <rdf:type rdf:resource="&ccon;WoodLayer"/>
+        <rdf:type>
+            <Restriction>
+                <onProperty rdf:resource="&ccon;isPartOf"/>
+                <allValuesFrom rdf:resource="&ccon;TropicalSeasonalForest"/>
+            </Restriction>
+        </rdf:type>
+        <rdf:type>
+            <Restriction>
+                <onProperty rdf:resource="&ccon;isPartOf"/>
+                <someValuesFrom rdf:resource="&ccon;WoodLayer"/>
+            </Restriction>
+        </rdf:type>
+        <rdf:type>
+            <Restriction>
+                <onProperty rdf:resource="&ccon;isPartOf"/>
+                <allValuesFrom rdf:resource="&ccon;CerradoSensuStricto"/>
+            </Restriction>
+        </rdf:type>
+        <rdfs:label>Myrsine guianensis</rdfs:label>
+    </NamedIndividual>
+    
+
+
+    <!-- http://cerrado.linkeddata.es/ecology/ccon#Neea_theifera -->
+
+    <NamedIndividual rdf:about="&ccon;Neea_theifera">
+        <rdf:type rdf:resource="&ccon;Species"/>
+        <rdf:type rdf:resource="&ccon;WoodLayer"/>
+        <rdf:type rdf:resource="http://www.fao.org/aims/aos/cwr.owl#Angiosperm"/>
+        <rdf:type>
+            <Restriction>
+                <onProperty rdf:resource="&ccon;isPartOf"/>
+                <allValuesFrom rdf:resource="&ccon;WoodLayer"/>
+            </Restriction>
+        </rdf:type>
+        <rdf:type>
+            <Restriction>
+                <onProperty rdf:resource="&ccon;isPartOf"/>
+                <allValuesFrom rdf:resource="&ccon;CerradoSensuStricto"/>
+            </Restriction>
+        </rdf:type>
+        <rdfs:label>Neea theifera</rdfs:label>
+        <sameAs rdf:resource="http://dbpedia.org/resource/Neea_theifera"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://cerrado.linkeddata.es/ecology/ccon#Ouratea_hexasperma -->
+
+    <NamedIndividual rdf:about="&ccon;Ouratea_hexasperma">
+        <rdf:type rdf:resource="&ccon;Species"/>
+        <rdf:type rdf:resource="&ccon;WoodLayer"/>
+        <rdf:type>
+            <Restriction>
+                <onProperty rdf:resource="&ccon;isPartOf"/>
+                <allValuesFrom rdf:resource="&ccon;Savanna"/>
+            </Restriction>
+        </rdf:type>
+        <rdf:type>
+            <Restriction>
+                <onProperty rdf:resource="&ccon;isPartOf"/>
+                <allValuesFrom rdf:resource="&ccon;Cerradao"/>
+            </Restriction>
+        </rdf:type>
+        <rdfs:label>Ouratea hexasperma</rdfs:label>
+    </NamedIndividual>
+    
+
+
+    <!-- http://cerrado.linkeddata.es/ecology/ccon#Palicourea_rigida -->
+
+    <NamedIndividual rdf:about="&ccon;Palicourea_rigida">
+        <rdf:type rdf:resource="&ccon;Species"/>
+        <rdf:type rdf:resource="&ccon;WoodLayer"/>
+        <rdf:type rdf:resource="http://www.fao.org/aims/aos/cwr.owl#Angiosperm"/>
+        <rdf:type>
+            <Restriction>
+                <onProperty rdf:resource="&ccon;isPartOf"/>
+                <someValuesFrom rdf:resource="&ccon;Savanna"/>
+            </Restriction>
+        </rdf:type>
+        <rdfs:label rdf:datatype="&xsd;string">Palicourea rigida</rdfs:label>
+    </NamedIndividual>
+    
+
+
+    <!-- http://cerrado.linkeddata.es/ecology/ccon#Periandra_mediterranea -->
+
+    <NamedIndividual rdf:about="&ccon;Periandra_mediterranea">
+        <rdf:type rdf:resource="&ccon;Species"/>
+        <rdf:type rdf:resource="&ccon;WoodLayer"/>
+        <rdfs:label>Periandra mediterranea</rdfs:label>
+    </NamedIndividual>
+    
+
+
+    <!-- http://cerrado.linkeddata.es/ecology/ccon#Piptocarpha_rotundifolia -->
+
+    <NamedIndividual rdf:about="&ccon;Piptocarpha_rotundifolia">
+        <rdf:type rdf:resource="&ccon;Species"/>
+        <rdf:type rdf:resource="&ccon;WoodLayer"/>
+        <rdf:type rdf:resource="http://www.fao.org/aims/aos/cwr.owl#Angiosperm"/>
+        <rdf:type>
+            <Restriction>
+                <onProperty rdf:resource="&ccon;isPartOf"/>
+                <allValuesFrom rdf:resource="&ccon;CerradoSensuStricto"/>
+            </Restriction>
+        </rdf:type>
+        <rdfs:label>Piptocarpha rotundifolia</rdfs:label>
+        <sameAs rdf:resource="http://dbpedia.org/resource/Piptocarpha_rotundifolia"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://cerrado.linkeddata.es/ecology/ccon#Pisonia_graciliflora -->
+
+    <NamedIndividual rdf:about="&ccon;Pisonia_graciliflora">
+        <rdf:type rdf:resource="&ccon;Species"/>
+        <rdf:type rdf:resource="&ccon;WoodLayer"/>
+        <rdf:type>
+            <Restriction>
+                <onProperty rdf:resource="&ccon;isPartOf"/>
+                <allValuesFrom rdf:resource="&ccon;CerradoSensuStricto"/>
+            </Restriction>
+        </rdf:type>
+        <rdf:type>
+            <Restriction>
+                <onProperty rdf:resource="&ccon;isPartOf"/>
+                <allValuesFrom rdf:resource="&ccon;Cerradao"/>
+            </Restriction>
+        </rdf:type>
+        <rdfs:label>Pisonia graciliflora</rdfs:label>
+        <ccon:hasSynonym>Guapira salicifolia</ccon:hasSynonym>
+        <ccon:hasAcceptedName>Guapira salicifolia</ccon:hasAcceptedName>
+    </NamedIndividual>
+    
+
+
+    <!-- http://cerrado.linkeddata.es/ecology/ccon#Pisonia_noxia -->
+
+    <NamedIndividual rdf:about="&ccon;Pisonia_noxia">
+        <rdf:type rdf:resource="&ccon;Species"/>
+        <rdf:type rdf:resource="&ccon;WoodLayer"/>
+        <rdf:type>
+            <Restriction>
+                <onProperty rdf:resource="&ccon;isPartOf"/>
+                <allValuesFrom rdf:resource="&ccon;CerradoSensuStricto"/>
+            </Restriction>
+        </rdf:type>
+        <rdfs:label>Pisonia noxia</rdfs:label>
+        <ccon:hasAcceptedName>Guapira noxia</ccon:hasAcceptedName>
+        <ccon:hasSynonym>Guapira noxia</ccon:hasSynonym>
+    </NamedIndividual>
+    
+
+
+    <!-- http://cerrado.linkeddata.es/ecology/ccon#Plenckia_populnea -->
+
+    <NamedIndividual rdf:about="&ccon;Plenckia_populnea">
+        <rdf:type rdf:resource="&ccon;Species"/>
+        <rdf:type rdf:resource="&ccon;WoodLayer"/>
+        <rdf:type>
+            <Restriction>
+                <onProperty rdf:resource="&ccon;isPartOf"/>
+                <allValuesFrom rdf:resource="&ccon;CerradoSensuStricto"/>
+            </Restriction>
+        </rdf:type>
+        <rdfs:label>Plenckia populnea</rdfs:label>
+        <ccon:hasAcceptedName>Plenckia populnea</ccon:hasAcceptedName>
+        <ccon:hasSynonym>Austroplenckia populnea</ccon:hasSynonym>
+        <sameAs rdf:resource="http://dbpedia.org/resource/Austroplenckia_populnea"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://cerrado.linkeddata.es/ecology/ccon#Pouteria_ramiflora -->
+
+    <NamedIndividual rdf:about="&ccon;Pouteria_ramiflora">
+        <rdf:type rdf:resource="&ccon;Species"/>
+        <rdf:type rdf:resource="&ccon;WoodLayer"/>
+        <rdf:type>
+            <Restriction>
+                <onProperty rdf:resource="&ccon;isPartOf"/>
+                <allValuesFrom rdf:resource="&ccon;CerradoSensuStricto"/>
+            </Restriction>
+        </rdf:type>
+        <rdfs:label>Pouteria ramiflora</rdfs:label>
+        <sameAs rdf:resource="http://dbpedia.org/resource/Pouteria_ramiflora"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://cerrado.linkeddata.es/ecology/ccon#Pterodon_pubescens -->
+
+    <NamedIndividual rdf:about="&ccon;Pterodon_pubescens">
+        <rdf:type rdf:resource="&ccon;Species"/>
+        <rdf:type rdf:resource="&ccon;WoodLayer"/>
+        <rdfs:label>Pterodon pubescens</rdfs:label>
+        <sameAs rdf:resource="http://dbpedia.org/resource/Pterodon_pubescens"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://cerrado.linkeddata.es/ecology/ccon#Qualea_grandiflora -->
+
+    <NamedIndividual rdf:about="&ccon;Qualea_grandiflora">
+        <rdf:type rdf:resource="&ccon;Species"/>
+        <rdf:type rdf:resource="&ccon;WoodLayer"/>
+        <rdf:type>
+            <Restriction>
+                <onProperty rdf:resource="&ccon;isPartOf"/>
+                <someValuesFrom rdf:resource="&ccon;CerradoSensuStricto"/>
+            </Restriction>
+        </rdf:type>
+        <rdf:type>
+            <Restriction>
+                <onProperty rdf:resource="&ccon;isPartOf"/>
+                <allValuesFrom rdf:resource="&ccon;WoodLayer"/>
+            </Restriction>
+        </rdf:type>
+        <rdfs:label rdf:datatype="&xsd;string">Qualea grandiflora</rdfs:label>
+    </NamedIndividual>
+    
+
+
+    <!-- http://cerrado.linkeddata.es/ecology/ccon#Qualea_multiflora -->
+
+    <NamedIndividual rdf:about="&ccon;Qualea_multiflora">
+        <rdf:type rdf:resource="&ccon;Species"/>
+        <rdf:type rdf:resource="&ccon;WoodLayer"/>
+        <rdf:type>
+            <Restriction>
+                <onProperty rdf:resource="&ccon;isPartOf"/>
+                <allValuesFrom rdf:resource="&ccon;CerradoSensuStricto"/>
+            </Restriction>
+        </rdf:type>
+        <rdfs:label>Qualea multiflora</rdfs:label>
+        <sameAs rdf:resource="http://dbpedia.org/resource/Qualea_multiflora"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://cerrado.linkeddata.es/ecology/ccon#Qualea_parviflora -->
+
+    <NamedIndividual rdf:about="&ccon;Qualea_parviflora">
+        <rdf:type rdf:resource="&ccon;Species"/>
+        <rdf:type rdf:resource="&ccon;WoodLayer"/>
+        <rdf:type>
+            <Restriction>
+                <onProperty rdf:resource="&ccon;isPartOf"/>
+                <someValuesFrom rdf:resource="&ccon;CerradoSensuStricto"/>
+            </Restriction>
+        </rdf:type>
+        <rdf:type>
+            <Restriction>
+                <onProperty rdf:resource="&ccon;isPartOf"/>
+                <allValuesFrom rdf:resource="&ccon;WoodLayer"/>
+            </Restriction>
+        </rdf:type>
+        <rdfs:label rdf:datatype="&xsd;string">Qualea parviflora</rdfs:label>
+    </NamedIndividual>
+    
+
+
+    <!-- http://cerrado.linkeddata.es/ecology/ccon#Roupala_montana -->
+
+    <NamedIndividual rdf:about="&ccon;Roupala_montana">
+        <rdf:type rdf:resource="&ccon;Species"/>
+        <rdf:type rdf:resource="&ccon;WoodLayer"/>
+        <rdf:type>
+            <Restriction>
+                <onProperty rdf:resource="&ccon;isPartOf"/>
+                <someValuesFrom rdf:resource="&ccon;CerradoSensuStricto"/>
+            </Restriction>
+        </rdf:type>
+        <rdfs:label>Roupala montana</rdfs:label>
+        <sameAs rdf:resource="http://dbpedia.org/resource/Roupala_montana"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://cerrado.linkeddata.es/ecology/ccon#Rourea_induta -->
+
+    <NamedIndividual rdf:about="&ccon;Rourea_induta">
+        <rdf:type rdf:resource="&ccon;Species"/>
+        <rdf:type rdf:resource="&ccon;WoodLayer"/>
+        <rdf:type>
+            <Restriction>
+                <onProperty rdf:resource="&ccon;isPartOf"/>
+                <someValuesFrom rdf:resource="&ccon;CerradoSensuStricto"/>
+            </Restriction>
+        </rdf:type>
+        <rdf:type>
+            <Restriction>
+                <onProperty rdf:resource="&ccon;isPartOf"/>
+                <someValuesFrom rdf:resource="&ccon;Species"/>
+            </Restriction>
+        </rdf:type>
+        <rdfs:label>Rourea induta</rdfs:label>
+    </NamedIndividual>
+    
+
+
+    <!-- http://cerrado.linkeddata.es/ecology/ccon#Salacia_crassifolia -->
+
+    <NamedIndividual rdf:about="&ccon;Salacia_crassifolia">
+        <rdf:type rdf:resource="&ccon;Species"/>
+        <rdf:type rdf:resource="&ccon;WoodLayer"/>
+        <rdf:type>
+            <Restriction>
+                <onProperty rdf:resource="&ccon;isPartOf"/>
+                <allValuesFrom rdf:resource="&ccon;CerradoSensuStricto"/>
+            </Restriction>
+        </rdf:type>
+        <rdfs:label>Salacia crassifolia</rdfs:label>
+    </NamedIndividual>
+    
+
+
+    <!-- http://cerrado.linkeddata.es/ecology/ccon#Schefflera__macrocarpa -->
+
+    <NamedIndividual rdf:about="&ccon;Schefflera__macrocarpa">
+        <rdf:type rdf:resource="&ccon;Species"/>
+        <rdf:type rdf:resource="&ccon;WoodLayer"/>
+        <rdf:type>
+            <Restriction>
+                <onProperty rdf:resource="&ccon;isPartOf"/>
+                <allValuesFrom rdf:resource="&ccon;Cerradao"/>
+            </Restriction>
+        </rdf:type>
+        <rdf:type>
+            <Restriction>
+                <onProperty rdf:resource="&ccon;isPartOf"/>
+                <allValuesFrom rdf:resource="&ccon;CerradoSensuStricto"/>
+            </Restriction>
+        </rdf:type>
+        <rdf:type>
+            <Restriction>
+                <onProperty rdf:resource="&ccon;isPartOf"/>
+                <allValuesFrom rdf:resource="&ccon;WoodLayer"/>
+            </Restriction>
+        </rdf:type>
+        <rdfs:label rdf:datatype="&xsd;string">Schefflera  macrocarpa</rdfs:label>
+        <sameAs rdf:resource="http://dbpedia.org/resource/Schefflera_macrocarpa"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://cerrado.linkeddata.es/ecology/ccon#Sclerolobium_paniculatum -->
+
+    <NamedIndividual rdf:about="&ccon;Sclerolobium_paniculatum">
+        <rdf:type rdf:resource="&ccon;Species"/>
+        <rdf:type rdf:resource="&ccon;WoodLayer"/>
+        <rdf:type>
+            <Restriction>
+                <onProperty rdf:resource="&ccon;isPartOf"/>
+                <allValuesFrom rdf:resource="&ccon;CerradoSensuStricto"/>
+            </Restriction>
+        </rdf:type>
+        <rdfs:label>Sclerolobium paniculatum</rdfs:label>
+        <sameAs rdf:resource="http://dbpedia.org/resource/Sclerolobium_paniculatum"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://cerrado.linkeddata.es/ecology/ccon#Spiranthera_odoratissima -->
+
+    <NamedIndividual rdf:about="&ccon;Spiranthera_odoratissima">
+        <rdf:type rdf:resource="&ccon;Species"/>
+        <rdf:type rdf:resource="&ccon;WoodLayer"/>
+        <rdfs:label>Spiranthera odoratissima</rdfs:label>
+    </NamedIndividual>
+    
+
+
+    <!-- http://cerrado.linkeddata.es/ecology/ccon#Stryphnodendron_adstringens -->
+
+    <NamedIndividual rdf:about="&ccon;Stryphnodendron_adstringens">
+        <rdf:type rdf:resource="&ccon;Species"/>
+        <rdf:type rdf:resource="&ccon;WoodLayer"/>
+        <rdf:type>
+            <Restriction>
+                <onProperty rdf:resource="&ccon;isPartOf"/>
+                <allValuesFrom rdf:resource="&ccon;CerradoSensuStricto"/>
+            </Restriction>
+        </rdf:type>
+        <rdfs:label>Stryphnodendron adstringens</rdfs:label>
+    </NamedIndividual>
+    
+
+
+    <!-- http://cerrado.linkeddata.es/ecology/ccon#Styrax_ferrugineus -->
+
+    <NamedIndividual rdf:about="&ccon;Styrax_ferrugineus">
+        <rdf:type rdf:resource="&ccon;Species"/>
+        <rdf:type rdf:resource="&ccon;WoodLayer"/>
+        <rdf:type>
+            <Restriction>
+                <onProperty rdf:resource="&ccon;isPartOf"/>
+                <allValuesFrom rdf:resource="&ccon;Savanna"/>
+            </Restriction>
+        </rdf:type>
+        <rdfs:label>Styrax ferrugineus</rdfs:label>
+        <sameAs rdf:resource="http://dbpedia.org/resource/Styrax_ferrugineus"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://cerrado.linkeddata.es/ecology/ccon#Syagrus_comosa -->
+
+    <NamedIndividual rdf:about="&ccon;Syagrus_comosa">
+        <rdf:type rdf:resource="&ccon;Species"/>
+        <rdf:type rdf:resource="&ccon;WoodLayer"/>
+        <rdf:type>
+            <Restriction>
+                <onProperty rdf:resource="&ccon;isPartOf"/>
+                <allValuesFrom rdf:resource="&ccon;Savanna"/>
+            </Restriction>
+        </rdf:type>
+        <rdfs:label>Syagrus comosa</rdfs:label>
+        <sameAs rdf:resource="http://dbpedia.org/resource/Syagrus_comosa"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://cerrado.linkeddata.es/ecology/ccon#Syagrus_flexuosa -->
+
+    <NamedIndividual rdf:about="&ccon;Syagrus_flexuosa">
+        <rdf:type rdf:resource="&ccon;Species"/>
+        <rdf:type rdf:resource="&ccon;WoodLayer"/>
+        <rdf:type>
+            <Restriction>
+                <onProperty rdf:resource="&ccon;isPartOf"/>
+                <allValuesFrom rdf:resource="&ccon;Savanna"/>
+            </Restriction>
+        </rdf:type>
+        <rdfs:label>Syagrus flexuosa</rdfs:label>
+        <sameAs rdf:resource="http://dbpedia.org/resource/Syagrus_flexuosa"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://cerrado.linkeddata.es/ecology/ccon#Syagrus_petraea -->
+
+    <NamedIndividual rdf:about="&ccon;Syagrus_petraea">
+        <rdf:type rdf:resource="&ccon;Species"/>
+        <rdf:type rdf:resource="&ccon;WoodLayer"/>
+        <rdfs:label>Syagrus petraea</rdfs:label>
+    </NamedIndividual>
+    
+
+
+    <!-- http://cerrado.linkeddata.es/ecology/ccon#Symplocos_rhamnifolia -->
+
+    <NamedIndividual rdf:about="&ccon;Symplocos_rhamnifolia">
+        <rdf:type rdf:resource="&ccon;Species"/>
+        <rdf:type rdf:resource="&ccon;WoodLayer"/>
+        <rdfs:label>Symplocos rhamnifolia</rdfs:label>
+    </NamedIndividual>
+    
+
+
+    <!-- http://cerrado.linkeddata.es/ecology/ccon#Tabebuia_ochracea -->
+
+    <NamedIndividual rdf:about="&ccon;Tabebuia_ochracea">
+        <rdf:type rdf:resource="&ccon;Species"/>
+        <rdf:type rdf:resource="&ccon;WoodLayer"/>
+        <rdfs:label>Tabebuia ochracea</rdfs:label>
+        <sameAs rdf:resource="http://dbpedia.org/resource/Tabebuia_ochracea"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://cerrado.linkeddata.es/ecology/ccon#Tocoyena_formosa -->
+
+    <NamedIndividual rdf:about="&ccon;Tocoyena_formosa">
+        <rdf:type rdf:resource="&ccon;Species"/>
+        <rdf:type rdf:resource="&ccon;WoodLayer"/>
+        <rdfs:label>Tocoyena formosa</rdfs:label>
+        <sameAs rdf:resource="http://dbpedia.org/resource/Tocoyena_formosa"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://cerrado.linkeddata.es/ecology/ccon#Vatairea_macrocarpa -->
+
+    <NamedIndividual rdf:about="&ccon;Vatairea_macrocarpa">
+        <rdf:type rdf:resource="&ccon;Species"/>
+        <rdf:type rdf:resource="&ccon;WoodLayer"/>
+        <rdfs:label>Vatairea macrocarpa</rdfs:label>
+        <sameAs rdf:resource="http://dbpedia.org/resource/Vatairea_macrocarpa"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://cerrado.linkeddata.es/ecology/ccon#Vellozia_squamata -->
+
+    <NamedIndividual rdf:about="&ccon;Vellozia_squamata">
+        <rdf:type rdf:resource="&ccon;Species"/>
+        <rdf:type rdf:resource="&ccon;WoodLayer"/>
+        <rdfs:label>Vellozia squamata</rdfs:label>
+    </NamedIndividual>
+    
+
+
+    <!-- http://cerrado.linkeddata.es/ecology/ccon#Vochysia_elliptica -->
+
+    <NamedIndividual rdf:about="&ccon;Vochysia_elliptica">
+        <rdf:type rdf:resource="&ccon;Species"/>
+        <rdf:type rdf:resource="&ccon;WoodLayer"/>
+        <rdfs:label>Vochysia elliptica</rdfs:label>
+        <sameAs rdf:resource="http://dbpedia.org/resource/Vochysia_elliptica"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://cerrado.linkeddata.es/ecology/ccon#Vochysia_thyrsoidea -->
+
+    <NamedIndividual rdf:about="&ccon;Vochysia_thyrsoidea">
+        <rdf:type rdf:resource="&ccon;Species"/>
+        <rdf:type rdf:resource="&ccon;WoodLayer"/>
+        <rdfs:label>Vochysia thyrsoidea</rdfs:label>
+        <sameAs rdf:resource="http://dbpedia.org/resource/Vochysia_thyrsoidea"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://dbpedia.org/page/Caryocar_brasiliense -->
+
+    <NamedIndividual rdf:about="http://dbpedia.org/page/Caryocar_brasiliense"/>
+    
+
+
+    <!-- http://dbpedia.org/resource/Acosmium_dasycarpum -->
+
+    <NamedIndividual rdf:about="http://dbpedia.org/resource/Acosmium_dasycarpum"/>
+    
+
+
+    <!-- http://dbpedia.org/resource/Aegiphila_lhotzkiana -->
+
+    <NamedIndividual rdf:about="http://dbpedia.org/resource/Aegiphila_lhotzkiana"/>
+    
+
+
+    <!-- http://dbpedia.org/resource/Anacardium_humile -->
+
+    <NamedIndividual rdf:about="http://dbpedia.org/resource/Anacardium_humile"/>
+    
+
+
+    <!-- http://dbpedia.org/resource/Annona_crassiflora -->
+
+    <NamedIndividual rdf:about="http://dbpedia.org/resource/Annona_crassiflora"/>
+    
+
+
+    <!-- http://dbpedia.org/resource/Annona_tomentosa -->
+
+    <NamedIndividual rdf:about="http://dbpedia.org/resource/Annona_tomentosa"/>
+    
+
+
+    <!-- http://dbpedia.org/resource/Aspidosperma_macrocarpon -->
+
+    <NamedIndividual rdf:about="http://dbpedia.org/resource/Aspidosperma_macrocarpon"/>
+    
+
+
+    <!-- http://dbpedia.org/resource/Aspidosperma_tomentosum -->
+
+    <NamedIndividual rdf:about="http://dbpedia.org/resource/Aspidosperma_tomentosum"/>
+    
+
+
+    <!-- http://dbpedia.org/resource/Austroplenckia_populnea -->
+
+    <NamedIndividual rdf:about="http://dbpedia.org/resource/Austroplenckia_populnea"/>
+    
+
+
+    <!-- http://dbpedia.org/resource/Blepharocalyx_suaveolens -->
+
+    <NamedIndividual rdf:about="http://dbpedia.org/resource/Blepharocalyx_suaveolens"/>
+    
+
+
+    <!-- http://dbpedia.org/resource/Byrsonima_coccolobifolia -->
+
+    <NamedIndividual rdf:about="http://dbpedia.org/resource/Byrsonima_coccolobifolia"/>
+    
+
+
+    <!-- http://dbpedia.org/resource/Byrsonima_crassa -->
+
+    <NamedIndividual rdf:about="http://dbpedia.org/resource/Byrsonima_crassa"/>
+    
+
+
+    <!-- http://dbpedia.org/resource/Byrsonima_verbascifolia -->
+
+    <NamedIndividual rdf:about="http://dbpedia.org/resource/Byrsonima_verbascifolia"/>
+    
+
+
+    <!-- http://dbpedia.org/resource/Cardiopetalum_calophyllum -->
+
+    <NamedIndividual rdf:about="http://dbpedia.org/resource/Cardiopetalum_calophyllum"/>
+    
+
+
+    <!-- http://dbpedia.org/resource/Casearia_sylvestris -->
+
+    <NamedIndividual rdf:about="http://dbpedia.org/resource/Casearia_sylvestris"/>
+    
+
+
+    <!-- http://dbpedia.org/resource/Connarus_suberosus -->
+
+    <NamedIndividual rdf:about="http://dbpedia.org/resource/Connarus_suberosus"/>
+    
+
+
+    <!-- http://dbpedia.org/resource/Couepia_grandiflora -->
+
+    <NamedIndividual rdf:about="http://dbpedia.org/resource/Couepia_grandiflora"/>
+    
+
+
+    <!-- http://dbpedia.org/resource/Cybianthus_detergens -->
+
+    <NamedIndividual rdf:about="http://dbpedia.org/resource/Cybianthus_detergens"/>
+    
+
+
+    <!-- http://dbpedia.org/resource/Cybistax_antisyphilitica -->
+
+    <NamedIndividual rdf:about="http://dbpedia.org/resource/Cybistax_antisyphilitica"/>
+    
+
+
+    <!-- http://dbpedia.org/resource/Dalbergia_miscolobium -->
+
+    <NamedIndividual rdf:about="http://dbpedia.org/resource/Dalbergia_miscolobium"/>
+    
+
+
+    <!-- http://dbpedia.org/resource/Dendropanax_cuneatus -->
+
+    <NamedIndividual rdf:about="http://dbpedia.org/resource/Dendropanax_cuneatus"/>
+    
+
+
+    <!-- http://dbpedia.org/resource/Dimorphandra_molli -->
+
+    <NamedIndividual rdf:about="http://dbpedia.org/resource/Dimorphandra_molli"/>
+    
+
+
+    <!-- http://dbpedia.org/resource/Enterolobium_gummiferum -->
+
+    <NamedIndividual rdf:about="http://dbpedia.org/resource/Enterolobium_gummiferum"/>
+    
+
+
+    <!-- http://dbpedia.org/resource/Eremanthus_goyazensi -->
+
+    <NamedIndividual rdf:about="http://dbpedia.org/resource/Eremanthus_goyazensi"/>
+    
+
+
+    <!-- http://dbpedia.org/resource/Eriotheca_pubescens -->
+
+    <NamedIndividual rdf:about="http://dbpedia.org/resource/Eriotheca_pubescens"/>
+    
+
+
+    <!-- http://dbpedia.org/resource/Erythroxylum_deciduum -->
+
+    <NamedIndividual rdf:about="http://dbpedia.org/resource/Erythroxylum_deciduum"/>
+    
+
+
+    <!-- http://dbpedia.org/resource/Erythroxylum_suberosum -->
+
+    <NamedIndividual rdf:about="http://dbpedia.org/resource/Erythroxylum_suberosum"/>
+    
+
+
+    <!-- http://dbpedia.org/resource/Erythroxylum_tortuosum -->
+
+    <NamedIndividual rdf:about="http://dbpedia.org/resource/Erythroxylum_tortuosum"/>
+    
+
+
+    <!-- http://dbpedia.org/resource/Hymenaea_stigonocarpa -->
+
+    <NamedIndividual rdf:about="http://dbpedia.org/resource/Hymenaea_stigonocarpa"/>
+    
+
+
+    <!-- http://dbpedia.org/resource/Jacaranda_decurrens -->
+
+    <NamedIndividual rdf:about="http://dbpedia.org/resource/Jacaranda_decurrens"/>
+    
+
+
+    <!-- http://dbpedia.org/resource/Kielmeyera_coriacea -->
+
+    <NamedIndividual rdf:about="http://dbpedia.org/resource/Kielmeyera_coriacea"/>
+    
+
+
+    <!-- http://dbpedia.org/resource/Kielmeyera_variabilis -->
+
+    <NamedIndividual rdf:about="http://dbpedia.org/resource/Kielmeyera_variabilis"/>
+    
+
+
+    <!-- http://dbpedia.org/resource/Miconia_albicans -->
+
+    <NamedIndividual rdf:about="http://dbpedia.org/resource/Miconia_albicans"/>
+    
+
+
+    <!-- http://dbpedia.org/resource/Miconia_fallax -->
+
+    <NamedIndividual rdf:about="http://dbpedia.org/resource/Miconia_fallax"/>
+    
+
+
+    <!-- http://dbpedia.org/resource/Miconia_pohliana -->
+
+    <NamedIndividual rdf:about="http://dbpedia.org/resource/Miconia_pohliana"/>
+    
+
+
+    <!-- http://dbpedia.org/resource/Moriche_Palm -->
+
+    <NamedIndividual rdf:about="http://dbpedia.org/resource/Moriche_Palm"/>
+    
+
+
+    <!-- http://dbpedia.org/resource/Myracrodruon_urundeuva -->
+
+    <NamedIndividual rdf:about="http://dbpedia.org/resource/Myracrodruon_urundeuva"/>
+    
+
+
+    <!-- http://dbpedia.org/resource/Neea_theifera -->
+
+    <NamedIndividual rdf:about="http://dbpedia.org/resource/Neea_theifera"/>
+    
+
+
+    <!-- http://dbpedia.org/resource/Piptocarpha_rotundifolia -->
+
+    <NamedIndividual rdf:about="http://dbpedia.org/resource/Piptocarpha_rotundifolia"/>
+    
+
+
+    <!-- http://dbpedia.org/resource/Pouteria_ramiflora -->
+
+    <NamedIndividual rdf:about="http://dbpedia.org/resource/Pouteria_ramiflora"/>
+    
+
+
+    <!-- http://dbpedia.org/resource/Pterodon_pubescens -->
+
+    <NamedIndividual rdf:about="http://dbpedia.org/resource/Pterodon_pubescens"/>
+    
+
+
+    <!-- http://dbpedia.org/resource/Qualea_multiflora -->
+
+    <NamedIndividual rdf:about="http://dbpedia.org/resource/Qualea_multiflora"/>
+    
+
+
+    <!-- http://dbpedia.org/resource/Roupala_montana -->
+
+    <NamedIndividual rdf:about="http://dbpedia.org/resource/Roupala_montana">
+        <sameAs rdf:resource="http://rdf.freebase.com/ns/m/0pl0_62"/>
+    </NamedIndividual>
+    
+
+
+    <!-- http://dbpedia.org/resource/Schefflera_macrocarpa -->
+
+    <NamedIndividual rdf:about="http://dbpedia.org/resource/Schefflera_macrocarpa"/>
+    
+
+
+    <!-- http://dbpedia.org/resource/Sclerolobium_paniculatum -->
+
+    <NamedIndividual rdf:about="http://dbpedia.org/resource/Sclerolobium_paniculatum"/>
+    
+
+
+    <!-- http://dbpedia.org/resource/Styrax_ferrugineus -->
+
+    <NamedIndividual rdf:about="http://dbpedia.org/resource/Styrax_ferrugineus"/>
+    
+
+
+    <!-- http://dbpedia.org/resource/Syagrus_comosa -->
+
+    <NamedIndividual rdf:about="http://dbpedia.org/resource/Syagrus_comosa"/>
+    
+
+
+    <!-- http://dbpedia.org/resource/Syagrus_flexuosa -->
+
+    <NamedIndividual rdf:about="http://dbpedia.org/resource/Syagrus_flexuosa"/>
+    
+
+
+    <!-- http://dbpedia.org/resource/Tabebuia_ochracea -->
+
+    <NamedIndividual rdf:about="http://dbpedia.org/resource/Tabebuia_ochracea"/>
+    
+
+
+    <!-- http://dbpedia.org/resource/Tocoyena_formosa -->
+
+    <NamedIndividual rdf:about="http://dbpedia.org/resource/Tocoyena_formosa"/>
+    
+
+
+    <!-- http://dbpedia.org/resource/Vatairea_macrocarpa -->
+
+    <NamedIndividual rdf:about="http://dbpedia.org/resource/Vatairea_macrocarpa"/>
+    
+
+
+    <!-- http://dbpedia.org/resource/Vochysia_elliptica -->
+
+    <NamedIndividual rdf:about="http://dbpedia.org/resource/Vochysia_elliptica"/>
+    
+
+
+    <!-- http://dbpedia.org/resource/Vochysia_thyrsoidea -->
+
+    <NamedIndividual rdf:about="http://dbpedia.org/resource/Vochysia_thyrsoidea"/>
+    
+
+
+    <!-- http://rdf.freebase.com/ns/m.0269bcv -->
+
+    <NamedIndividual rdf:about="http://rdf.freebase.com/ns/m.0269bcv">
+        <rdf:type rdf:resource="&ccon;WoodLayer"/>
+        <rdfs:label rdf:datatype="&xsd;string">Hancornia speciosa</rdfs:label>
+    </NamedIndividual>
+    
+
+
+    <!-- http://rdf.freebase.com/ns/m.02r5m6g -->
+
+    <NamedIndividual rdf:about="http://rdf.freebase.com/ns/m.02r5m6g">
+        <rdf:type rdf:resource="&ccon;Species"/>
+        <rdf:type rdf:resource="&ccon;WoodLayer"/>
+        <rdfs:label>Jacaranda decurrens</rdfs:label>
+    </NamedIndividual>
+    
+
+
+    <!-- http://rdf.freebase.com/ns/m/0pl0_62 -->
+
+    <NamedIndividual rdf:about="http://rdf.freebase.com/ns/m/0pl0_62">
+        <rdfs:label>Roupala montana</rdfs:label>
+    </NamedIndividual>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 3.4.2) http://owlapi.sourceforge.net -->
+

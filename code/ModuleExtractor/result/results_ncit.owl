@@ -1,0 +1,632 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus_module1.owl#"
+     xml:base="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus_module1.owl"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:Thesaurus="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#">
+    <owl:Ontology rdf:about="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus_module1.owl"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#A11 -->
+
+    <owl:AnnotationProperty rdf:about="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#A11"/>
+    
+
+
+    <!-- http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#A8 -->
+
+    <owl:AnnotationProperty rdf:about="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#A8"/>
+    
+
+
+    <!-- http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#NHC0 -->
+
+    <owl:AnnotationProperty rdf:about="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#NHC0"/>
+    
+
+
+    <!-- http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#P106 -->
+
+    <owl:AnnotationProperty rdf:about="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#P106"/>
+    
+
+
+    <!-- http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#P108 -->
+
+    <owl:AnnotationProperty rdf:about="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#P108"/>
+    
+
+
+    <!-- http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#P207 -->
+
+    <owl:AnnotationProperty rdf:about="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#P207"/>
+    
+
+
+    <!-- http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#P322 -->
+
+    <owl:AnnotationProperty rdf:about="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#P322"/>
+    
+
+
+    <!-- http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#P325 -->
+
+    <owl:AnnotationProperty rdf:about="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#P325"/>
+    
+
+
+    <!-- http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#P366 -->
+
+    <owl:AnnotationProperty rdf:about="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#P366"/>
+    
+
+
+    <!-- http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#P371 -->
+
+    <owl:AnnotationProperty rdf:about="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#P371"/>
+    
+
+
+    <!-- http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#P375 -->
+
+    <owl:AnnotationProperty rdf:about="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#P375"/>
+    
+
+
+    <!-- http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#P378 -->
+
+    <owl:AnnotationProperty rdf:about="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#P378"/>
+    
+
+
+    <!-- http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#P383 -->
+
+    <owl:AnnotationProperty rdf:about="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#P383"/>
+    
+
+
+    <!-- http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#P384 -->
+
+    <owl:AnnotationProperty rdf:about="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#P384"/>
+    
+
+
+    <!-- http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#P385 -->
+
+    <owl:AnnotationProperty rdf:about="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#P385"/>
+    
+
+
+    <!-- http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#P386 -->
+
+    <owl:AnnotationProperty rdf:about="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#P386"/>
+    
+
+
+    <!-- http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#P393 -->
+
+    <owl:AnnotationProperty rdf:about="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#P393"/>
+    
+
+
+    <!-- http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#P394 -->
+
+    <owl:AnnotationProperty rdf:about="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#P394"/>
+    
+
+
+    <!-- http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#P395 -->
+
+    <owl:AnnotationProperty rdf:about="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#P395"/>
+    
+
+
+    <!-- http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#P396 -->
+
+    <owl:AnnotationProperty rdf:about="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#P396"/>
+    
+
+
+    <!-- http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#P90 -->
+
+    <owl:AnnotationProperty rdf:about="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#P90"/>
+    
+
+
+    <!-- http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#P97 -->
+
+    <owl:AnnotationProperty rdf:about="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#P97"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C16631 -->
+
+    <owl:Class rdf:about="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C16631">
+        <rdfs:subClassOf rdf:resource="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C19896"/>
+        <Thesaurus:NHC0>C16631</Thesaurus:NHC0>
+        <Thesaurus:P106>Organism Attribute</Thesaurus:P106>
+        <Thesaurus:P108>Genotype</Thesaurus:P108>
+        <Thesaurus:P207>C0017431</Thesaurus:P207>
+        <Thesaurus:P325>At its broadest level, genotype includes the entire genetic constitution of an individual. It is often applied more narrowly to the set of alleles present at one or more specific loci.</Thesaurus:P325>
+        <Thesaurus:P366>Genotype</Thesaurus:P366>
+        <Thesaurus:P90>Genotype</Thesaurus:P90>
+        <Thesaurus:P90>Genotypic</Thesaurus:P90>
+        <Thesaurus:P90>genotype</Thesaurus:P90>
+        <Thesaurus:P97>The genetic constitution of an organism or cell, as distinct from its expressed features or phenotype.</Thesaurus:P97>
+        <rdfs:label>Genotype</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C16631"/>
+        <owl:annotatedProperty rdf:resource="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#P325"/>
+        <owl:annotatedTarget>At its broadest level, genotype includes the entire genetic constitution of an individual. It is often applied more narrowly to the set of alleles present at one or more specific loci.</owl:annotatedTarget>
+        <Thesaurus:P378>NCI-GLOSS</Thesaurus:P378>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C16631"/>
+        <owl:annotatedProperty rdf:resource="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#P90"/>
+        <owl:annotatedTarget>Genotype</owl:annotatedTarget>
+        <Thesaurus:P383>PT</Thesaurus:P383>
+        <Thesaurus:P384>NCI</Thesaurus:P384>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C16631"/>
+        <owl:annotatedProperty rdf:resource="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#P90"/>
+        <owl:annotatedTarget>Genotype</owl:annotatedTarget>
+        <Thesaurus:P383>SY</Thesaurus:P383>
+        <Thesaurus:P384>NCI</Thesaurus:P384>
+        <Thesaurus:P385>TCGA</Thesaurus:P385>
+        <Thesaurus:P386>caDSR</Thesaurus:P386>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C16631"/>
+        <owl:annotatedProperty rdf:resource="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#P90"/>
+        <owl:annotatedTarget>Genotypic</owl:annotatedTarget>
+        <Thesaurus:P383>AD</Thesaurus:P383>
+        <Thesaurus:P384>NCI</Thesaurus:P384>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C16631"/>
+        <owl:annotatedProperty rdf:resource="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#P90"/>
+        <owl:annotatedTarget>genotype</owl:annotatedTarget>
+        <Thesaurus:P383>PT</Thesaurus:P383>
+        <Thesaurus:P384>NCI-GLOSS</Thesaurus:P384>
+        <Thesaurus:P385>CDR0000660739</Thesaurus:P385>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C16631"/>
+        <owl:annotatedProperty rdf:resource="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#P97"/>
+        <owl:annotatedTarget>The genetic constitution of an organism or cell, as distinct from its expressed features or phenotype.</owl:annotatedTarget>
+        <Thesaurus:P378>NCI</Thesaurus:P378>
+    </owl:Axiom>
+    
+
+
+    <!-- http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C16977 -->
+
+    <owl:Class rdf:about="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C16977">
+        <rdfs:subClassOf rdf:resource="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C19896"/>
+        <Thesaurus:NHC0>C16977</Thesaurus:NHC0>
+        <Thesaurus:P106>Organism Attribute</Thesaurus:P106>
+        <Thesaurus:P108>Phenotype</Thesaurus:P108>
+        <Thesaurus:P207>C0031437</Thesaurus:P207>
+        <Thesaurus:P325>The observable characteristics in an individual resulting from the expression of genes; the clinical presentation of an individual with a particular genotype.</Thesaurus:P325>
+        <Thesaurus:P366>Phenotype</Thesaurus:P366>
+        <Thesaurus:P90>Phenotype</Thesaurus:P90>
+        <Thesaurus:P90>phenotype</Thesaurus:P90>
+        <Thesaurus:P97>The assemblage of traits or outward appearance of an individual. It is the product of interactions between genes and between genes and the environment.</Thesaurus:P97>
+        <rdfs:label>Phenotype</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C16977"/>
+        <owl:annotatedProperty rdf:resource="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#P97"/>
+        <owl:annotatedTarget>The assemblage of traits or outward appearance of an individual. It is the product of interactions between genes and between genes and the environment.</owl:annotatedTarget>
+        <Thesaurus:P378>NCI</Thesaurus:P378>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C16977"/>
+        <owl:annotatedProperty rdf:resource="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#P325"/>
+        <owl:annotatedTarget>The observable characteristics in an individual resulting from the expression of genes; the clinical presentation of an individual with a particular genotype.</owl:annotatedTarget>
+        <Thesaurus:P378>NCI-GLOSS</Thesaurus:P378>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C16977"/>
+        <owl:annotatedProperty rdf:resource="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#P90"/>
+        <owl:annotatedTarget>Phenotype</owl:annotatedTarget>
+        <Thesaurus:P383>PT</Thesaurus:P383>
+        <Thesaurus:P384>NCI</Thesaurus:P384>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C16977"/>
+        <owl:annotatedProperty rdf:resource="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#P90"/>
+        <owl:annotatedTarget>phenotype</owl:annotatedTarget>
+        <Thesaurus:P383>PT</Thesaurus:P383>
+        <Thesaurus:P384>NCI-GLOSS</Thesaurus:P384>
+        <Thesaurus:P385>CDR0000460203</Thesaurus:P385>
+    </owl:Axiom>
+    
+
+
+    <!-- http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C19896 -->
+
+    <owl:Class rdf:about="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C19896">
+        <rdfs:subClassOf rdf:resource="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C20181"/>
+        <Thesaurus:NHC0>C19896</Thesaurus:NHC0>
+        <Thesaurus:P106>Classification</Thesaurus:P106>
+        <Thesaurus:P108>Miscellaneous Molecular Biology Terms</Thesaurus:P108>
+        <Thesaurus:P207>C1513329</Thesaurus:P207>
+        <Thesaurus:P366>Miscellaneous_Molecular_Biology_Terms</Thesaurus:P366>
+        <Thesaurus:P90>Miscellaneous Molecular Biology Terms</Thesaurus:P90>
+        <rdfs:label>Miscellaneous Molecular Biology Terms</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C19896"/>
+        <owl:annotatedProperty rdf:resource="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#P90"/>
+        <owl:annotatedTarget>Miscellaneous Molecular Biology Terms</owl:annotatedTarget>
+        <Thesaurus:P383>PT</Thesaurus:P383>
+        <Thesaurus:P384>NCI</Thesaurus:P384>
+    </owl:Axiom>
+    
+
+
+    <!-- http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C20181 -->
+
+    <owl:Class rdf:about="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C20181">
+        <Thesaurus:NHC0>C20181</Thesaurus:NHC0>
+        <Thesaurus:P106>Classification</Thesaurus:P106>
+        <Thesaurus:P108>Conceptual Entity</Thesaurus:P108>
+        <Thesaurus:P207>C1254372</Thesaurus:P207>
+        <Thesaurus:P366>Conceptual_Entities</Thesaurus:P366>
+        <Thesaurus:P90>Conceptual Entity</Thesaurus:P90>
+        <Thesaurus:P97>An organizational header for concepts representing mostly abstract entities.</Thesaurus:P97>
+        <rdfs:label>Conceptual Entity</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C20181"/>
+        <owl:annotatedProperty rdf:resource="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#P90"/>
+        <owl:annotatedTarget>Conceptual Entity</owl:annotatedTarget>
+        <Thesaurus:P383>PT</Thesaurus:P383>
+        <Thesaurus:P384>NCI</Thesaurus:P384>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C20181"/>
+        <owl:annotatedProperty rdf:resource="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#P97"/>
+        <owl:annotatedTarget>An organizational header for concepts representing mostly abstract entities.</owl:annotatedTarget>
+        <Thesaurus:P378>NCI</Thesaurus:P378>
+    </owl:Axiom>
+    
+
+
+    <!-- http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C25446 -->
+
+    <owl:Class rdf:about="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C25446">
+        <Thesaurus:A8 rdf:resource="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C100096"/>
+        <Thesaurus:A8 rdf:resource="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C82590"/>
+        <Thesaurus:NHC0>C25446</Thesaurus:NHC0>
+        <Thesaurus:P106>Qualitative Concept</Thesaurus:P106>
+        <Thesaurus:P108>Change</Thesaurus:P108>
+        <Thesaurus:P207>C0392747</Thesaurus:P207>
+        <Thesaurus:P366>Change</Thesaurus:P366>
+        <Thesaurus:P90>Adapt</Thesaurus:P90>
+        <Thesaurus:P90>Adapted</Thesaurus:P90>
+        <Thesaurus:P90>Change</Thesaurus:P90>
+        <Thesaurus:P90>Changed</Thesaurus:P90>
+        <Thesaurus:P90>MODIFY</Thesaurus:P90>
+        <Thesaurus:P90>Modification</Thesaurus:P90>
+        <Thesaurus:P90>Modified</Thesaurus:P90>
+        <Thesaurus:P97>The act of alteration or modification; changed or altered in form or character.</Thesaurus:P97>
+        <rdfs:label>Change</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C25446"/>
+        <owl:annotatedProperty rdf:resource="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#P90"/>
+        <owl:annotatedTarget>Adapt</owl:annotatedTarget>
+        <Thesaurus:P383>SY</Thesaurus:P383>
+        <Thesaurus:P384>NCI</Thesaurus:P384>
+        <Thesaurus:P386>caDSR</Thesaurus:P386>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C25446"/>
+        <owl:annotatedProperty rdf:resource="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#P90"/>
+        <owl:annotatedTarget>Adapted</owl:annotatedTarget>
+        <Thesaurus:P383>SY</Thesaurus:P383>
+        <Thesaurus:P384>NCI</Thesaurus:P384>
+        <Thesaurus:P386>caDSR</Thesaurus:P386>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C25446"/>
+        <owl:annotatedProperty rdf:resource="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#P90"/>
+        <owl:annotatedTarget>Change</owl:annotatedTarget>
+        <Thesaurus:P383>PT</Thesaurus:P383>
+        <Thesaurus:P384>NCI</Thesaurus:P384>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C25446"/>
+        <owl:annotatedProperty rdf:resource="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#P90"/>
+        <owl:annotatedTarget>Change</owl:annotatedTarget>
+        <Thesaurus:P383>SY</Thesaurus:P383>
+        <Thesaurus:P384>NCI</Thesaurus:P384>
+        <Thesaurus:P385>OMRS</Thesaurus:P385>
+        <Thesaurus:P386>caDSR</Thesaurus:P386>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C25446"/>
+        <owl:annotatedProperty rdf:resource="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#P90"/>
+        <owl:annotatedTarget>Change</owl:annotatedTarget>
+        <Thesaurus:P383>SY</Thesaurus:P383>
+        <Thesaurus:P384>NCI</Thesaurus:P384>
+        <Thesaurus:P385>TCGA</Thesaurus:P385>
+        <Thesaurus:P386>caDSR</Thesaurus:P386>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C25446"/>
+        <owl:annotatedProperty rdf:resource="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#P90"/>
+        <owl:annotatedTarget>Changed</owl:annotatedTarget>
+        <Thesaurus:P383>AD</Thesaurus:P383>
+        <Thesaurus:P384>NCI</Thesaurus:P384>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C25446"/>
+        <owl:annotatedProperty rdf:resource="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#P90"/>
+        <owl:annotatedTarget>MODIFY</owl:annotatedTarget>
+        <Thesaurus:P383>PT</Thesaurus:P383>
+        <Thesaurus:P384>CDISC</Thesaurus:P384>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C25446"/>
+        <owl:annotatedProperty rdf:resource="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#P90"/>
+        <owl:annotatedTarget>Modification</owl:annotatedTarget>
+        <Thesaurus:P383>SY</Thesaurus:P383>
+        <Thesaurus:P384>NCI</Thesaurus:P384>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C25446"/>
+        <owl:annotatedProperty rdf:resource="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#P90"/>
+        <owl:annotatedTarget>Modified</owl:annotatedTarget>
+        <Thesaurus:P383>AD</Thesaurus:P383>
+        <Thesaurus:P384>NCI</Thesaurus:P384>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C25446"/>
+        <owl:annotatedProperty rdf:resource="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#P97"/>
+        <owl:annotatedTarget>The act of alteration or modification; changed or altered in form or character.</owl:annotatedTarget>
+        <Thesaurus:P378>NCI</Thesaurus:P378>
+    </owl:Axiom>
+    
+
+
+    <!-- http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C40098 -->
+
+    <owl:Class rdf:about="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C40098">
+        <rdfs:subClassOf rdf:resource="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C20181"/>
+        <Thesaurus:NHC0>C40098</Thesaurus:NHC0>
+        <Thesaurus:P106>Conceptual Entity</Thesaurus:P106>
+        <Thesaurus:P108>Taxon</Thesaurus:P108>
+        <Thesaurus:P207>C1515221</Thesaurus:P207>
+        <Thesaurus:P366>Taxon</Thesaurus:P366>
+        <Thesaurus:P90>Biological Taxon</Thesaurus:P90>
+        <Thesaurus:P90>Taxon</Thesaurus:P90>
+        <Thesaurus:P90>Taxonomy</Thesaurus:P90>
+        <Thesaurus:P97>Ranked categories for the classification of organisms according to their suspected evolutionary relationships.</Thesaurus:P97>
+        <rdfs:label>Taxon</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C40098"/>
+        <owl:annotatedProperty rdf:resource="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#P90"/>
+        <owl:annotatedTarget>Biological Taxon</owl:annotatedTarget>
+        <Thesaurus:P383>SY</Thesaurus:P383>
+        <Thesaurus:P384>NCI</Thesaurus:P384>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C40098"/>
+        <owl:annotatedProperty rdf:resource="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#P90"/>
+        <owl:annotatedTarget>Taxon</owl:annotatedTarget>
+        <Thesaurus:P383>PT</Thesaurus:P383>
+        <Thesaurus:P384>NCI</Thesaurus:P384>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C40098"/>
+        <owl:annotatedProperty rdf:resource="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#P90"/>
+        <owl:annotatedTarget>Taxonomy</owl:annotatedTarget>
+        <Thesaurus:P383>SY</Thesaurus:P383>
+        <Thesaurus:P384>NCI</Thesaurus:P384>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C40098"/>
+        <owl:annotatedProperty rdf:resource="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#P97"/>
+        <owl:annotatedTarget>Ranked categories for the classification of organisms according to their suspected evolutionary relationships.</owl:annotatedTarget>
+        <Thesaurus:P378>NCI</Thesaurus:P378>
+    </owl:Axiom>
+    
+
+
+    <!-- http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C45293 -->
+
+    <owl:Class rdf:about="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C45293">
+        <rdfs:subClassOf rdf:resource="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C40098"/>
+        <Thesaurus:A8 rdf:resource="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C83187"/>
+        <Thesaurus:NHC0>C45293</Thesaurus:NHC0>
+        <Thesaurus:P106>Conceptual Entity</Thesaurus:P106>
+        <Thesaurus:P108>Species</Thesaurus:P108>
+        <Thesaurus:P207>C1705920</Thesaurus:P207>
+        <Thesaurus:P366>Species_Taxon</Thesaurus:P366>
+        <Thesaurus:P90>SPECIES</Thesaurus:P90>
+        <Thesaurus:P90>Species</Thesaurus:P90>
+        <Thesaurus:P97>A group of organisms that differ from all other groups of organisms and that are capable of breeding and producing fertile offspring.</Thesaurus:P97>
+        <rdfs:label>Species</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C45293"/>
+        <owl:annotatedProperty rdf:resource="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#P90"/>
+        <owl:annotatedTarget>SPECIES</owl:annotatedTarget>
+        <Thesaurus:P383>PT</Thesaurus:P383>
+        <Thesaurus:P384>CDISC</Thesaurus:P384>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C45293"/>
+        <owl:annotatedProperty rdf:resource="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#P90"/>
+        <owl:annotatedTarget>Species</owl:annotatedTarget>
+        <Thesaurus:P383>PT</Thesaurus:P383>
+        <Thesaurus:P384>NCI</Thesaurus:P384>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C45293"/>
+        <owl:annotatedProperty rdf:resource="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#P97"/>
+        <owl:annotatedTarget>A group of organisms that differ from all other groups of organisms and that are capable of breeding and producing fertile offspring.</owl:annotatedTarget>
+        <Thesaurus:P378>NCI</Thesaurus:P378>
+    </owl:Axiom>
+    
+
+
+    <!-- http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C48190 -->
+
+    <owl:Class rdf:about="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C48190">
+        <Thesaurus:A8 rdf:resource="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C105551"/>
+        <Thesaurus:A8 rdf:resource="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C124309"/>
+        <Thesaurus:A8 rdf:resource="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C124310"/>
+        <Thesaurus:A8 rdf:resource="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C61410"/>
+        <Thesaurus:A8 rdf:resource="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C66830"/>
+        <Thesaurus:A8 rdf:resource="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C77526"/>
+        <Thesaurus:NHC0>C48190</Thesaurus:NHC0>
+        <Thesaurus:P106>Qualitative Concept</Thesaurus:P106>
+        <Thesaurus:P108>Absent</Thesaurus:P108>
+        <Thesaurus:P207>C0332197</Thesaurus:P207>
+        <Thesaurus:P322>CDISC</Thesaurus:P322>
+        <Thesaurus:P325>Not existing in a specified place at a specified time. (NCI)</Thesaurus:P325>
+        <Thesaurus:P366>Absent</Thesaurus:P366>
+        <Thesaurus:P375>Absent</Thesaurus:P375>
+        <Thesaurus:P90>ABSENT</Thesaurus:P90>
+        <Thesaurus:P90>Absent</Thesaurus:P90>
+        <Thesaurus:P90>Not Present</Thesaurus:P90>
+        <Thesaurus:P97>Not existing in a specified place at a specified time.</Thesaurus:P97>
+        <rdfs:label>Absent</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C48190"/>
+        <owl:annotatedProperty rdf:resource="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#P325"/>
+        <owl:annotatedTarget>Not existing in a specified place at a specified time. (NCI)</owl:annotatedTarget>
+        <Thesaurus:P378>CDISC</Thesaurus:P378>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C48190"/>
+        <owl:annotatedProperty rdf:resource="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#P375"/>
+        <owl:annotatedTarget>Absent</owl:annotatedTarget>
+        <Thesaurus:P393>Has Synonym</Thesaurus:P393>
+        <Thesaurus:P394>PT</Thesaurus:P394>
+        <Thesaurus:P395>APTYPE</Thesaurus:P395>
+        <Thesaurus:P396>GDC</Thesaurus:P396>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C48190"/>
+        <owl:annotatedProperty rdf:resource="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#P375"/>
+        <owl:annotatedTarget>Absent</owl:annotatedTarget>
+        <Thesaurus:P393>Has Synonym</Thesaurus:P393>
+        <Thesaurus:P394>PT</Thesaurus:P394>
+        <Thesaurus:P395>MF</Thesaurus:P395>
+        <Thesaurus:P396>GDC</Thesaurus:P396>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C48190"/>
+        <owl:annotatedProperty rdf:resource="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#P90"/>
+        <owl:annotatedTarget>ABSENT</owl:annotatedTarget>
+        <Thesaurus:P383>PT</Thesaurus:P383>
+        <Thesaurus:P384>CDISC</Thesaurus:P384>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C48190"/>
+        <owl:annotatedProperty rdf:resource="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#P90"/>
+        <owl:annotatedTarget>Absent</owl:annotatedTarget>
+        <Thesaurus:P383>PT</Thesaurus:P383>
+        <Thesaurus:P384>NCI</Thesaurus:P384>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C48190"/>
+        <owl:annotatedProperty rdf:resource="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#P90"/>
+        <owl:annotatedTarget>Absent</owl:annotatedTarget>
+        <Thesaurus:P383>SY</Thesaurus:P383>
+        <Thesaurus:P384>NCI</Thesaurus:P384>
+        <Thesaurus:P385>TCGA</Thesaurus:P385>
+        <Thesaurus:P386>caDSR</Thesaurus:P386>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C48190"/>
+        <owl:annotatedProperty rdf:resource="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#P90"/>
+        <owl:annotatedTarget>Not Present</owl:annotatedTarget>
+        <Thesaurus:P383>SY</Thesaurus:P383>
+        <Thesaurus:P384>NCI</Thesaurus:P384>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C48190"/>
+        <owl:annotatedProperty rdf:resource="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#P90"/>
+        <owl:annotatedTarget>Not Present</owl:annotatedTarget>
+        <Thesaurus:P383>SY</Thesaurus:P383>
+        <Thesaurus:P384>NCI</Thesaurus:P384>
+        <Thesaurus:P385>MDASI-HN</Thesaurus:P385>
+        <Thesaurus:P386>caDSR</Thesaurus:P386>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C48190"/>
+        <owl:annotatedProperty rdf:resource="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#P97"/>
+        <owl:annotatedTarget>Not existing in a specified place at a specified time.</owl:annotatedTarget>
+        <Thesaurus:P378>NCI</Thesaurus:P378>
+    </owl:Axiom>
+    
+
+
+    <!-- http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C61556 -->
+
+    <owl:Class rdf:about="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C61556">
+        <rdfs:subClassOf rdf:resource="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C20181"/>
+        <Thesaurus:NHC0>C61556</Thesaurus:NHC0>
+        <Thesaurus:P106>Conceptual Entity</Thesaurus:P106>
+        <Thesaurus:P108>Defense</Thesaurus:P108>
+        <Thesaurus:P207>C1880266</Thesaurus:P207>
+        <Thesaurus:P366>Defense</Thesaurus:P366>
+        <Thesaurus:P90>Defense</Thesaurus:P90>
+        <Thesaurus:P97>Protection from harm.</Thesaurus:P97>
+        <rdfs:label>Defense</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C61556"/>
+        <owl:annotatedProperty rdf:resource="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#P90"/>
+        <owl:annotatedTarget>Defense</owl:annotatedTarget>
+        <Thesaurus:P383>PT</Thesaurus:P383>
+        <Thesaurus:P384>NCI</Thesaurus:P384>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C61556"/>
+        <owl:annotatedProperty rdf:resource="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#P97"/>
+        <owl:annotatedTarget>Protection from harm.</owl:annotatedTarget>
+        <Thesaurus:P378>NCI</Thesaurus:P378>
+    </owl:Axiom>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi -->
+
