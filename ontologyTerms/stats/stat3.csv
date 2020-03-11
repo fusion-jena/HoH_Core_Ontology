@@ -1,0 +1,39 @@
+term,0,1
+(closely) related,1,0
+absence,0,1
+absent,0,1
+additional,1,0
+area,1,0
+biodiversity,1,0
+continent,1,0
+defence/defense,1,0
+disturbed,1,0
+ecological,1,0
+ecological impact,1,0
+ecosystem,1,0
+enemy,0,1
+exotic,0,1
+exotic range,0,1
+general,1,0
+generalist,1,0
+growth,1,0
+impact,1,0
+invasion,0,1
+invasive,1,0
+island,1,0
+likelihood,1,0
+native,1,0
+natural,1,0
+non-invasive,1,0
+non-native,1,0
+phenotypical plasticity,1,0
+process,1,0
+propagule pressure,1,0
+range,0,1
+reproduction,1,0
+resistant,1,0
+specialist,1,0
+species,1,0
+success,0,1
+survival,1,0
+undisturbed,1,0
