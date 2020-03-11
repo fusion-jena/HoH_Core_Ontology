@@ -1,0 +1,4 @@
+term~uid~label~definition~ontology~~~~~
+~http://purl.bioontology.org/ontology/MESH/D044822~Biodiversity~The variety of all native living organisms and their various forms and interrelationships.~http://data.bioontology.org/ontologies/MESH~
+~http://edamontology.org/topic_3050~Biodiversity~The degree of variation of life forms within a given ecosystem biome or an entire planet.~http://data.bioontology.org/ontologies/EDAM~
+~http://purl.jp/bio/4/id/200906077888434703~Biodiversity~~http://data.bioontology.org/ontologies/IOBC~

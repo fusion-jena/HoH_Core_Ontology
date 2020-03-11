@@ -1,0 +1,24 @@
+==========NEXT============
+
+@id: http://purl.bioontology.org/ontology/MESH/D044822
+definition: The variety of all native living organisms and their various forms and interrelationships.
+
+ontology: http://data.bioontology.org/ontologies/MESH
+
+prefLabel: Biodiversity
+
+==========NEXT============
+@id: http://edamontology.org/topic_3050
+definition: The degree of variation of life forms within a given ecosystem biome or an entire planet.
+
+ontology: http://data.bioontology.org/ontologies/EDAM
+
+prefLabel: Biodiversity
+
+==========NEXT============
+
+@id: http://purl.jp/bio/4/id/200906077888434703
+
+ontology: http://data.bioontology.org/ontologies/IOBC
+
+prefLabel: Biodiversity
