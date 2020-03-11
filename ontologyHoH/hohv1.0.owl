@@ -1,0 +1,544 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.semanticweb.org/rs/ontologies/2019/5/hoh#"
+     xml:base="http://www.semanticweb.org/rs/ontologies/2019/5/hoh"
+     xmlns:efo="http://www.ebi.ac.uk/efo/"
+     xmlns:obo="http://purl.obolibrary.org/obo/"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+     xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/rs/ontologies/2019/5/hoh">
+        <owl:versionIRI rdf:resource="http://www.semanticweb.org/rs/ontologies/2019/5/hoh/1.0"/>
+        <rdfs:label>hierarchy of hypotheses</rdfs:label>
+        <rdfs:label>invasion biology</rdfs:label>
+    </owl:Ontology>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000115 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000115"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000117 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000117"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000412 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000412"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_NHC0 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/NCIT_NHC0"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_P106 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/NCIT_P106"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_P108 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/NCIT_P108"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_P207 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/NCIT_P207"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_P366 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/NCIT_P366"/>
+    
+
+
+    <!-- http://www.ebi.ac.uk/efo/EFO_URI -->
+
+    <owl:AnnotationProperty rdf:about="http://www.ebi.ac.uk/efo/EFO_URI"/>
+    
+
+
+    <!-- http://www.ebi.ac.uk/efo/organizational_class -->
+
+    <owl:AnnotationProperty rdf:about="http://www.ebi.ac.uk/efo/organizational_class"/>
+    
+
+
+    <!-- http://www.ebi.ac.uk/efo/source_definition -->
+
+    <owl:AnnotationProperty rdf:about="http://www.ebi.ac.uk/efo/source_definition"/>
+    
+
+
+    <!-- http://www.geneontology.org/formats/oboInOwl#hasAlternativeId -->
+
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasAlternativeId"/>
+    
+
+
+    <!-- http://www.geneontology.org/formats/oboInOwl#hasDbXref -->
+
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
+    
+
+
+    <!-- http://www.geneontology.org/formats/oboInOwl#hasExactSynonym -->
+
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+    
+
+
+    <!-- http://www.geneontology.org/formats/oboInOwl#hasOBONamespace -->
+
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasOBONamespace"/>
+    
+
+
+    <!-- http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym -->
+
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
+    
+
+
+    <!-- http://www.geneontology.org/formats/oboInOwl#id -->
+
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#id"/>
+    
+
+
+    <!-- http://www.geneontology.org/formats/oboInOwl#inSubset -->
+
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#inSubset"/>
+    
+
+
+    <!-- http://www.w3.org/2004/02/skos/core#altLabel -->
+
+    <owl:AnnotationProperty rdf:about="http://www.w3.org/2004/02/skos/core#altLabel"/>
+    
+
+
+    <!-- http://www.w3.org/2004/02/skos/core#definition -->
+
+    <owl:AnnotationProperty rdf:about="http://www.w3.org/2004/02/skos/core#definition"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GO_0000003 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0000003">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/rs/ontologies/2019/5/hoh#phenomenon"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The production of new individuals that contain some portion of genetic material inherited from one or more parent organisms.</obo:IAO_0000115>
+        <oboInOwl:hasAlternativeId rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GO:0019952</oboInOwl:hasAlternativeId>
+        <oboInOwl:hasAlternativeId rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GO:0050876</oboInOwl:hasAlternativeId>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Wikipedia:Reproduction</oboInOwl:hasDbXref>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">reproductive physiological process</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">biological_process</oboInOwl:hasOBONamespace>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GO:0000003</oboInOwl:id>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/go#goslim_agr"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/go#goslim_chembl"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/go#goslim_flybase_ribbon"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/go#goslim_generic"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/go#goslim_pir"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/go#goslim_plant"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">reproduction</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/GO_0000003"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The production of new individuals that contain some portion of genetic material inherited from one or more parent organisms.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GOC:go_curators</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GOC:isa_complete</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GOC:jl</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ISBN:0198506732</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GO_0040007 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0040007">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/rs/ontologies/2019/5/hoh#phenomenon"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The increase in size or mass of an entire organism, a part of an organism or a cell.</obo:IAO_0000115>
+        <oboInOwl:hasAlternativeId rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GO:0048590</oboInOwl:hasAlternativeId>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">biological_process</oboInOwl:hasOBONamespace>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">growth pattern</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">non-developmental growth</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GO:0040007</oboInOwl:id>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/go#gocheck_do_not_annotate"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/go#goslim_chembl"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/go#goslim_generic"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/go#goslim_pir"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/go#goslim_plant"/>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">See also the biological process term &apos;cell growth ; GO:0016049&apos;.</rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">growth</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/GO_0040007"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The increase in size or mass of an entire organism, a part of an organism or a cell.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GOC:bf</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GOC:ma</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/GO_0040007"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">non-developmental growth</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GOC:mah</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C48835 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C48835">
+        <obo:IAO_0000115>The usual or expected function of something; the part something plays in an action or event.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncit.owl"/>
+        <obo:NCIT_NHC0>C48835</obo:NCIT_NHC0>
+        <obo:NCIT_P106>Conceptual Entity</obo:NCIT_P106>
+        <obo:NCIT_P108>Role</obo:NCIT_P108>
+        <obo:NCIT_P207>C1705810</obo:NCIT_P207>
+        <obo:NCIT_P366>Role_Generic</obo:NCIT_P366>
+        <oboInOwl:hasExactSynonym>Functional Role</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Generic Role</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Role</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Role, Generic</oboInOwl:hasExactSynonym>
+        <rdfs:label>role</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://regenbase.org/ontology#RB_0000212 -->
+
+    <owl:Class rdf:about="http://regenbase.org/ontology#RB_0000212">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/rs/ontologies/2019/5/hoh#invasion_success"/>
+        <obo:IAO_0000115 xml:lang="en">The process of remaining alive or in existence.</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">survival</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ifomis.org/bfo/1.1/span#ProcessualEntity -->
+
+    <owl:Class rdf:about="http://www.ifomis.org/bfo/1.1/span#ProcessualEntity">
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A process is an entity that exists in time by occurring or happening, has temporal parts and always involves and depends on some entity during the time it occurs.</obo:IAO_0000115>
+        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">James Malone</obo:IAO_0000117>
+        <efo:EFO_URI rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://www.ebi.ac.uk/efo/EFO_0001433</efo:EFO_URI>
+        <efo:organizational_class rdf:datatype="http://www.w3.org/2001/XMLSchema#string">true</efo:organizational_class>
+        <efo:source_definition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An occurrent [span:Occurrent] that exists in time by occurring or happening, has temporal parts and always involves and depends on some entity.</efo:source_definition>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCIt:C29862</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SNOMEDCT:415178003</oboInOwl:hasDbXref>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">process</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/rs/ontologies/2019/5/hoh#alien_range -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/rs/ontologies/2019/5/hoh#alien_range">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/rs/ontologies/2019/5/hoh#range"/>
+        <rdfs:label>alien range</rdfs:label>
+        <skos:altLabel>adventive range</skos:altLabel>
+        <skos:altLabel>alien range</skos:altLabel>
+        <skos:altLabel>foreign range</skos:altLabel>
+        <skos:altLabel>invaded range</skos:altLabel>
+        <skos:altLabel>non-indigenous range</skos:altLabel>
+        <skos:altLabel>non-native range</skos:altLabel>
+        <skos:altLabel>nonindigenous range</skos:altLabel>
+        <skos:altLabel>nonnative range</skos:altLabel>
+        <skos:definition>An area in which a species occurs even though it lies outside its native range.</skos:definition>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/rs/ontologies/2019/5/hoh#alien_species -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/rs/ontologies/2019/5/hoh#alien_species">
+        <oboInOwl:hasExactSynonym>adventive species</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>alien species</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>exotic species</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>foreign species</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>introduced species</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>non-indigenous species</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>non-native species</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>nonindigenous species</oboInOwl:hasExactSynonym>
+        <rdfs:label>alien species</rdfs:label>
+        <skos:altLabel>adventive species</skos:altLabel>
+        <skos:altLabel>alien species</skos:altLabel>
+        <skos:altLabel>exotic species</skos:altLabel>
+        <skos:altLabel>foreign species</skos:altLabel>
+        <skos:altLabel>introduced species</skos:altLabel>
+        <skos:altLabel>non-indigenous species</skos:altLabel>
+        <skos:altLabel>non-native species</skos:altLabel>
+        <skos:altLabel>nonindigenous species</skos:altLabel>
+        <skos:definition>Species whose presence in a region is attributable to human actions that enable them to overcome biogeographical barriers.</skos:definition>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/rs/ontologies/2019/5/hoh#area -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/rs/ontologies/2019/5/hoh#area">
+        <rdfs:label>area</rdfs:label>
+        <skos:definition>A geographical region that can include land as well as water.</skos:definition>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/rs/ontologies/2019/5/hoh#biodiversity -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/rs/ontologies/2019/5/hoh#biodiversity">
+        <oboInOwl:hasDbXref rdf:resource="http://cerrado.linkeddata.es/ecology/ccon#Biodiversity"/>
+        <oboInOwl:hasDbXref rdf:resource="http://edamontology.org/topic_3050"/>
+        <oboInOwl:hasDbXref rdf:resource="http://purl.bioontology.org/ontology/MESH/D044822"/>
+        <oboInOwl:hasExactSynonym>biological diversity</oboInOwl:hasExactSynonym>
+        <rdfs:label>biodiversity</rdfs:label>
+        <skos:altLabel>biological diversity</skos:altLabel>
+        <skos:definition>The biological variation found in a defined spatial area: can refer to variation at the level of genome, phenotype, species, community or ecosystem.</skos:definition>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/rs/ontologies/2019/5/hoh#disturbance -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/rs/ontologies/2019/5/hoh#disturbance">
+        <rdfs:label>disturbance</rdfs:label>
+        <skos:definition>A disturbance is an event or process that disrupts ecosystem, community or population structure, and changes resources, substrate availability or the physical environment. Disturbances can have anthropogenic or non-anthropogenic causes.</skos:definition>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/rs/ontologies/2019/5/hoh#ecological_impact -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/rs/ontologies/2019/5/hoh#ecological_impact">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/rs/ontologies/2019/5/hoh#invasion_success"/>
+        <oboInOwl:hasExactSynonym>environmental impact</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasRelatedSynonym>impact</oboInOwl:hasRelatedSynonym>
+        <rdfs:label>ecological impact</rdfs:label>
+        <skos:altLabel>environmental impact</skos:altLabel>
+        <skos:altLabel>impact</skos:altLabel>
+        <skos:definition>A measurable change to the properties of an ecosystem by a non-native species.</skos:definition>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/rs/ontologies/2019/5/hoh#enemy -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/rs/ontologies/2019/5/hoh#enemy">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C48835"/>
+        <oboInOwl:hasExactSynonym>natural enemy</oboInOwl:hasExactSynonym>
+        <rdfs:label>enemy</rdfs:label>
+        <skos:altLabel>natural enemy</skos:altLabel>
+        <skos:definition>An organism that is a predator, consumer, parasite, parasitoid or pathogen of another organism.</skos:definition>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/rs/ontologies/2019/5/hoh#generalist -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/rs/ontologies/2019/5/hoh#generalist">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/rs/ontologies/2019/5/hoh#enemy"/>
+        <rdfs:label>generalist</rdfs:label>
+        <skos:altLabel>generalist enemy</skos:altLabel>
+        <skos:definition>A species that can survive and reproduce in a wide range of environmental conditions using a wide variety of resouces to do so.</skos:definition>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/rs/ontologies/2019/5/hoh#invasion -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/rs/ontologies/2019/5/hoh#invasion">
+        <oboInOwl:hasExactSynonym>biological invasion</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>species invasion</oboInOwl:hasExactSynonym>
+        <rdfs:label>invasion</rdfs:label>
+        <skos:altLabel>biological invasion</skos:altLabel>
+        <skos:altLabel>species invasion</skos:altLabel>
+        <skos:definition>The process of transportation, establishment and spread of organisms outside of their native range.</skos:definition>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/rs/ontologies/2019/5/hoh#invasion_establishment_phase -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/rs/ontologies/2019/5/hoh#invasion_establishment_phase">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/rs/ontologies/2019/5/hoh#invasion"/>
+        <rdfs:label>invasion establishment phase</rdfs:label>
+        <skos:definition>phase of establishment in the alien range as part of the invasion process</skos:definition>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/rs/ontologies/2019/5/hoh#invasion_spread_phase -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/rs/ontologies/2019/5/hoh#invasion_spread_phase">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/rs/ontologies/2019/5/hoh#invasion"/>
+        <rdfs:label>invasion spread phase</rdfs:label>
+        <skos:definition>phase of spreading in the alien range as part of the invasion process</skos:definition>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/rs/ontologies/2019/5/hoh#invasion_success -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/rs/ontologies/2019/5/hoh#invasion_success">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/rs/ontologies/2019/5/hoh#invasion"/>
+        <rdfs:label>invasion success</rdfs:label>
+        <skos:definition>Completing parts of or the whole invasion process. Invasion success can refer to completion of one of the phases transportation to the alien range, establishment or spread in the alien range.</skos:definition>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/rs/ontologies/2019/5/hoh#invasion_transport_phase -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/rs/ontologies/2019/5/hoh#invasion_transport_phase">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/rs/ontologies/2019/5/hoh#invasion"/>
+        <rdfs:label>invasion transport phase</rdfs:label>
+        <skos:definition>phase of transportation to the alien range as part of the invasion process</skos:definition>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/rs/ontologies/2019/5/hoh#invasive_species -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/rs/ontologies/2019/5/hoh#invasive_species">
+        <rdfs:label>invasive species</rdfs:label>
+        <skos:definition>Alien species that sustain self-replacing populations over several life cycles, produce reproductive offspring, often in very large numbers at considerable distance from the parent and/or site of introduction, and have the potential to spread over long distances.</skos:definition>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/rs/ontologies/2019/5/hoh#native_range -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/rs/ontologies/2019/5/hoh#native_range">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/rs/ontologies/2019/5/hoh#range"/>
+        <rdfs:label>native range</rdfs:label>
+        <skos:altLabel>indigenous range</skos:altLabel>
+        <skos:definition>A range in which a species has evolved or in which it has arrived by natural means.</skos:definition>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/rs/ontologies/2019/5/hoh#native_species -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/rs/ontologies/2019/5/hoh#native_species">
+        <oboInOwl:hasExactSynonym>indigenous species</oboInOwl:hasExactSynonym>
+        <rdfs:label>native species</rdfs:label>
+        <skos:altLabel>indigenous species</skos:altLabel>
+        <skos:definition>Species that have evolved in a given area or that arrived there by natural means, without the intentional or accidental intervention of humans from an area where they are native.</skos:definition>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/rs/ontologies/2019/5/hoh#non-invasive_species -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/rs/ontologies/2019/5/hoh#non-invasive_species">
+        <rdfs:label>non-invasive species</rdfs:label>
+        <skos:definition>Alien species that is not an invasive species.</skos:definition>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/rs/ontologies/2019/5/hoh#phenomenon -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/rs/ontologies/2019/5/hoh#phenomenon">
+        <oboInOwl:hasExactSynonym>ecological phenomenon</oboInOwl:hasExactSynonym>
+        <rdfs:label>phenomenon</rdfs:label>
+        <skos:altLabel>ecological phenomenon</skos:altLabel>
+        <skos:definition>Any observable events, entities, or relationships of interest to ecologists.</skos:definition>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/rs/ontologies/2019/5/hoh#propagule_pressure -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/rs/ontologies/2019/5/hoh#propagule_pressure">
+        <rdfs:label>propagule pressure</rdfs:label>
+        <skos:definition>A composite measure consisting of the number of individuals introduced per introduction event and the frequency of introduction events.</skos:definition>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/rs/ontologies/2019/5/hoh#range -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/rs/ontologies/2019/5/hoh#range">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/rs/ontologies/2019/5/hoh#area"/>
+        <oboInOwl:hasExactSynonym>geographic range</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>geographical range</oboInOwl:hasExactSynonym>
+        <rdfs:label>range</rdfs:label>
+        <skos:altLabel>geographic range</skos:altLabel>
+        <skos:altLabel>geographical range</skos:altLabel>
+        <skos:definition>An area where a species is found in the wild.</skos:definition>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/rs/ontologies/2019/5/hoh#resource -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/rs/ontologies/2019/5/hoh#resource">
+        <rdfs:label>resource</rdfs:label>
+        <skos:definition>Abiotic environmental factor necessary for survival, growth, and reproduction, such as water, light, mineral nutrients, and various forms of fixed carbon (e.g. plant material or meat).</skos:definition>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/rs/ontologies/2019/5/hoh#specialist -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/rs/ontologies/2019/5/hoh#specialist">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/rs/ontologies/2019/5/hoh#enemy"/>
+        <rdfs:label>specialist</rdfs:label>
+        <skos:altLabel>specialist enemy</skos:altLabel>
+        <skos:definition>A species that can survive and reproduce only within a narrow range of environmental conditions using specific resources (e.g., a specific diet).</skos:definition>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/rs/ontologies/2019/5/hoh#species_trait -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/rs/ontologies/2019/5/hoh#species_trait">
+        <oboInOwl:hasExactSynonym>trait</oboInOwl:hasExactSynonym>
+        <rdfs:label>species trait</rdfs:label>
+        <skos:altLabel>trait</skos:altLabel>
+        <skos:definition>A well-defined, measurable property of organisms, usually measured at the individual level and used comparatively across species.</skos:definition>
+    </owl:Class>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi -->
+
