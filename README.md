@@ -10,7 +10,7 @@ hinders integration of these aspects is the lack of a formal basis for modeling 
 
 # Repository folders
 This repository includes almost the material related to the development of a core ontology for HoH. It includes the following:
-* Original hypotheses; this foloder includes the source set of twelves hypotheses (Hypotheses_v0.doc)[https://github.com/fusion-jena/HoH_Core_Ontology/blob/master/original%20hypotheses/Hypotheses_v0.docx] as well as a number of hand crafted trial to develop the ontology
+* Original hypotheses; this foloder includes the source set of twelves hypotheses [Hypotheses_v0.doc](https://github.com/fusion-jena/HoH_Core_Ontology/blob/master/original%20hypotheses/Hypotheses_v0.docx) as well as a number of hand crafted trial to develop the ontology
 * 
 
 # Usage
