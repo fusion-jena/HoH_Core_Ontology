@@ -7,6 +7,8 @@ Scientific research necessitates the exchange of a high amount of heterogeneous 
 strategies to enable data integration and reuse to facilitate efficient communication and information exchange. However, a key factor that
 hinders integration of these aspects is the lack of a formal basis for modeling these heterogeneous data. Formal representation of scientific hypotheses plays a crucial role in the scientific research life cycle, such as keeping up with the recent updates on a research area, providing explanations of research findings and the evolving of scientific hypotheses and their provenances. To this end, in this paper, we introduce the design of the Hierarchy of Hypotheses (HoH) core ontology to semantically capture and model the information contained in hierarchies of hypotheses created for the research field of invasion biology. The proposed core ontology is based on a number of well structured related ontologies, which provide a solid basis for its main entities
  
+# Paper availability
+The accepted version can be accesed vis the [publisher web site](https://link.springer.com/chapter/10.1007/978-3-030-62327-2_1)
 
 # Repository folders
 This repository includes almost the material related to the development of a core ontology for HoH. It includes the following:
